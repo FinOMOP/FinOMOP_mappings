@@ -3,10 +3,8 @@
 on:
   pull_request:
     branches: [main, development]
-    paths-ignore:
-        - 'DOCUMENTATION/**'
-        - 'OMOP_VOCABULARIES/**'
-        - 'StatusReport/**'
+    paths:
+        - 'VOCABULARIES/**'
   workflow_dispatch:
 
 name: createValidationTableAndCheck
@@ -24,50 +22,37 @@ jobs:
       - uses: r-lib/actions/setup-r@v2
         with:
           use-public-rspm: true
-          r-version: '4.3.0'
 
-      - name: Set RENV_PATHS_ROOT
-        shell: bash
-        run: echo "RENV_PATHS_ROOT=${{ runner.temp }}/renv" >> $GITHUB_ENV
-
-      - name: Restore Renv package cache
-        uses: actions/cache@v3
-        with:
-          path: ${{ env.RENV_PATHS_ROOT }}
-          key: compiled-libraries-R-${{ hashFiles('SCRIPTS/R_repo_management/renv.lock') }}
-          restore-keys: compiled-libraries-R-
-
-      - name: Install renv dependencies
-        working-directory: SCRIPTS/R_repo_management
+      - name: Install dependencies
         shell: Rscript {0}
-        run: renv::restore()      
+        run: |
+          install.packages("remotes")
+          remotes::install_github("FinOMOP/ROMOPMappingTools", ref = "towards_v2", force = TRUE)
 
-      - name: Copy input_omop_vocabulary.zip from latest release        
+      - name: Copy OMOP_vocabularies from private repo       
         uses: robinraju/release-downloader@v1.7
         with:
+          repository: 'FinOMOP/OMOP_vocabularies'
           latest: true
-          fileName: "input_omop_vocabulary.zip"
-          out-file-path: "OMOP_VOCABULARIES"
+          fileName: 'input_omop_vocabulary.zip'
+          out-file-path: 'OMOP_vocabularies/data'
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: unzip input_omop_vocabulary.zip
-        working-directory: OMOP_VOCABULARIES
+        working-directory: input_data
         shell: bash
         run: |
          rm input_omop_vocabulary/*
          unzip input_omop_vocabulary.zip
 
       - name: Run R script
-        working-directory: SCRIPTS/R_repo_management
+        working-directory: .github/scripts
         shell: Rscript {0}
-        run: source("R_scripts/update_repository.R")
+        run: source("createValidationTableAndChecks.R")
 
-      - name: test
-        shell: bash
-        run: ls OMOP_VOCABULARIES/input_omop_vocabulary
-
-      - name: Upload dashboard to artifacts
+      - name: Upload results to artifacts
         uses: actions/upload-artifact@v3
         with:
-          name: dashboard-artifact
-          path: StatusReport/dashboard.html 
+          name: validationResults
+          path: output_data/validationResults
+          retention-days: 1
