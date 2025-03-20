@@ -39,7 +39,7 @@ DatabaseConnector::disconnect(connection)
 validationResultsFolder <- file.path(tempdir(), "validationResults")
 dir.create(validationResultsFolder, showWarnings = FALSE, recursive = TRUE)
 
-validationLogTibble <- ROMOPMappingTools::runAll(
+validationLogTibble <- ROMOPMappingTools::buildVocabulariesAll(
     pathToVocabularyFolder = pathToVocabularyFolder,
     connectionDetails = connectionDetails,
     vocabularyDatabaseSchema = vocabularyDatabaseSchema,
