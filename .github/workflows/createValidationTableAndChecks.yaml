@@ -51,7 +51,7 @@ jobs:
         run: source("createValidationTableAndChecks.R")
 
       - name: Upload results to artifacts
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: validationResults
           path: output_data/validationResults
