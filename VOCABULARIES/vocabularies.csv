@@ -1,0 +1,27 @@
+source_vocabulary_id,source_vocabulary_name,source_concept_id_offset,path_to_usagi_file,path_to_news_file,ignore
+FHL,Finnish Hospital League,2000100000,./FHL/FHL.usagi.csv,./FHL/NEWS.md,FALSE
+HPN,Heart Patiets New,2000200000,./HPN/HPN.usagi.csv,./HPN/NEWS.md,FALSE
+ICD8fi,ICD-8 Finnish,2000300000,./ICD8fi/ICD8fi.usagi.csv,./ICD8fi/NEWS.md,FALSE
+ICD9fi,ICD-9 Finnish,2000400000,./ICD9fi/ICD9fi.usagi.csv,./ICD9fi/NEWS.md,FALSE
+ICD10fi,International Classification of Diseases 10th Revision Finnish extension,2000500000,./ICD10fi/ICD10fi.usagi.csv,./ICD10fi/NEWS.md,FALSE
+LABfi,Laboratory Finnish,2000600000,./LABfi/LABfi.usagi.csv,./LABfi/NEWS.md,FALSE
+LABfi_TMP,Laboratory Finnish Tampered,2000700000,./LABfi_TMP/LABfi_TMP.usagi.csv,./LABfi_TMP/NEWS.md,FALSE
+LABfi_TKU,Laboratory Finnish Turku,2000800000,./LABfi_TKU/LABfi_TKU.usagi.csv,./LABfi_TKU/NEWS.md,FALSE
+LABfi_HUS,Laboratory Finnish Helsinki University Hospital,2000900000,./LABfi_HUS/LABfi_HUS.usagi.csv,./LABfi_HUS/NEWS.md,FALSE
+MEDSPECfi,Medical Speciality,2001000000,./MEDSPECfi/MEDSPECfi.usagi.csv,./MEDSPECfi/NEWS.md,FALSE
+MICROBEfi,Microbiology Finnish,2001100000,./MICROBEfi/MICROBEfi.usagi.csv,./MICROBEfi/NEWS.md,FALSE
+MICROBEfi_TKU,Microbiology Finnish Turku,2001200000,./MICROBEfi_TKU/MICROBEfi_TKU.usagi.csv,./MICROBEfi_TKU/NEWS.md,FALSE
+NCSPfi,Nomeso Codes,2001300000,./NCSPfi/NCSPfi.usagi.csv,./NCSPfi/NEWS.md,FALSE
+SNOMED2fi,SNOMED-2 Finnish,2001400000,./SNOMED2fi/SNOMED2fi.usagi.csv,./SNOMED2fi/NEWS.md,FALSE
+ProcedureModifier,Procedure Modifier,2001500000,./ProcedureModifier/ProcedureModifier.usagi.csv,./ProcedureModifier/NEWS.md,FALSE
+REIMB,Reimbursement,2001600000,./REIMB/REIMB.usagi.csv,./REIMB/NEWS.md,FALSE
+SPAT,Spatial,2001700000,./SPAT/SPAT.usagi.csv,./SPAT/NEWS.md,FALSE
+UNITfi,Unit Finnish,2001800000,./UNITfi/UNITfi.usagi.csv,./UNITfi/NEWS.md,FALSE
+VNRfi,VNR Finnish,2001900000,./VNRfi/VNRfi.usagi.csv,./VNRfi/NEWS.md,FALSE
+ICPC,ICPC,2002000000,./ICPC/ICPC.usagi.csv,./ICPC/NEWS.md,FALSE
+HPO,Human Phenotype Ontology,2002100000,./HPO/HPO.usagi.csv,./HPO/NEWS.md,FALSE
+ProfessionalCode,Professional Code,2002200000,./ProfessionalCode/ProfessionalCode.usagi.csv,./ProfessionalCode/NEWS.md,FALSE
+FGVisitType,Visit Type,2002300000,./FGVisitType/FGVisitType.usagi.csv,./FGVisitType/NEWS.md,FALSE
+LABfi_ALL,Laboratory Finnish All,2002400000,./LABfi_ALL/LABfi_ALL.usagi.csv,./LABfi_ALL/NEWS.md,FALSE
+UNITfi_ALL,Unit Finnish All,2002500000,./UNITfi_ALL/UNITfi_ALL.usagi.csv,./UNITfi_ALL/NEWS.md,FALSE
+KantaServiceProvider,Kanta Service Provider,2002600000,./KantaServiceProvider/KantaServiceProvider.usagi.csv,./KantaServiceProvider/NEWS.md,FALSE

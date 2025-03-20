@@ -1,0 +1,649 @@
+sourceCode,sourceName,sourceFrequency,sourceConceptId,sourceName_fi,sourceConceptClass,sourceDomain,sourceValidStartDate,sourceValidEndDate
+1,"Legislators, senior officials and managers",0,2002200101,Johtajat ja ylimm‰t virkamiehet,Profesiona Code,Provider,1970-01-01,2099-12-31
+11,Legislators and senior officials,0,2002200102,Ylimm‰t virkamiehet ja j‰rjestˆjen johtajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+111,Legislators and senior government officers,0,2002200103,Ylimm‰t virkamiehet,Profesiona Code,Provider,1970-01-01,2099-12-31
+1110,Legislators and senior government officers,0,2002200104,Ylimm‰t virkamiehet,Profesiona Code,Provider,1970-01-01,2099-12-31
+11101,Senior central government officials,0,2002200105,Valtion keskushallinnon johtajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+11102,Senior district and local government officials,0,2002200106,Valtion piiri- ja paikallishallinnon johtajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+11103,Senior local administration officials,0,2002200107,Kuntien ja kaupunkien johtajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+114,Senior officials of special-interest organisations,0,2002200108,J‰rjestˆjen johtajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+1141,Senior officials of political party organisations,0,2002200109,Puolueiden johtajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+1142,"Senior officials of employers&#39;, workers&#39; and other economic-interest organisations",0,2002200110,Tyˆmarkkina- ja elinkeinoel‰m‰n j‰rjestˆjen johtajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+1143,Senior officials of humanitarian and other special-interest organisations,0,2002200111,Muiden j‰rjestˆjen johtajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+12,Corporate managers,0,2002200112,Yritysten ja muiden toimintayksikˆiden johtajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+121,Directors and chief executives,0,2002200113,P‰‰johtajat ja toimitusjohtajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+1210,Directors and chief executives,0,2002200114,P‰‰johtajat ja toimitusjohtajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+122,Production and operations managers,0,2002200115,Tuotanto- ja linjajohtajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+1221,"Production and operations managers in agriculture, hunting, forestry and fishing",0,2002200116,Maa- ja mets‰talouden johtajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+1222,Production and operations managers in manufacturing,0,2002200117,Teollisuuden tuotantojohtajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+1223,Production and operations managers in construction,0,2002200118,Rakennusalan tuotantojohtajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+1224,Production and operations managers in wholesale and retail trade,0,2002200119,Kaupan ym. johtajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+1225,Production and operations managers in restaurants and hotels,0,2002200120,Hotellinjohtajat ja ravintolap‰‰llikˆt,Profesiona Code,Provider,1970-01-01,2099-12-31
+1226,"Production and operations managers in transport, storage and communications",0,2002200121,"Kuljetuksen, varastoinnin ja tietoliikenteen johtajat",Profesiona Code,Provider,1970-01-01,2099-12-31
+12261,Ships&#39; officers (large ship),0,2002200122,Laivan p‰‰llikˆt (iso alus),Profesiona Code,Provider,1970-01-01,2099-12-31
+12269,"Other production and operations managers in transport, storage and communications",0,2002200123,"Muut kuljetuksen, varastoinnin ja tietoliikenteen johtajat",Profesiona Code,Provider,1970-01-01,2099-12-31
+1227,Production and operations managers in business services enterprises,0,2002200124,Yrityspalvelu- ym. yritysten johtajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+1228,"Production and operations managers in personal care, cleaning and related services",0,2002200125,Siivous- ja kauneudenhoitoalan ym. alojen johtajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+1229,Production and operations managers not elsewhere classified,0,2002200126,Muiden yritysten ja toimintayksikˆiden johtajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+12291,Education managers and headmasters and headmistresses,0,2002200127,Opetusalan johtajat ja rehtorit,Profesiona Code,Provider,1970-01-01,2099-12-31
+12292,Health and social services managers,0,2002200128,Sosiaali- ja terveydenhuoltoalan johtajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+12293,Recreational and leisure services managers,0,2002200129,Liikunta- ja vapaa-aikatoiminnan johtajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+12294,Cultural services managers,0,2002200130,Kulttuurijohtajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+12299,Other production and operations managers,0,2002200131,Muut tuotanto- ja linjajohtajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+123,Other specialist managers,0,2002200132,Asiantuntijajohtajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+1231,Finance and administration managers,0,2002200133,Talous- ja hallintojohtajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+1232,Personnel and industrial relations managers,0,2002200134,Henkilˆstˆjohtajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+1233,Sales and marketing managers,0,2002200135,Myynti- ja markkinointijohtajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+1234,Advertising and public relations managers,0,2002200136,Mainos- ja tiedotusjohtajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+1235,Supply and distribution managers,0,2002200137,Osto- ja varastop‰‰llikˆt,Profesiona Code,Provider,1970-01-01,2099-12-31
+1236,Computing services managers,0,2002200138,Tietotekniikkajohtajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+1237,Research and development managers,0,2002200139,Tutkimus- ja kehitysjohtajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+1239,Other specialist managers not elsewhere classified,0,2002200140,Muut asiantuntijajohtajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+13,Managers of small enterprises,0,2002200141,Pienyritysten johtajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+131,Managers of small enterprises,0,2002200142,Pienyritysten johtajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+1311,"Managers of small enterprises in agriculture, hunting, forestry and fishing",0,2002200143,Maa- ja mets‰talousalan pienyritysten johtajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+1312,Managers of small enterprises in manufacturing,0,2002200144,Pienteollisuuden johtajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+1313,Managers of small enterprises in construction,0,2002200145,Rakennusalan pienyritysten johtajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+1314,Managers of small enterprises in wholesale and retail trade,0,2002200146,Kaupan ym. alojen pienyritysten johtajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+1315,Managers of small enterprises of restaurants and hotels,0,2002200147,Hotelli- ja ravintola-alan pienyritysten johtajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+1316,"Managers of small enterprises in transport, storage and communications",0,2002200148,"Kuljetuksen, varastoinnin ja tietoliikenteen pienyritysten johtajat",Profesiona Code,Provider,1970-01-01,2099-12-31
+1317,Managers of small enterprises of business services enterprises,0,2002200149,Yrityspalvelutoiminnan pienyritysten johtajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+1318,"Managers of small enterprises in personal care, cleaning and related services",0,2002200150,Siivous- ja kauneudenhoitoalan ym. pienyritysten johtajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+1319,Managers of small enterprises not elsewhere classified,0,2002200151,Muut pienyritysten johtajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+2,Professionals,0,2002200152,Erityisasiantuntijat,Profesiona Code,Provider,1970-01-01,2099-12-31
+21,"Physical, mathematical and engineering science professionals",0,2002200153,Matemaattis-luonnontieteelliset ja tekniikan erityisasiantuntijat,Profesiona Code,Provider,1970-01-01,2099-12-31
+211,"Physicists, chemists and related professionals",0,2002200154,Fysiikan ja kemian erityisasiantuntijat,Profesiona Code,Provider,1970-01-01,2099-12-31
+2111,Physicists and astronomers,0,2002200155,Fyysikot ja astronomit,Profesiona Code,Provider,1970-01-01,2099-12-31
+2112,Meteorologists,0,2002200156,Meteorologit,Profesiona Code,Provider,1970-01-01,2099-12-31
+2113,Chemists,0,2002200157,Kemistit,Profesiona Code,Provider,1970-01-01,2099-12-31
+2114,Geologists and geophysicists,0,2002200158,Geologit ja geofyysikot,Profesiona Code,Provider,1970-01-01,2099-12-31
+212,"Mathematicians, statisticians and related professionals",0,2002200159,Matematiikan ja tilastotieteen erityisasiantuntijat,Profesiona Code,Provider,1970-01-01,2099-12-31
+2121,Mathematicians and related professionals,0,2002200160,Matematiikan erityisasiantuntijat,Profesiona Code,Provider,1970-01-01,2099-12-31
+2122,Statistical professionals,0,2002200161,Tilastotieteen erityisasiantuntijat,Profesiona Code,Provider,1970-01-01,2099-12-31
+213,Computing professionals,0,2002200162,Tietotekniikan erityisasiantuntijat,Profesiona Code,Provider,1970-01-01,2099-12-31
+2131,"Computer systems designers, analysts and programmers",0,2002200163,Tietotekniikan suunnittelijat ja ohjelmoijat,Profesiona Code,Provider,1970-01-01,2099-12-31
+2139,Computing professionals not elsewhere classified,0,2002200164,Muut tietotekniikan erityisasiantuntijat,Profesiona Code,Provider,1970-01-01,2099-12-31
+214,Architects and engineering science professionals,0,2002200165,Arkkitehdit ja muut tekniikan erityisasiantuntijat,Profesiona Code,Provider,1970-01-01,2099-12-31
+2141,"Architects, town and traffic planners",0,2002200166,Talonrakennusalan erityisasiantuntijat,Profesiona Code,Provider,1970-01-01,2099-12-31
+2142,Civil engineers,0,2002200167,Maank‰ytˆn ja yhdyskuntarakentamisen erityisasiantuntijat,Profesiona Code,Provider,1970-01-01,2099-12-31
+2143,Electrical engineers,0,2002200168,S‰hkˆtekniikan erityisasiantuntijat,Profesiona Code,Provider,1970-01-01,2099-12-31
+2144,Electronics and telecommunications engineers,0,2002200169,Elektroniikan ja informaatiotekniikan erityisasiantuntijat,Profesiona Code,Provider,1970-01-01,2099-12-31
+2145,Mechanical engineers,0,2002200170,Konetekniikan erityisasiantuntijat,Profesiona Code,Provider,1970-01-01,2099-12-31
+2146,Chemical engineers,0,2002200171,Puunjalostuksen ja kemian prosessitekniikan erityisasiantuntijat,Profesiona Code,Provider,1970-01-01,2099-12-31
+2147,"Mining engineers, metallurgists and related professionals",0,2002200172,Vuoriteollisuuden prosessitekniikan erityisasiantuntijat,Profesiona Code,Provider,1970-01-01,2099-12-31
+2148,Cartographers and surveyors,0,2002200173,Kartoituksen ja maanmittauksen erityisasiantuntijat,Profesiona Code,Provider,1970-01-01,2099-12-31
+2149,"Architects, engineers and related professionals not elsewhere classified",0,2002200174,Muut tekniikan erityisasiantuntijat,Profesiona Code,Provider,1970-01-01,2099-12-31
+22,Life science and health professionals,0,2002200175,Maa- ja mets‰taloustieteiden ja terveydenhuollon erityisasiantuntijat,Profesiona Code,Provider,1970-01-01,2099-12-31
+221,Life science professionals,0,2002200176,Maa- ja mets‰taloustieteiden ym. erityisasiantuntijat,Profesiona Code,Provider,1970-01-01,2099-12-31
+2211,"Biologists, botanists, zoologists and related professionals",0,2002200177,"Biologit, kasvitieteilij‰t, el‰intieteilij‰t ym.",Profesiona Code,Provider,1970-01-01,2099-12-31
+2212,"Pharmacologists, pathologists and related professionals",0,2002200178,"Farmakologit, patologit ym.",Profesiona Code,Provider,1970-01-01,2099-12-31
+22121,"Pharmacologists, biochemists and related professionals",0,2002200179,"Farmakologit, biokemistit ym.",Profesiona Code,Provider,1970-01-01,2099-12-31
+22122,Pathologists,0,2002200180,Patologit,Profesiona Code,Provider,1970-01-01,2099-12-31
+2213,Agronomists and related professionals,0,2002200181,Maa- ja mets‰talouden erityisasiantuntijat,Profesiona Code,Provider,1970-01-01,2099-12-31
+22131,"Agronomists, horticulturists and fishery professionals",0,2002200182,"Maatalous-, puutarha- ja kalatalousalan erityisasiantuntijat",Profesiona Code,Provider,1970-01-01,2099-12-31
+22132,Forestry professionals,0,2002200183,Mets‰alan erityisasiantuntijat,Profesiona Code,Provider,1970-01-01,2099-12-31
+222,Health professionals (except nursing),0,2002200184,"L‰‰k‰rit, proviisorit ja muut terveydenhuollon erityisasiantuntijat",Profesiona Code,Provider,1970-01-01,2099-12-31
+2221,Medical doctors,0,2002200185,L‰‰k‰rit,Profesiona Code,Provider,1970-01-01,2099-12-31
+22211,Senior physicians,0,2002200186,Ylil‰‰k‰rit,Profesiona Code,Provider,1970-01-01,2099-12-31
+22212,Specialists and ward physicians,0,2002200187,Erikoisl‰‰k‰rit ja osastonl‰‰k‰rit,Profesiona Code,Provider,1970-01-01,2099-12-31
+22213,Other medical doctors,0,2002200188,Muut l‰‰k‰rit,Profesiona Code,Provider,1970-01-01,2099-12-31
+2222,Dentists,0,2002200189,Hammasl‰‰k‰rit,Profesiona Code,Provider,1970-01-01,2099-12-31
+2223,Veterinarians,0,2002200190,El‰inl‰‰k‰rit,Profesiona Code,Provider,1970-01-01,2099-12-31
+2224,Qualified chemists,0,2002200191,Proviisorit,Profesiona Code,Provider,1970-01-01,2099-12-31
+2229,Health professionals (except nursing) not elsewhere classified,0,2002200192,Muut terveydenhuollon erityisasiantuntijat,Profesiona Code,Provider,1970-01-01,2099-12-31
+223,Matrons and ward sisters,0,2002200193,Ylihoitajat ja osastonhoitajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+2230,Matrons and ward sisters,0,2002200194,Ylihoitajat ja osastonhoitajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+22301,Matrons,0,2002200195,Ylihoitajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+22302,Ward sisters,0,2002200196,Osastonhoitajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+23,Teaching professionals,0,2002200197,Opettajat ja muut opetusalan erityisasiantuntijat,Profesiona Code,Provider,1970-01-01,2099-12-31
+231,"College, university and higher education teaching professionals",0,2002200198,Yliopisto- ja korkeakouluopettajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+2310,"College, university and higher education teaching professionals",0,2002200199,Yliopisto- ja korkeakouluopettajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+23101,Professors,0,2002200200,Professorit,Profesiona Code,Provider,1970-01-01,2099-12-31
+23102,Lecturers and senior assistants,0,2002200201,Lehtorit ja yliassistentit,Profesiona Code,Provider,1970-01-01,2099-12-31
+23103,Assistants and part-time lecturers,0,2002200202,Assistentit ja tuntiopettajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+232,Secondary education teaching professionals,0,2002200203,Aineenopettajat ja lehtorit,Profesiona Code,Provider,1970-01-01,2099-12-31
+2321,Secondary education teaching professionals,0,2002200204,Peruskoulun ja lukion lehtorit ja tuntiopettajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+23211,Teachers in mathematical subjects,0,2002200205,Matemaattisten aineiden opettajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+23212,Native language teachers,0,2002200206,ƒidinkielenopettajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+23213,Foreign language teachers,0,2002200207,Kieltenopettajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+23214,Arts and science teachers,0,2002200208,Humanististen ja luonnontieteellisten aineiden opettajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+23215,Crafts and art teachers,0,2002200209,Taito- ja taideaineiden opettajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+23219,Other secondary education teaching professionals,0,2002200210,Muut peruskoulun ja lukion lehtorit ja tuntiopettajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+2322,College and polytechnic education teaching professionals,0,2002200211,Ammattikorkeakoulujen ja ammatillisten oppilaitosten opettajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+23221,College and polytechnic head teachers and lectures,0,2002200212,Ammattikorkeakoulujen yliopettajat ja lehtorit,Profesiona Code,Provider,1970-01-01,2099-12-31
+23222,Vocational and professional education institution lecturers,0,2002200213,Ammatillisten oppilaitosten lehtorit,Profesiona Code,Provider,1970-01-01,2099-12-31
+2323,Teaching professionals not elsewhere classified,0,2002200214,Muiden oppilaitosten opettajat sek‰ yksityisopettajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+233,Primary and pre-primary education teaching professionals,0,2002200215,Luokanopettajat ja lastentarhanopettajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+2331,Primary education teaching professionals,0,2002200216,Luokanopettajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+2332,Pre-primary education teaching professionals,0,2002200217,Lastentarhanopettajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+234,Special education teaching professionals,0,2002200218,Erityisopettajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+2340,Special education teaching professionals,0,2002200219,Erityisopettajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+235,Other teaching professionals,0,2002200220,Muut opetusalan erityisasiantuntijat,Profesiona Code,Provider,1970-01-01,2099-12-31
+2351,Education methods specialists,0,2002200221,Muut opettajat ja koulutussuunnittelijat,Profesiona Code,Provider,1970-01-01,2099-12-31
+23511,"Training directors, training planners and trainers",0,2002200222,"Koulutusp‰‰llikˆt, -suunnittelijat ja kouluttajat",Profesiona Code,Provider,1970-01-01,2099-12-31
+23512,Teachers of public speaking and presentation skills,0,2002200223,Puhe- ja esiintymistaidon opettajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+2352,School inspectors,0,2002200224,Tarkastajat ja opetusmenetelmien erityisasiantuntijat,Profesiona Code,Provider,1970-01-01,2099-12-31
+2359,Career counsellors,0,2002200225,Opinto-ohjaajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+24,Other professionals,0,2002200226,Muiden alojen erityisasiantuntijat,Profesiona Code,Provider,1970-01-01,2099-12-31
+241,Business professionals,0,2002200227,Liike-el‰m‰n ja j‰rjestˆalan erityisasiantuntijat,Profesiona Code,Provider,1970-01-01,2099-12-31
+2411,Accountants,0,2002200228,"Tilintarkastajat, kamreerit ym.",Profesiona Code,Provider,1970-01-01,2099-12-31
+2412,Personnel and careers professionals,0,2002200229,Henkilˆstˆsuunnittelijat ym.,Profesiona Code,Provider,1970-01-01,2099-12-31
+2419,Business professionals not elsewhere classified,0,2002200230,Muut liike-el‰m‰n ja j‰rjestˆalan erityisasiantuntijat,Profesiona Code,Provider,1970-01-01,2099-12-31
+24191,Advertising and marketing professionals,0,2002200231,Mainonnan ja markkinoinnin erityisasiantuntijat,Profesiona Code,Provider,1970-01-01,2099-12-31
+24192,Public relations professionals,0,2002200232,Tiedottajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+24193,Consumer advisers and related professionals,0,2002200233,Kuluttajaneuvojat ym.,Profesiona Code,Provider,1970-01-01,2099-12-31
+24194,Administrative professionals in organisations,0,2002200234,J‰rjestˆalan erityisasiantuntijat,Profesiona Code,Provider,1970-01-01,2099-12-31
+242,Legal professionals,0,2002200235,Lainopilliset erityisasiantuntijat,Profesiona Code,Provider,1970-01-01,2099-12-31
+2421,Lawyers,0,2002200236,Asianajajat ja syytt‰j‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+2422,Judges,0,2002200237,Tuomioistuinlakimiehet,Profesiona Code,Provider,1970-01-01,2099-12-31
+2429,Legal professionals not elsewhere classified,0,2002200238,Muut lainopilliset erityisasiantuntijat,Profesiona Code,Provider,1970-01-01,2099-12-31
+243,"Archivists, librarians and related information professionals",0,2002200239,Arkiston- ja kirjastonhoitajat sek‰ museoalan erityisasiantuntijat,Profesiona Code,Provider,1970-01-01,2099-12-31
+2431,Archivists and curators,0,2002200240,Arkistonhoitajat ja museoalan erityisasiantuntijat,Profesiona Code,Provider,1970-01-01,2099-12-31
+24311,Archivists,0,2002200241,Arkistonhoitajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+24312,Curators,0,2002200242,Museoalan erityisasiantuntijat,Profesiona Code,Provider,1970-01-01,2099-12-31
+2432,Librarians and related information professionals,0,2002200243,"Kirjastonhoitajat, informaatikot ym.",Profesiona Code,Provider,1970-01-01,2099-12-31
+244,Social science and related professionals,0,2002200244,Yhteiskunta- ja sosiaalialan erityisasiantuntijat,Profesiona Code,Provider,1970-01-01,2099-12-31
+2441,Economists,0,2002200245,Ekonomistit,Profesiona Code,Provider,1970-01-01,2099-12-31
+2442,"Sociologists, anthropologists and related professionals",0,2002200246,Yhteiskunta- ja kulttuuritutkijat,Profesiona Code,Provider,1970-01-01,2099-12-31
+2443,"Philosophers, historians and political scientists",0,2002200247,Historioitsijat ym.,Profesiona Code,Provider,1970-01-01,2099-12-31
+2444,"Philologists, translators and interpreters",0,2002200248,"Kielentutkijat, k‰‰nt‰j‰t ja tulkit",Profesiona Code,Provider,1970-01-01,2099-12-31
+2445,"Psychologists, psychotherapists and speech therapists",0,2002200249,"Psykologit, psykoterapeutit ja puheterapeutit",Profesiona Code,Provider,1970-01-01,2099-12-31
+24451,Psychologists,0,2002200250,Psykologit,Profesiona Code,Provider,1970-01-01,2099-12-31
+24452,Psychotherapists,0,2002200251,Psykoterapeutit,Profesiona Code,Provider,1970-01-01,2099-12-31
+24453,Speech therapists,0,2002200252,Puheterapeutit,Profesiona Code,Provider,1970-01-01,2099-12-31
+2446,Social work professionals,0,2002200253,Sosiaalialan erityisasiantuntijat,Profesiona Code,Provider,1970-01-01,2099-12-31
+24461,Social workers,0,2002200254,Sosiaalityˆntekij‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+24462,Social planners,0,2002200255,Sosiaalialan suunnittelijat,Profesiona Code,Provider,1970-01-01,2099-12-31
+245,Writers and creative or performing artists,0,2002200256,"Toimittajat, taiteilijat ym.",Profesiona Code,Provider,1970-01-01,2099-12-31
+2451,"Authors, journalists and other writers",0,2002200257,"Toimittajat, kirjailijat ym.",Profesiona Code,Provider,1970-01-01,2099-12-31
+24511,Managing editors,0,2002200258,P‰‰llikkˆtoimittajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+24512,"Journalists, editors and critics",0,2002200259,Lehden- ja kustannustoimittajat sek‰ kriitikot,Profesiona Code,Provider,1970-01-01,2099-12-31
+24513,Radio and television journalists,0,2002200260,Radio- ja tv-toimittajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+24514,Advertising copywriters,0,2002200261,Mainostoimittajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+24515,Authors and dramaturgists,0,2002200262,Kirjailijat ja dramaturgit,Profesiona Code,Provider,1970-01-01,2099-12-31
+2452,"Sculptors, painters and related artists",0,2002200263,"Kuvataiteilijat, taideteollisen alan suunnittelijat ym.",Profesiona Code,Provider,1970-01-01,2099-12-31
+24521,Sculptors and painters,0,2002200264,Kuvataiteilijat,Profesiona Code,Provider,1970-01-01,2099-12-31
+24522,Graphic designers,0,2002200265,Graafiset suunnittelijat,Profesiona Code,Provider,1970-01-01,2099-12-31
+24523,Art and craft designers and related artists,0,2002200266,Taideteollisen alan suunnittelijat ja taiteilijat,Profesiona Code,Provider,1970-01-01,2099-12-31
+2453,"Composers, musicians and singers",0,2002200267,"Klassisen musiikin s‰velt‰j‰t, muusikot ja laulajat",Profesiona Code,Provider,1970-01-01,2099-12-31
+2454,Choreographers and dancers,0,2002200268,Tanssitaiteilijat,Profesiona Code,Provider,1970-01-01,2099-12-31
+2455,"Film, stage and related actors and directors",0,2002200269,N‰yttelij‰t ja ohjaajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+24551,Actors,0,2002200270,N‰yttelij‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+24552,Stage and film directors,0,2002200271,Teatteri- ja elokuvaohjaajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+246,Parish clergy and other religious professionals,0,2002200272,Papit ym. uskonnollisen el‰m‰n erityisasiantuntijat,Profesiona Code,Provider,1970-01-01,2099-12-31
+2460,Parish clergy and other religious professionals,0,2002200273,Papit ym. uskonnollisen el‰m‰n erityisasiantuntijat,Profesiona Code,Provider,1970-01-01,2099-12-31
+247,Public service administrative professionals,0,2002200274,Julkisen alan erityisasiantuntijat,Profesiona Code,Provider,1970-01-01,2099-12-31
+2470,Public service administrative professionals,0,2002200275,Julkisen alan erityisasiantuntijat,Profesiona Code,Provider,1970-01-01,2099-12-31
+24701,Central government professionals,0,2002200276,Valtionhallinnon erityisasiantuntijat,Profesiona Code,Provider,1970-01-01,2099-12-31
+24702,Local government professionals,0,2002200277,Kunnallishallinnon erityisasiantuntijat,Profesiona Code,Provider,1970-01-01,2099-12-31
+3,Technicians and associate professionals,0,2002200278,Asiantuntijat,Profesiona Code,Provider,1970-01-01,2099-12-31
+31,Physical and engineering science associate professionals,0,2002200279,Luonnontieteen ja tekniikan asiantuntijat,Profesiona Code,Provider,1970-01-01,2099-12-31
+311,"Physical, chemical and engineering science technicians",0,2002200280,"Fysiikan, kemian ja teknisten alojen asiantuntijat",Profesiona Code,Provider,1970-01-01,2099-12-31
+3111,Chemical and physical science technicians,0,2002200281,Luonnontieteen tekniset asiantuntijat,Profesiona Code,Provider,1970-01-01,2099-12-31
+3112,Civil engineering technicians,0,2002200282,Rakennusalan ja yhdyskuntarakentamisen asiantuntijat,Profesiona Code,Provider,1970-01-01,2099-12-31
+31121,Building construction technicians,0,2002200283,Talonrakennusalan asiantuntijat,Profesiona Code,Provider,1970-01-01,2099-12-31
+31122,Land use and civil engineering technicians,0,2002200284,Maank‰ytˆn ja yhdyskuntarakentamisen asiantuntijat,Profesiona Code,Provider,1970-01-01,2099-12-31
+31123,Cartographic and surveying technicians,0,2002200285,Kartoituksen ja maanmittauksen asiantuntijat,Profesiona Code,Provider,1970-01-01,2099-12-31
+3113,Electrical engineering technicians,0,2002200286,S‰hkˆtekniikan asiantuntijat,Profesiona Code,Provider,1970-01-01,2099-12-31
+3114,Electronics and telecommunications technicians,0,2002200287,Elektroniikan ja informaatiotekniikan asiantuntijat,Profesiona Code,Provider,1970-01-01,2099-12-31
+3115,Mechanical engineering technicians,0,2002200288,Konetekniikan asiantuntijat,Profesiona Code,Provider,1970-01-01,2099-12-31
+3116,Wood processing and chemical engineering technicians,0,2002200289,Puunjalostuksen ja kemian prosessitekniikan asiantuntijat,Profesiona Code,Provider,1970-01-01,2099-12-31
+3117,Mining and metallurgical technicians,0,2002200290,Vuoriteollisuuden prosessitekniikan asiantuntijat,Profesiona Code,Provider,1970-01-01,2099-12-31
+3118,Draughtspersons,0,2002200291,Tekniset piirt‰j‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+3119,Physical and engineering science technicians not elsewhere classified,0,2002200292,Mekaanisen mets‰teollisuuden ym. tekniikan asiantuntijat,Profesiona Code,Provider,1970-01-01,2099-12-31
+31191,Mechanical forest industry technicians,0,2002200293,Mekaanisen mets‰teollisuuden tekniikan asiantuntijat,Profesiona Code,Provider,1970-01-01,2099-12-31
+31192,Printing technicians,0,2002200294,Graafisen tekniikan asiantuntijat,Profesiona Code,Provider,1970-01-01,2099-12-31
+31193,Textile and clothing technicians,0,2002200295,Tekstiili- ja vaatetusalan tekniikan asiantuntijat,Profesiona Code,Provider,1970-01-01,2099-12-31
+31199,Other physical and engineering science technicians not elsewhere classified,0,2002200296,Muut teknisten alojen asiantuntijat,Profesiona Code,Provider,1970-01-01,2099-12-31
+312,Computer associate professionals,0,2002200297,"Tietotekniikan tukihenkilˆt, operaattorit ym.",Profesiona Code,Provider,1970-01-01,2099-12-31
+3120,"Computer assistants, computer equipment operators and related associate professionals",0,2002200298,"Tietotekniikan tukihenkilˆt, operaattorit ym.",Profesiona Code,Provider,1970-01-01,2099-12-31
+313,Optical and electronic equipment operators,0,2002200299,Optisten ja elektronisten laitteiden k‰ytt‰j‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+3131,Photographers and image and sound recording equipment operators,0,2002200300,"Kuvaajat, kuvanauhoittajat ja ‰‰nitt‰j‰t",Profesiona Code,Provider,1970-01-01,2099-12-31
+3132,Broadcasting and telecommunications equipment operators,0,2002200301,Radio- ja tv-tarkkailijat,Profesiona Code,Provider,1970-01-01,2099-12-31
+3139,Optical and electronic equipment operators not elsewhere classified,0,2002200302,Muut optisten ja elektronisten laitteiden k‰ytt‰j‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+314,"Ship, aircraft and harbour traffic controllers and technicians",0,2002200303,"Meri-, lento- ja satamaliiikenteen p‰‰llikˆt ja ohjaajat",Profesiona Code,Provider,1970-01-01,2099-12-31
+3141,Ships&#39; engineers,0,2002200304,Alusten konep‰‰llikˆt ja konemestarit,Profesiona Code,Provider,1970-01-01,2099-12-31
+3142,Pilots and small ships&#39; officers,0,2002200305,Per‰miehet ja pienten alusten p‰‰llikˆt,Profesiona Code,Provider,1970-01-01,2099-12-31
+3143,Aircraft pilots and related associate professionals,0,2002200306,Lentokapteenit ja -per‰miehet,Profesiona Code,Provider,1970-01-01,2099-12-31
+3144,Air and harbour traffic controllers,0,2002200307,Lento- ja satamaliikenteen ohjaajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+31441,Air traffic controllers and related associate professionals,0,2002200308,Lennonjohtajat ym.,Profesiona Code,Provider,1970-01-01,2099-12-31
+31442,Harbour traffic controllers,0,2002200309,Satamaliikenteen ohjaajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+3145,Air traffic safety technicians,0,2002200310,Lentoturvallisuusteknikot ym.,Profesiona Code,Provider,1970-01-01,2099-12-31
+315,Safety and quality inspectors,0,2002200311,Turvallisuuden ja laadun tarkastajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+3151,Building and fire inspectors,0,2002200312,Rakennus- ja palotarkastajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+3152,"Safety, health and quality inspectors",0,2002200313,Tyˆsuojelu- ja tuoteturvallisuuden tarkastajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+31521,Occupational safety inspectors,0,2002200314,Tyˆsuojelutarkastajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+31522,"Inspectors, product safety and quality inspectors",0,2002200315,"Katsastajat, tuoteturvallisuuden ja laadun tarkastajat",Profesiona Code,Provider,1970-01-01,2099-12-31
+32,Life science and health associate professionals,0,2002200316,Maa- ja mets‰taloustieteiden ja terveydenhuollon asiantuntijat,Profesiona Code,Provider,1970-01-01,2099-12-31
+321,Life science technicians and related associate professionals,0,2002200317,Maa- ja mets‰taloustieteiden asiantuntijat,Profesiona Code,Provider,1970-01-01,2099-12-31
+3211,Life science technicians,0,2002200318,Laborantit ym.,Profesiona Code,Provider,1970-01-01,2099-12-31
+3212,Agronomy and forestry technicians,0,2002200319,Agrologit ja mets‰talousteknikot,Profesiona Code,Provider,1970-01-01,2099-12-31
+32121,Agrologists,0,2002200320,Agrologit,Profesiona Code,Provider,1970-01-01,2099-12-31
+32122,Forestry technicians,0,2002200321,Mets‰talousteknikot,Profesiona Code,Provider,1970-01-01,2099-12-31
+3213,"Farming, horticulture and fishery advisers",0,2002200322,"Maatalous-, puutarha- ja kalastusalan neuvojat",Profesiona Code,Provider,1970-01-01,2099-12-31
+322,Health associate professionals (except nursing),0,2002200323,Terveydenhuollon asiantuntijat (lukuun ottamatta sairaanhoitoa),Profesiona Code,Provider,1970-01-01,2099-12-31
+3222,"Hygienists, health and environmental officers",0,2002200324,Terveystarkastajat ja ymp‰ristˆnsuojelutyˆntekij‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+32221,Health officers,0,2002200325,Terveystarkastajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+32222,Environmental officers,0,2002200326,Ymp‰ristˆnsuojelutyˆntekij‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+3223,Dieticians and nutritionists,0,2002200327,Ravitsemusalan asiantuntijat,Profesiona Code,Provider,1970-01-01,2099-12-31
+3224,Optometrists and opticians,0,2002200328,Optikot,Profesiona Code,Provider,1970-01-01,2099-12-31
+3225,Dental hygienists,0,2002200329,Hammashuoltajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+3226,Physiotherapists and occupational therapists,0,2002200330,"Fysioterapeutit, toimintaterapeutit ym.",Profesiona Code,Provider,1970-01-01,2099-12-31
+32261,Physiotherapists,0,2002200331,Fysioterapeutit,Profesiona Code,Provider,1970-01-01,2099-12-31
+32262,Occupational therapists,0,2002200332,Toimintaterapeutit,Profesiona Code,Provider,1970-01-01,2099-12-31
+32269,Other therapists,0,2002200333,Muut terapeutit,Profesiona Code,Provider,1970-01-01,2099-12-31
+3227,Veterinary assistants,0,2002200334,Seminologit ym.,Profesiona Code,Provider,1970-01-01,2099-12-31
+3228,Pharmacists,0,2002200335,Farmaseutit,Profesiona Code,Provider,1970-01-01,2099-12-31
+3229,Nature healers,0,2002200336,Luontaisparantajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+323,Nursing and related associate professionals,0,2002200337,"Sairaanhoitajat, k‰tilˆt ym.",Profesiona Code,Provider,1970-01-01,2099-12-31
+3231,Nursing and related associate professionals,0,2002200338,Sairaanhoitajat ym.,Profesiona Code,Provider,1970-01-01,2099-12-31
+32311,Nurses,0,2002200339,Sairaanhoitajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+32312,Public health nurses,0,2002200340,Terveydenhoitajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+32313,Radiographers,0,2002200341,Rˆntgenhoitajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+32314,Medical laboratory technologists,0,2002200342,Laboratoriohoitajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+32315,Hearing testers,0,2002200343,Kuulontutkijat,Profesiona Code,Provider,1970-01-01,2099-12-31
+3232,Midwives,0,2002200344,K‰tilˆt,Profesiona Code,Provider,1970-01-01,2099-12-31
+33,Traffic instructors and other teaching associate professionals,0,2002200345,Liikenneopettajat ym.,Profesiona Code,Provider,1970-01-01,2099-12-31
+334,Traffic instructors and other teaching associate professionals,0,2002200346,Liikenneopettajat ym.,Profesiona Code,Provider,1970-01-01,2099-12-31
+3340,"Traffic instructors, hairdresser, beautician and related teaching associate professionals",0,2002200347,"Liikenneopettajat, kampaamo- ja kosmetologikoulujen opettajat ym.",Profesiona Code,Provider,1970-01-01,2099-12-31
+34,Other associate professionals,0,2002200348,Liikealan ja muiden palvelualojen asiantuntijat,Profesiona Code,Provider,1970-01-01,2099-12-31
+341,Finance and sales associate professionals,0,2002200349,Myynnin ja rahoituksen asiantuntijat,Profesiona Code,Provider,1970-01-01,2099-12-31
+3411,Securities and finance dealers and brokers,0,2002200350,Arvopaperi- ja valuuttakauppiaat,Profesiona Code,Provider,1970-01-01,2099-12-31
+3412,Insurance representatives,0,2002200351,Vakuutusalan asiamiehet,Profesiona Code,Provider,1970-01-01,2099-12-31
+3413,Estate agents and property managers,0,2002200352,Kiinteistˆnv‰litt‰j‰t ja is‰nnˆitsij‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+34131,Estate agents,0,2002200353,Kiinteistˆnv‰litt‰j‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+34132,Property managers,0,2002200354,Is‰nnˆitsij‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+3414,Travel consultants and organisers,0,2002200355,Matkailuasiamiehet ja matkanj‰rjest‰j‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+3415,Technical and commercial sales representatives,0,2002200356,"Myyntineuvottelijat, -edustajat ja -sihteerit",Profesiona Code,Provider,1970-01-01,2099-12-31
+34151,Sales consultants and sales representatives,0,2002200357,Myyntineuvottelijat ja myyntiedustajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+34152,Sales and exports secretaries,0,2002200358,Myynti- ja vientisihteerit,Profesiona Code,Provider,1970-01-01,2099-12-31
+34153,Wholesale dealers,0,2002200359,Tukkumyyj‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+3416,Buyers,0,2002200360,Ostajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+3417,"Appraisers, valuers and auctioneers",0,2002200361,Vahinkotarkastajat ja huutokaupanpit‰j‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+3419,Finance and sales associate professionals not elsewhere classified,0,2002200362,Myynnin ja rahoituksen esimiehet,Profesiona Code,Provider,1970-01-01,2099-12-31
+34191,Superiors at banks and post offices,0,2002200363,Pankkien ja postien esimiehet,Profesiona Code,Provider,1970-01-01,2099-12-31
+34192,Shop managers and small shopkeepers,0,2002200364,Myym‰l‰nhoitajat ja pienkauppiaat,Profesiona Code,Provider,1970-01-01,2099-12-31
+34193,Service station managers,0,2002200365,Huoltoasemanhoitajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+34194,Office managers,0,2002200366,Toimistonhoitajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+342,Business services agents and trade brokers,0,2002200367,Liike-el‰m‰n palvelujen v‰litt‰j‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+3421,Trade brokers,0,2002200368,Kauppa-agentit,Profesiona Code,Provider,1970-01-01,2099-12-31
+3422,Clearing and forwarding agents,0,2002200369,Huolitsijat ja tullaajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+3423,Employment agents and labour contractors,0,2002200370,Tyˆnv‰litt‰j‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+3429,Business services agents and trade brokers not elsewhere classified,0,2002200371,Muut liike-el‰m‰n palvelujen v‰litt‰j‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+343,Administrative associate professionals,0,2002200372,Hallinnolliset toimihenkilˆt,Profesiona Code,Provider,1970-01-01,2099-12-31
+3431,Administrative secretaries and related associate professionals,0,2002200373,"Johdon sihteerit, osastosihteerit ym.",Profesiona Code,Provider,1970-01-01,2099-12-31
+3432,Legal and related business associate professionals,0,2002200374,Oikeudenk‰yntiasiamiehet ja ulosottomiehet,Profesiona Code,Provider,1970-01-01,2099-12-31
+3433,Bookkeepers,0,2002200375,Kirjanpit‰j‰t ym.,Profesiona Code,Provider,1970-01-01,2099-12-31
+3434,"Statistical, mathematical and related associate professionals",0,2002200376,"Tilastonlaatijat, haastattelijat ym.",Profesiona Code,Provider,1970-01-01,2099-12-31
+344,"Customs inspectors, frontier and coast guards, government tax officials and related associate professional",0,2002200377,"Tullivirkamiehet, raja- ja merivartijat, verovalmistelijat ym.",Profesiona Code,Provider,1970-01-01,2099-12-31
+3441,"Customs inspectors, frontier guards and coast guards",0,2002200378,Tullivirkamiehet ja raja- ja merivartijat,Profesiona Code,Provider,1970-01-01,2099-12-31
+34411,Customs inspectors,0,2002200379,Tullivirkamiehet,Profesiona Code,Provider,1970-01-01,2099-12-31
+34412,Frontier and coast guards,0,2002200380,Raja- ja merivartijat,Profesiona Code,Provider,1970-01-01,2099-12-31
+3442,Government tax and excise officials,0,2002200381,Verovalmistelijat ja -tarkastajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+3443,Government social benefits officials,0,2002200382,Sosiaaliturvatoimihenkilˆt,Profesiona Code,Provider,1970-01-01,2099-12-31
+345,Police inspectors and detectives,0,2002200383,Komisariot ja ylikonstaapelit,Profesiona Code,Provider,1970-01-01,2099-12-31
+3450,Police inspectors and detectives,0,2002200384,Komisariot ja ylikonstaapelit,Profesiona Code,Provider,1970-01-01,2099-12-31
+346,Social instructors and related associate professionals,0,2002200385,Sosiaalialan ohjaajat ym.,Profesiona Code,Provider,1970-01-01,2099-12-31
+3460,Social instructors and related associate professionals,0,2002200386,Sosiaalialan ohjaajat ym.,Profesiona Code,Provider,1970-01-01,2099-12-31
+34601,Social work instructors and educators,0,2002200387,Sosiaalialan ohjaajat ja kasvattajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+34602,Youth leaders,0,2002200388,Nuoriso-ohjaajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+34603,Work and craft leaders,0,2002200389,Tyˆn- ja askartelunohjaajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+347,"Artistic, entertainment and sports associate professionals",0,2002200390,"Taidealan asiantuntijat, viihdetaiteilijat, urheilijat ym.",Profesiona Code,Provider,1970-01-01,2099-12-31
+3471,Artistic and crafts and design associate professionals and producer&#39;s assistants,0,2002200391,"Taidealan asiantuntijat, kuvaussihteerit ym.",Profesiona Code,Provider,1970-01-01,2099-12-31
+34711,Artistic and crafts and design associate professionals,0,2002200392,Taide- ja taideteollisen alan asiantuntijat,Profesiona Code,Provider,1970-01-01,2099-12-31
+34712,Producer&#39;s assistants and related associate professionals,0,2002200393,Kuvaussihteerit ym.,Profesiona Code,Provider,1970-01-01,2099-12-31
+3472,"Radio, television and other announcers",0,2002200394,"Juontajat, kuuluttajat ym.",Profesiona Code,Provider,1970-01-01,2099-12-31
+3473,"Night-club and related musicians, singers and dancers",0,2002200395,"Viihdemuusikot, laulajat, tanssijat ym.",Profesiona Code,Provider,1970-01-01,2099-12-31
+3474,"Clowns, magicians, acrobats and related associate professionals",0,2002200396,"Klovnit, taikurit, akrobaatit ym.",Profesiona Code,Provider,1970-01-01,2099-12-31
+3475,"Athletes, sportspersons, coaches, physical exercise instructors and related associate professionals",0,2002200397,"Urheilijat, urheiluvalmentajat, liikunnanohjaajat ym.",Profesiona Code,Provider,1970-01-01,2099-12-31
+34751,"Athletes, sportspersons and coaches",0,2002200398,Urheilijat ja urheiluvalmentajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+34752,Physical exercise and sports instructors,0,2002200399,Urheilu- ja liikunnanohjaajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+348,Religious associate professionals,0,2002200400,Seurakuntatyˆntekij‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+3480,"Deacons, deaconesses and religious associate professionals",0,2002200401,Diakonit ja seurakuntatyˆntekij‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+34801,Deacons and deaconesses,0,2002200402,Diakonit ja diakonissat,Profesiona Code,Provider,1970-01-01,2099-12-31
+34809,Other religious associate professionals,0,2002200403,Muut seurakuntatyˆntekij‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+4,Clerks,0,2002200404,Toimisto- ja asiakaspalvelutyˆntekij‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+41,Office clerks,0,2002200405,Toimistotyˆntekij‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+411,Secretaries and keyboard-operating clerks,0,2002200406,"Sihteerit, tekstink‰sittelij‰t ym.",Profesiona Code,Provider,1970-01-01,2099-12-31
+4112,Word-processor and related operators,0,2002200407,Tekstink‰sittelij‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+4113,Data entry operators,0,2002200408,Tallentajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+4114,Calculating-machine operators,0,2002200409,Laskuttajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+4115,Secretaries,0,2002200410,Sihteerit,Profesiona Code,Provider,1970-01-01,2099-12-31
+412,Payroll accounting and insurance clerks,0,2002200411,"Palkanlaskijat, vakuutusk‰sittelij‰t ym.",Profesiona Code,Provider,1970-01-01,2099-12-31
+4121,Payroll accounting and book-keeping clerks,0,2002200412,"Palkanlaskijat, kassanhoitajat ym.",Profesiona Code,Provider,1970-01-01,2099-12-31
+4122,Insurance clerks,0,2002200413,Vakuutusalan konttoritoimihenkilˆt,Profesiona Code,Provider,1970-01-01,2099-12-31
+413,Material-recording and transport clerks,0,2002200414,Kuljetuksen ja varastoinnin toimistotyˆntekij‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+4131,Stock clerks,0,2002200415,Varastonhoitajat ym.,Profesiona Code,Provider,1970-01-01,2099-12-31
+4133,Rail traffic controllers and other transport clerks,0,2002200416,Raideliikenteen ohjaajat ja muut kuljetuksen toimistotyˆntekij‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+41331,Rail traffic controllers,0,2002200417,Raideliikenteen ohjaajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+41339,Other transport clerks,0,2002200418,Muut kuljetuksen ja huolinnan toimistotyˆntekij‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+414,"Library, mail and related clerks",0,2002200419,"Kirjastojen, postitoimistojen ym. tyˆntekij‰t",Profesiona Code,Provider,1970-01-01,2099-12-31
+4141,Library and filing clerks,0,2002200420,"Kirjasto-, arkisto- ja museotyˆntekij‰t",Profesiona Code,Provider,1970-01-01,2099-12-31
+4142,"Mail carriers, sorting clerks and porters",0,2002200421,Postink‰sittelij‰t ja toimistovahtimestarit,Profesiona Code,Provider,1970-01-01,2099-12-31
+41421,Mail carriers and sorting clerks,0,2002200422,Postinkantajat ja -lajittelijat,Profesiona Code,Provider,1970-01-01,2099-12-31
+41422,Porters,0,2002200423,Toimistovahtimestarit,Profesiona Code,Provider,1970-01-01,2099-12-31
+419,Other office clerks,0,2002200424,Muut toimistotyˆntekij‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+4190,Other office clerks,0,2002200425,Muut toimistotyˆntekij‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+42,Customer services clerks,0,2002200426,Asiakaspalvelutyˆntekij‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+421,"Cashiers, tellers and related clerks",0,2002200427,Rahaliikenteen asiakaspalvelutyˆntekij‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+4211,Cashiers and ticket clerks,0,2002200428,Lipunmyyj‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+4212,Tellers and other counter clerks,0,2002200429,Posti- ja pankkitoimihenkilˆt,Profesiona Code,Provider,1970-01-01,2099-12-31
+4213,Croupiers and related clerks,0,2002200430,Bingo- ja kasinopelien hoitajat ym.,Profesiona Code,Provider,1970-01-01,2099-12-31
+4214,Pawnbrokers and money-lenders,0,2002200431,Panttilainaajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+4215,Debt-collectors and related workers,0,2002200432,Maksujenperij‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+422,Client information clerks,0,2002200433,Muut asiakaspalvelutyˆntekij‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+4221,Travel agency and related clerks,0,2002200434,Matkatoimistovirkailijat,Profesiona Code,Provider,1970-01-01,2099-12-31
+4222,Receptionists and information clerks,0,2002200435,Vastaanoton ja neuvonnan hoitajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+4223,Telephone switchboard operators and emergency officers,0,2002200436,Puhelinvaihteenhoitajat ja h‰lytysp‰ivyst‰j‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+42231,Telephone switchboard operators,0,2002200437,Puhelinvaihteenhoitajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+42232,Emergency officers,0,2002200438,H‰lytysp‰ivyst‰j‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+5,"Service and care workers, and shop and market sales workers",0,2002200439,"Palvelu-, myynti- ja hoitotyˆntekij‰t",Profesiona Code,Provider,1970-01-01,2099-12-31
+51,Personal and protective services workers,0,2002200440,Palvelu- ja suojelutyˆntekij‰t ym.,Profesiona Code,Provider,1970-01-01,2099-12-31
+511,Travel attendants and related workers,0,2002200441,Matkustuspalvelutyˆntekij‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+5111,Travel attendants and travel stewards,0,2002200442,"Lentoem‰nn‰t, purserit ym.",Profesiona Code,Provider,1970-01-01,2099-12-31
+5112,Transport conductors,0,2002200443,"Konduktˆˆrit, rahastajat ym.",Profesiona Code,Provider,1970-01-01,2099-12-31
+5113,Travel guides and tour leaders,0,2002200444,Matkaoppaat ja matkanjohtajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+512,Housekeeping and restaurant services workers,0,2002200445,Ravintola- ja suurtaloustyˆntekij‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+5121,Housekeepers and related supervisors,0,2002200446,"Ravintola-, suurtalous- ym. esimiehet",Profesiona Code,Provider,1970-01-01,2099-12-31
+51211,Housekeeping and restaurant services supervisors,0,2002200447,Ravintola- ja suurtalousesimiehet,Profesiona Code,Provider,1970-01-01,2099-12-31
+51212,Cleaning supervisors,0,2002200448,Siivoustyˆnjohtajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+5122,Cooks,0,2002200449,"Kokit, keitt‰j‰t ja kylm‰kˆt",Profesiona Code,Provider,1970-01-01,2099-12-31
+5123,"Waiters, waitresses and bartenders",0,2002200450,Tarjoilutyˆntekij‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+513,"Practical nurses, childminders and home care assistants",0,2002200451,"Perus- ja l‰hihoitajat, lasten- ja kodinhoitajat ym.",Profesiona Code,Provider,1970-01-01,2099-12-31
+5131,Child-care workers,0,2002200452,Lastenhoitotyˆntekij‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+51311,Childminders and kindergarten assistants,0,2002200453,Lastenhoitajat ja p‰iv‰kotiapulaiset,Profesiona Code,Provider,1970-01-01,2099-12-31
+51312,Private childminders,0,2002200454,Perhep‰iv‰hoitajat ym.,Profesiona Code,Provider,1970-01-01,2099-12-31
+5132,Practical nurses,0,2002200455,"Perushoitajat, l‰hihoitajat ym.",Profesiona Code,Provider,1970-01-01,2099-12-31
+51321,Practical nurses,0,2002200456,Perushoitajat ja l‰hihoitajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+51322,Practical mental nurses,0,2002200457,Mielenterveyshoitajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+51323,Hospital and ambulance attendants,0,2002200458,L‰‰kint‰vahtimestari-sairaankuljettajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+51324,Mental handicap nurses,0,2002200459,Kehitysvammaistenhoitajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+51325,Dental assistants,0,2002200460,Hammashoitajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+51326,Social work assistants,0,2002200461,Sosiaalialan hoitajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+51327,Equipment maintenance assistants,0,2002200462,V‰linehuoltajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+5133,"Home care assistants, personal care workers",0,2002200463,"Kodinhoitajat, henkilˆkohtaiset avustajat ym.",Profesiona Code,Provider,1970-01-01,2099-12-31
+51331,Home care assistants,0,2002200464,Kodinhoitajat ja kotiavustajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+51332,Personal care workers,0,2002200465,Henkilˆkohtaiset avustajat ym.,Profesiona Code,Provider,1970-01-01,2099-12-31
+5139,Pharmaceutical assistants,0,2002200466,Apteekkien l‰‰ketyˆntekij‰t ym.,Profesiona Code,Provider,1970-01-01,2099-12-31
+51391,Pharmaceutical assistants,0,2002200467,Apteekkien l‰‰ketyˆntekij‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+51399,Veterinary aids,0,2002200468,El‰inl‰‰kint‰avustajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+514,Other personal services workers,0,2002200469,Henkilˆkohtaisen palvelun tyˆntekij‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+5141,"Hairdressers, barbers, beauticians and related workers",0,2002200470,"Kampaajat, parturit, kosmetologit ym.",Profesiona Code,Provider,1970-01-01,2099-12-31
+51411,Hairdressers and barbers,0,2002200471,Kampaajat ja parturit,Profesiona Code,Provider,1970-01-01,2099-12-31
+51412,Beauticians,0,2002200472,Kauneudenhoitajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+51413,Practical rehabilitation nurses and chiropodists,0,2002200473,"Kuntohoitajat, jalkojenhoitajat ym.",Profesiona Code,Provider,1970-01-01,2099-12-31
+51419,Bath attendants and related workers,0,2002200474,Kylvett‰j‰t ym.,Profesiona Code,Provider,1970-01-01,2099-12-31
+5143,Undertakers and embalmers,0,2002200475,Hautauspalvelutyˆntekij‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+51431,Undertakers and related funeral workers,0,2002200476,Hautaustoimistonhoitajat ym.,Profesiona Code,Provider,1970-01-01,2099-12-31
+51432,Other funeral workers,0,2002200477,Muut hautaustyˆntekij‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+5149,Other personal services workers not elsewhere classified,0,2002200478,Muut henkilˆkohtaisen palvelun tyˆntekij‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+516,Protective services workers,0,2002200479,Suojelu- ja vartiointityˆntekij‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+5161,Fire-fighters,0,2002200480,Palomiehet,Profesiona Code,Provider,1970-01-01,2099-12-31
+5162,Police officers,0,2002200481,Poliisit,Profesiona Code,Provider,1970-01-01,2099-12-31
+5163,Prison guards,0,2002200482,Vanginvartijat,Profesiona Code,Provider,1970-01-01,2099-12-31
+5169,Protective services workers not elsewhere classified,0,2002200483,Valvojat ja vartijat,Profesiona Code,Provider,1970-01-01,2099-12-31
+52,"Models, salespersons and demonstrators",0,2002200484,"Mallit, myyj‰t ja tuote-esittelij‰t",Profesiona Code,Provider,1970-01-01,2099-12-31
+521,Fashion and other models,0,2002200485,Mallit,Profesiona Code,Provider,1970-01-01,2099-12-31
+5210,Fashion and other models,0,2002200486,Mallit,Profesiona Code,Provider,1970-01-01,2099-12-31
+522,"Shop, stall and market salespersons and demonstrators",0,2002200487,Myyj‰t ja tuote-esittelij‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+5220,"Shop, stall and market salespersons and demonstrators",0,2002200488,Myyj‰t ja tuote-esittelij‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+52201,Demonstrators,0,2002200489,Tuote-esittelij‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+52202,Salespersons and cashiers,0,2002200490,Myyj‰t ja myym‰l‰kassanhoitajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+52203,Salespersons in specialised shops,0,2002200491,Erikoismyyj‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+6,Skilled agricultural and fishery workers,0,2002200492,"Maanviljelij‰t, mets‰tyˆntekij‰t ym.",Profesiona Code,Provider,1970-01-01,2099-12-31
+61,Skilled agricultural and fishery workers,0,2002200493,"Maanviljelij‰t, mets‰tyˆntekij‰t ym.",Profesiona Code,Provider,1970-01-01,2099-12-31
+611,Market gardeners and crop growers,0,2002200494,Pelto- ja puutarhaviljelij‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+6111,Field crop and vegetable growers,0,2002200495,Peltoviljelij‰t ja peltoviljelytyˆntekij‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+61111,Field crop growers,0,2002200496,Peltoviljelij‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+61112,Field crop supervisors and workers,0,2002200497,Peltoviljelytyˆnjohtajat ja -tyˆntekij‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+6112,"Gardeners, horticultural and nursery growers and workers",0,2002200498,Puutarha- ja kasvihuoneviljelij‰t ja -tyˆntekij‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+61121,"Gardeners, horticultural and nursery growers",0,2002200499,Puutarha- ja kasvihuoneviljelij‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+61122,Horticultural and nursery supervisors,0,2002200500,Puutarha- ja kasvihuonetyˆnjohtajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+61123,Horticultural and nursery workers,0,2002200501,Puutarha-  ja kasvihuonetyˆntekij‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+612,Animal producers and related workers,0,2002200502,El‰intenkasvattajat ja -hoitajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+6121,Dairy and livestock producers,0,2002200503,El‰intenkasvattajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+6122,Dairy and livestock workers,0,2002200504,El‰intenhoitajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+6123,Farmer&#39;s locums,0,2002200505,Maatalouslomittajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+6129,Animal producers and related workers not elsewhere classified,0,2002200506,Muut el‰intenhoitajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+613,Crop and animal producers and workers,0,2002200507,Yhdistetyn maanviljelyn ja el‰intenhoidon harjoittajat ja tyˆntekij‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+6130,Crop and animal producers and workers,0,2002200508,Yhdistetyn maanviljelyn ja el‰intenhoidon harjoittajat ja tyˆntekij‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+614,Forestry and related workers,0,2002200509,Metsurit ja mets‰tyˆntekij‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+6140,Forestry and related workers,0,2002200510,Metsurit ja mets‰tyˆntekij‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+615,"Fishery workers, hunters and trappers",0,2002200511,"Kalanviljelij‰t, kalastajat ja mets‰st‰j‰t",Profesiona Code,Provider,1970-01-01,2099-12-31
+6151,Aquatic life cultivation workers,0,2002200512,Kalanviljely-yritt‰j‰t ja -tyˆntekij‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+61511,Fish farmers,0,2002200513,Kalanviljely-yritt‰j‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+61512,Fishery supervisors and workers,0,2002200514,Kalanviljelytyˆnjohtajat ja -tyˆntekij‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+6152,Inland and coastal waters fishery workers,0,2002200515,Kalastajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+6154,Hunters and trappers,0,2002200516,Riistanhoitajat ja mets‰st‰j‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+7,Craft and related trades workers,0,2002200517,"Rakennus-, korjaus- ja valmistustyˆntekij‰t",Profesiona Code,Provider,1970-01-01,2099-12-31
+71,Extraction and building trades workers,0,2002200518,"Kaivos-, louhos- ja rakennustyˆntekij‰t",Profesiona Code,Provider,1970-01-01,2099-12-31
+711,"Miners, shotfirers, stone cutters and carvers",0,2002200519,"Kaivostyˆntekij‰t, panostajat, kivenhakkaajat ym.",Profesiona Code,Provider,1970-01-01,2099-12-31
+7111,Miners and quarry workers,0,2002200520,Kaivos- ja louhostyˆntekij‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+7112,Shotfirers and blasters,0,2002200521,Panostajat ja r‰j‰ytt‰j‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+7113,"Stone splitters, cutters and carvers",0,2002200522,Kivenhakkaajat ja -leikkaajat ym.,Profesiona Code,Provider,1970-01-01,2099-12-31
+712,Building frame and related trades workers,0,2002200523,Rakennustyˆntekij‰t ym.,Profesiona Code,Provider,1970-01-01,2099-12-31
+7121,Builders,0,2002200524,Rakennustyˆntekij‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+7122,Bricklayers and stonemasons,0,2002200525,Muurarit ja laatoittajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+7123,"Concrete placers, concrete finishers and related workers",0,2002200526,Raudoittajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+7124,Carpenters and joiners,0,2002200527,Kirvesmiehet,Profesiona Code,Provider,1970-01-01,2099-12-31
+7129,Building frame and related trades workers not elsewhere classified,0,2002200528,Muut rakennustyˆntekij‰t ja -korjaajat ym.,Profesiona Code,Provider,1970-01-01,2099-12-31
+713,Building finishers and related trades workers,0,2002200529,Rakennusten viimeistelytyˆntekij‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+7131,Roofers,0,2002200530,Kattoasentajat ja -korjaajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+7132,Floor layers and tile setters,0,2002200531,Lattianp‰‰llystystyˆntekij‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+7133,Plasterers,0,2002200532,Rappaajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+7134,Insulation workers,0,2002200533,Erist‰j‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+7135,Glaziers,0,2002200534,Lasinasentajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+7136,Plumbers and pipe fitters,0,2002200535,Putkiasentajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+7137,Building and related electricians,0,2002200536,Rakennuss‰hkˆasentajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+7139,Building finishers and related trade workers not elsewhere classified,0,2002200537,Muut rakennusten viimeistelytyˆntekij‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+714,"Painters, building structure cleaners and related trades workers",0,2002200538,Maalarit ja rakennuspuhdistajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+7141,Painters and related workers,0,2002200539,Maalarit,Profesiona Code,Provider,1970-01-01,2099-12-31
+71411,Building painters,0,2002200540,Rakennusmaalarit,Profesiona Code,Provider,1970-01-01,2099-12-31
+71412,Vehicle and other painters,0,2002200541,Auto- ja muut maalarit,Profesiona Code,Provider,1970-01-01,2099-12-31
+7143,Building structure cleaners,0,2002200542,Rakennuspuhdistajat ja nuohoojat,Profesiona Code,Provider,1970-01-01,2099-12-31
+72,"Metal, machinery and related trades workers",0,2002200543,Konepaja- ja valimotyˆntekij‰t sek‰ asentajat ja korjaajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+721,"Metal moulders, welders, sheet-metal workers, structural metal preparers, and related trades workers",0,2002200544,"Valimotyˆntekij‰t, hitsaajat, levysep‰t ym.",Profesiona Code,Provider,1970-01-01,2099-12-31
+7211,Metal moulders and coremakers,0,2002200545,Muovaajat ja keernantekij‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+7212,Welders and flame cutters,0,2002200546,Hitsaajat ja kaasuleikkaajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+7213,Sheet-metal workers,0,2002200547,Ohutlevysep‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+7214,Structural-metal preparers and erectors,0,2002200548,Paksulevysep‰t ja rautarakennetyˆntekij‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+7215,Riggers and cable splicers,0,2002200549,Kaapelin- ja kˆysienasentajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+7216,Underwater workers,0,2002200550,Vedenalaistyˆntekij‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+722,"Blacksmiths, tool-makers and related trades workers",0,2002200551,"Sep‰t, tyˆkaluntekij‰t ja koneenasettajat",Profesiona Code,Provider,1970-01-01,2099-12-31
+7221,"Blacksmiths, hammer-smiths and forging-press workers",0,2002200552,Sep‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+7222,Tool-makers and related workers,0,2002200553,Tyˆkaluntekij‰t ja lukkosep‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+7223,Machine-tool setters and setter-operators,0,2002200554,Koneenasettajat ja koneistajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+7224,"Metal wheel-grinders, polishers and tool sharpeners",0,2002200555,"Konehiojat, kiillottajat ja teroittajat",Profesiona Code,Provider,1970-01-01,2099-12-31
+723,Machinery mechanics and fitters,0,2002200556,Koneasentajat ja -korjaajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+7231,Motor-vehicle mechanics and fitters,0,2002200557,Moottoriajoneuvojen ja tyˆkoneiden asentajat ja korjaajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+7232,Aircraft engine mechanics and fitters,0,2002200558,Lentokoneasentajat ja -korjaajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+7233,Agricultural- or industrial-machinery mechanics and fitters,0,2002200559,Maatalous- ja teollisuuskoneasentajat ja -korjaajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+724,"Electrical, electronic and telecommunications equipment mechanics and fitters",0,2002200560,"S‰hkˆ-, elektroniikka- ja tietoliikennelaitteiden asentajat ja korjaajat",Profesiona Code,Provider,1970-01-01,2099-12-31
+7241,Electrical mechanics and servicers,0,2002200561,S‰hkˆlaitteiden asentajat ja korjaajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+7242,Electronics mechanics and servicers,0,2002200562,Elektroniikkalaitteiden asentajat ja korjaajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+72421,Computer installers and repairers,0,2002200563,Tietokoneasentajat ja -korjaajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+72422,Automation installers and repairers,0,2002200564,Automaatioasentajat ja -korjaajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+72423,Electronic installers and repairers,0,2002200565,Elektroniikka-asentajat ja -korjaajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+7244,Telecommunications installers and mechanics,0,2002200566,Tietoliikenneasentajat ja -korjaajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+7245,"Electrical line installers, repairers and cable jointers",0,2002200567,Linja-asentajat ja -korjaajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+73,"Precision, handicraft, craft printing and related trades workers",0,2002200568,Hienomekaniikan ja taideteollisuuden tyˆntekij‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+731,Precision workers in metal and related materials,0,2002200569,Hienomekaanikot,Profesiona Code,Provider,1970-01-01,2099-12-31
+7311,Precision-instrument makers and repairers,0,2002200570,Instrumentintekij‰t ja instrumenttiasentajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+7312,Musical-instrument makers and tuners,0,2002200571,Soittimien tekij‰t ja viritt‰j‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+7313,Jewellery and precious-metal workers,0,2002200572,"Jalokivi-, kulta- ja hopeasep‰t",Profesiona Code,Provider,1970-01-01,2099-12-31
+732,"Potters, glass-makers and related trades workers",0,2002200573,"Savenvalajat, lasihyttityˆntekij‰t ym.",Profesiona Code,Provider,1970-01-01,2099-12-31
+7321,"Abrasive wheel formers, potters and related workers",0,2002200574,Saven- ja tiilenvalajat ja dreijaajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+7322,"Glass-makers, cutters, grinders and finishers",0,2002200575,Lasinpuhaltajat ja -leikkaajat ym.,Profesiona Code,Provider,1970-01-01,2099-12-31
+7323,Glass-engravers and etchers,0,2002200576,Lasinkaivertajat ja -etsaajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+7324,"Glass, ceramics and related decorative painters",0,2002200577,"Koristelijat, lasittajat ym.",Profesiona Code,Provider,1970-01-01,2099-12-31
+733,"Handicraft workers in wood, textile, leather and related materials",0,2002200578,"Puu-, tekstiili-, nahka- ym. k‰sityˆtuotteiden tekij‰t",Profesiona Code,Provider,1970-01-01,2099-12-31
+7330,"Handicraft workers in wood, textile, leather and related materials",0,2002200579,"Puu-, tekstiili-, nahka- ym. k‰sityˆtuotteiden tekij‰t",Profesiona Code,Provider,1970-01-01,2099-12-31
+734,Craft printing and related trades workers,0,2002200580,"Painopinnan valmistajat, tekstiilipainajat ym.",Profesiona Code,Provider,1970-01-01,2099-12-31
+7341,"Compositors, typesetters and related workers",0,2002200581,Latojat ja asemoijat,Profesiona Code,Provider,1970-01-01,2099-12-31
+7342,Stereotypers and electrotypers,0,2002200582,Painopinnan valmistajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+7343,Printing engravers and etchers,0,2002200583,Kaivertajat ja syˆvytt‰j‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+7344,Photographic and related workers,0,2002200584,Valokuvalaboratorioiden tyˆntekij‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+7345,Bookbinders and related workers,0,2002200585,Kirjansitomotyˆntekij‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+7346,"Silk-screen, block and textile printers",0,2002200586,Silkki- ja tekstiilipainajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+74,Other craft and related trades workers,0,2002200587,Muut valmistustyˆntekij‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+741,Food processing and related trades workers,0,2002200588,"Teurastajat, leipurit, meijeristit ym.",Profesiona Code,Provider,1970-01-01,2099-12-31
+7411,"Butchers, fishmongers and related food preparers",0,2002200589,"Teurastajat, kalank‰sittelij‰t ym.",Profesiona Code,Provider,1970-01-01,2099-12-31
+7412,"Bakers, pastry-cooks and confectionery makers",0,2002200590,Leipurit ja kondiittorit,Profesiona Code,Provider,1970-01-01,2099-12-31
+7413,Dairy-products workers,0,2002200591,"Meijeristit, juustomestarit ym.",Profesiona Code,Provider,1970-01-01,2099-12-31
+7414,"Fruit, vegetable and related preservers",0,2002200592,Hedelm‰- ja vihannestuotteiden valmistajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+7415,Food and beverage tasters and graders,0,2002200593,Ruokien ja juomien laaduntarkkailijat,Profesiona Code,Provider,1970-01-01,2099-12-31
+7416,Tobacco preparers and tobacco products makers,0,2002200594,Tupakkatuotteiden valmistajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+742,"Wood treaters, cabinet-makers and related trades workers",0,2002200595,"Puutavaran k‰sittelij‰t, puusep‰t ym.",Profesiona Code,Provider,1970-01-01,2099-12-31
+7421,Wood treaters,0,2002200596,Puutavaran k‰sittelij‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+7422,Cabinetmakers and related workers,0,2002200597,Huonekalu- ja koristepuusep‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+7423,Woodworking machine setters and setter-operators,0,2002200598,Konepuusep‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+7424,"Basketry weavers, brush makers and related workers",0,2002200599,Korin- ja harjantekij‰t ym.,Profesiona Code,Provider,1970-01-01,2099-12-31
+743,"Textile, garment and related trades workers",0,2002200600,"Kutojat, vaatturit ym.",Profesiona Code,Provider,1970-01-01,2099-12-31
+7431,Fibre preparers,0,2002200601,"Kehr‰‰j‰t, karstaajat ym.",Profesiona Code,Provider,1970-01-01,2099-12-31
+7432,"Weavers, knitters and related workers",0,2002200602,"Kutojat, neulojat ym.",Profesiona Code,Provider,1970-01-01,2099-12-31
+7433,"Tailors, dressmakers and hatters",0,2002200603,"Vaatturit, pukuompelijat ja hatuntekij‰t",Profesiona Code,Provider,1970-01-01,2099-12-31
+7434,Furriers and related workers,0,2002200604,Turkkurit,Profesiona Code,Provider,1970-01-01,2099-12-31
+7435,"Textile, leather and related pattern-makers and cutters",0,2002200605,Leikkaajat ja mallimestarit,Profesiona Code,Provider,1970-01-01,2099-12-31
+7436,"Sewers, embroiderers and related workers",0,2002200606,Koru- ja muut tekstiiliompelijat,Profesiona Code,Provider,1970-01-01,2099-12-31
+7437,Upholsterers and related workers,0,2002200607,Verhoilijat,Profesiona Code,Provider,1970-01-01,2099-12-31
+744,"Pelt, leather and shoemaking trades workers",0,2002200608,Turkisten ja nahkojen muokkaajat sek‰ suutarit,Profesiona Code,Provider,1970-01-01,2099-12-31
+7441,"Pelt dressers, tanners and fellmongers",0,2002200609,Turkisten muokkaajat ja nahkurit,Profesiona Code,Provider,1970-01-01,2099-12-31
+7442,Shoe-makers and related workers,0,2002200610,"Suutarit, jalkinemallintekij‰t ym.",Profesiona Code,Provider,1970-01-01,2099-12-31
+8,Plant and machine operators and assemblers,0,2002200611,Prosessi- ja kuljetustyˆntekij‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+81,Stationary plant and related operators,0,2002200612,Prosessityˆntekij‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+811,Mining and mineral-processing-plant operators,0,2002200613,Kaivos- ja louhintatyˆn koneenk‰ytt‰j‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+8111,Mining plant operators,0,2002200614,Vaunuporarit,Profesiona Code,Provider,1970-01-01,2099-12-31
+8112,Mineral-ore and stone-processing plant operators,0,2002200615,Rikastustyˆntekij‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+8113,Well drillers and borers and related workers,0,2002200616,Iskuporaajat ja syv‰kairaajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+812,Metal-processing plant operators,0,2002200617,Metalliteollisuuden prosessityˆntekij‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+8121,Ore and metal furnace operators,0,2002200618,Sulatto- ja sulatusuunityˆntekij‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+8122,"Metal melters, casters and rolling-mill operators",0,2002200619,Metallurgiset muokkaajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+8123,Metal heat-treating-plant operators,0,2002200620,L‰mpˆk‰sittelij‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+8124,Metal drawers and extruders,0,2002200621,Langan- ja putkenvet‰j‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+813,"Glass, ceramics and related plant operators",0,2002200622,Lasi- ja keramiikkateollisuuden tyˆntekij‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+8131,Glass and ceramics kiln and related machine operators,0,2002200623,Lasi- ja keramiikkauunienhoitajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+8139,"Glass, ceramics and related plant operators not elsewhere classified",0,2002200624,Muut lasi- ja keramiikkateollisuuden tyˆntekij‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+814,Wood-processing- and papermaking-plant operators,0,2002200625,Puunjalostuksen ja paperinvalmistuksen prosessityˆntekij‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+8141,Wood-processing-plant operators,0,2002200626,Sahausprosessinhoitajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+8142,Paper-pulp plant operators,0,2002200627,Paperimassan ja hakkeen teolliset valmistajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+8143,Papermaking-plant operators,0,2002200628,Paperin ja kartongin teolliset valmistajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+815,Chemical-processing-plant operators,0,2002200629,Kemianteollisuuden prosessinhoitajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+8150,Chemical-processing-plant operators,0,2002200630,Kemianteollisuuden prosessinhoitajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+816,Power-production and related plant operators,0,2002200631,"Voimalaitosten, vesilaitosten ym. koneenhoitajat",Profesiona Code,Provider,1970-01-01,2099-12-31
+8161,Power-production plant operators,0,2002200632,Voimalaitosten koneenhoitajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+8162,Steam-engine and boiler operators,0,2002200633,L‰mmityskattiloiden hoitajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+8163,"Incinerator, water-treatment and related plant operators",0,2002200634,J‰tteenpoltto- ja vedenpuhdistuslaitosten koneenhoitajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+817,Industrial robot operators,0,2002200635,Teollisuusrobottien hoitajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+8170,Industrial robot operators,0,2002200636,Teollisuusrobottien hoitajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+82,Machine operators and assemblers,0,2002200637,Teollisuustuotteiden valmistajat ja kokoonpanijat,Profesiona Code,Provider,1970-01-01,2099-12-31
+821,Metal- and mineral-products machine operators,0,2002200638,Metalli- ja mineraalituotteiden teolliset valmistajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+8211,Machine-tool operators,0,2002200639,Metallin koneelliset tyˆst‰j‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+8212,Cement and other mineral products machine operators,0,2002200640,Betoni- ym. tuotteiden teolliset valmistajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+822,Chemical-products machine operators,0,2002200641,Kemiallisten tuotteiden teolliset valmistajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+8221,Pharmaceutical- and toiletry-products machine operators,0,2002200642,L‰‰kkeiden ja hygieniatuotteiden teolliset valmistajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+8222,Ammunition- and explosive-products machine operators,0,2002200643,Ammusten ja r‰j‰hteiden teolliset valmistajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+8223,"Metal finishing-, plating- and coating-machine operators",0,2002200644,Metallien teolliset p‰‰llyst‰j‰t ja viimeistelij‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+8224,Photographic-products machine operators,0,2002200645,Valokuvatuotteiden teolliset valmistajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+8229,Chemical-products machine operators not elsewhere classified,0,2002200646,Muut kemiallisten tuotteiden teolliset valmistajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+823,Rubber- and plastic-products machine operators,0,2002200647,Kumi- ja muovituotteiden teolliset valmistajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+8231,Rubber-products machine operators,0,2002200648,Kumituotteiden teolliset valmistajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+8232,Plastic-products machine operators,0,2002200649,Muovituotteiden teolliset valmistajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+824,Wood-products machine operators,0,2002200650,Puutuotteiden teolliset valmistajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+8240,Wood-products machine operators,0,2002200651,Puutuotteiden teolliset valmistajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+825,"Printing-, binding- and paper-products machine operators",0,2002200652,"Painajat, j‰lkik‰sittelij‰t ja paperituotteiden teolliset valmistajat",Profesiona Code,Provider,1970-01-01,2099-12-31
+8251,Printing-machine operators,0,2002200653,Painokoneen hoitajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+8252,Book-binding-machine operators,0,2002200654,J‰lkik‰sittelij‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+8253,Paper-products machine operators,0,2002200655,Paperituotteiden teolliset valmistajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+826,"Textile-, fur- and leather-products machine operators",0,2002200656,"Tekstiili-, turkis- ja nahkatuotteiden teolliset valmistajat",Profesiona Code,Provider,1970-01-01,2099-12-31
+8261,"Fibre-preparing, spinning- and winding-machine operators",0,2002200657,"Kuitujenvalmistus-, kehruu- ja puolauskoneiden hoitajat",Profesiona Code,Provider,1970-01-01,2099-12-31
+8262,Weaving- and knitting-machine operators,0,2002200658,Kutoma- ja neulekoneiden hoitajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+8263,Sewing-machine operators,0,2002200659,Ompelukoneiden hoitajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+8264,"Bleaching-, dyeing- and cleaning-machine operators",0,2002200660,"Pesu-, valkaisu- ja v‰rj‰yskoneiden hoitajat",Profesiona Code,Provider,1970-01-01,2099-12-31
+8265,Fur- and leather-preparing-machine operators,0,2002200661,Turkisten ja nahkojen teolliset k‰sittelij‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+8266,Shoemaking- and related machine operators,0,2002200662,"Jalkineiden, laukkujen ym. teolliset valmistajat",Profesiona Code,Provider,1970-01-01,2099-12-31
+8269,"Textile-, fur- and leather-products machine operators not elsewhere classified",0,2002200663,"Muut tekstiili-, turkis- ja nahkatuotteiden teolliset valmistajat",Profesiona Code,Provider,1970-01-01,2099-12-31
+827,Food and tobacco products machine operators,0,2002200664,Elintarvikkeiden ja tupakkatuotteiden teolliset valmistajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+8271,Meat- and fish-processing-machine operators,0,2002200665,Liha- ja kalajalosteiden teolliset valmistajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+8272,Dairy-products machine operators,0,2002200666,Maitotaloustuotteiden teolliset valmistajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+8273,Grain- and spice-milling-machine operators,0,2002200667,Jauhotuotteiden ja mausteiden teolliset valmistajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+8274,"Baked-goods, cereal- and chocolate-products machine operators",0,2002200668,Leipomo- ja suklaatuotteiden teolliset valmistajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+8275,"Fruit-, vegetable- and nut-processing-machine operators",0,2002200669,"Hedelm‰-, vihannes- ym. tuotteiden teolliset valmistajat",Profesiona Code,Provider,1970-01-01,2099-12-31
+8276,Sugar production machine operators,0,2002200670,Sokerin teolliset valmistajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+8277,"Tea-, coffee- and cocoa-processing-machine operators",0,2002200671,"Teen, kahvin ja kaakaon teolliset valmistajat",Profesiona Code,Provider,1970-01-01,2099-12-31
+8278,"Brewers, wine and other beverage machine operators",0,2002200672,"Oluen, viinin ja muiden juomien teolliset valmistajat",Profesiona Code,Provider,1970-01-01,2099-12-31
+8279,Tobacco production machine operators,0,2002200673,Tupakkatuotteiden teolliset valmistajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+828,Assemblers,0,2002200674,Teollisuustuotteiden kokoonpanijat,Profesiona Code,Provider,1970-01-01,2099-12-31
+8281,Mechanical-machinery assemblers,0,2002200675,Konepaja- ja metallituotteiden kokoonpanijat,Profesiona Code,Provider,1970-01-01,2099-12-31
+8282,Electrical-equipment assemblers,0,2002200676,S‰hkˆlaitteiden kokoonpanijat,Profesiona Code,Provider,1970-01-01,2099-12-31
+8283,Electronic-equipment assemblers,0,2002200677,Elektronisten laitteiden kokoonpanijat,Profesiona Code,Provider,1970-01-01,2099-12-31
+8284,"Metal-, rubber- and plastic-products assemblers",0,2002200678,"Metalli-, kumi- ja muovituotteiden teolliset kokoonpanijat",Profesiona Code,Provider,1970-01-01,2099-12-31
+8285,Wood and related products assemblers,0,2002200679,Puu- ym. tuotteiden teolliset kokoonpanijat,Profesiona Code,Provider,1970-01-01,2099-12-31
+8286,"Paperboard, textile and related products assembler",0,2002200680,"Kartonki-, tekstiili- ym. tuotteiden teolliset kokoonpanijat",Profesiona Code,Provider,1970-01-01,2099-12-31
+829,Other machine operators nor elsewhere classified,0,2002200681,Muut teolliset valmistajat ja kokoonpanijat,Profesiona Code,Provider,1970-01-01,2099-12-31
+8290,Other machine operators not elsewhere classified,0,2002200682,Muut teolliset valmistajat ja kokoonpanijat,Profesiona Code,Provider,1970-01-01,2099-12-31
+83,Drivers and related water traffic operators,0,2002200683,"Kuljettajat, vesiliikennetyˆntekij‰t ym.",Profesiona Code,Provider,1970-01-01,2099-12-31
+831,Locomotive engine drivers and related workers,0,2002200684,Veturin- ja moottorivaununkuljettajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+8311,Locomotive engine drivers,0,2002200685,Veturin- ja moottorivaununkuljettajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+8312,"Railway brakers, signallers and shunters",0,2002200686,Vaihdetyˆhenkilˆstˆ,Profesiona Code,Provider,1970-01-01,2099-12-31
+832,Motor vehicle drivers,0,2002200687,Moottoriajoneuvojen kuljettajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+8321,Motorcycle drivers,0,2002200688,Moottoripyˆr‰l‰hetit ym.,Profesiona Code,Provider,1970-01-01,2099-12-31
+8322,"Car, taxi and van drivers",0,2002200689,Henkilˆ- ja pakettiautonkuljettajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+8323,Bus and tram drivers,0,2002200690,Linja-auton- ja raitiovaununkuljettajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+8324,Heavy truck and lorry drivers,0,2002200691,Kuorma-auton ja erikoisajoneuvojen kuljettajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+833,Mobile-plant operators,0,2002200692,Tyˆkoneiden kuljettajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+8331,Motorised farm and forestry plant operators,0,2002200693,Maa- ja mets‰taloustyˆkoneiden kuljettajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+8332,Earth-moving and related plant operators,0,2002200694,Maanrakennus- ym. koneiden kuljettajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+8333,"Crane, hoist and related plant operators",0,2002200695,Nosturinkuljettajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+8334,Lifting-truck operators,0,2002200696,Trukin- ja siirtokoneenkuljettajat,Profesiona Code,Provider,1970-01-01,2099-12-31
+834,Ships&#39; deck and engine crews and related workers,0,2002200697,Kansi- ja konemiehistˆ ym. vesiliikenteen tyˆntekij‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+8340,Ships&#39; deck and engine crews and related workers,0,2002200698,Kansi- ja konemiehistˆ ym. vesiliikenteen tyˆntekij‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+9,Elementary occupations,0,2002200699,Muut tyˆntekij‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+91,Sales and services elementary occupations,0,2002200700,Muut palvelutyˆntekij‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+911,Street vendors and related workers,0,2002200701,Katu- ja kotimyyj‰t ym.,Profesiona Code,Provider,1970-01-01,2099-12-31
+9111,Street vendors and related workers,0,2002200702,Katumyyj‰t ym.,Profesiona Code,Provider,1970-01-01,2099-12-31
+9113,Door-to-door and telephone salespersons,0,2002200703,Puhelinmyyj‰t ja kotimyyj‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+912,Shoe cleaning and other street services elementary occupations,0,2002200704,Keng‰nkiillottajat ym.,Profesiona Code,Provider,1970-01-01,2099-12-31
+9120,Shoe cleaning and other street services elementary occupations,0,2002200705,Keng‰nkiillottajat ym.,Profesiona Code,Provider,1970-01-01,2099-12-31
+913,"Hospital, domestic, kitchen and related helpers, cleaners",0,2002200706,"Sairaala-, hoito- ja keittiˆapulaiset, siivoojat ym.",Profesiona Code,Provider,1970-01-01,2099-12-31
+9131,Domestic helpers and cleaners,0,2002200707,Kotiapulaiset ym.,Profesiona Code,Provider,1970-01-01,2099-12-31
+9132,"Hospital, domestic and kitchen helpers, cleaners",0,2002200708,"Sairaala-, hoito- ja keittiˆapulaiset sek‰ siivoojat",Profesiona Code,Provider,1970-01-01,2099-12-31
+91321,Assistant nurses and hospital ward assistants,0,2002200709,Sairaala- ja hoitoapulaiset,Profesiona Code,Provider,1970-01-01,2099-12-31
+91322,Cleaners,0,2002200710,Siivoojat,Profesiona Code,Provider,1970-01-01,2099-12-31
+91323,Kitchen helpers,0,2002200711,Keittiˆapulaiset,Profesiona Code,Provider,1970-01-01,2099-12-31
+9133,Hand-launderers and pressers,0,2002200712,Puhdistajat ja pr‰ss‰‰j‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+914,"Building caretakers, window and related cleaners",0,2002200713,"Kiinteistˆtyˆntekij‰t, ikkunanpesij‰t ym.",Profesiona Code,Provider,1970-01-01,2099-12-31
+9141,Building caretakers,0,2002200714,Kiinteistˆhuoltomiehet,Profesiona Code,Provider,1970-01-01,2099-12-31
+9142,"Vehicle, window and related cleaners",0,2002200715,Ajoneuvojen ja ikkunoiden pesij‰t ym.,Profesiona Code,Provider,1970-01-01,2099-12-31
+915,"Messengers, doorkeepers and related workers",0,2002200716,"L‰hetit, ovenvartijat ja mittareiden lukijat",Profesiona Code,Provider,1970-01-01,2099-12-31
+9151,Newspaper and advertisement deliverers and messengers,0,2002200717,Sanomalehtien ja mainosten jakajat ja l‰hetit,Profesiona Code,Provider,1970-01-01,2099-12-31
+9152,"Doorkeepers, watchpersons and related workers",0,2002200718,Ovenvartijat ja vahtimestarit,Profesiona Code,Provider,1970-01-01,2099-12-31
+9153,"Vending-machine money collectors, meter readers and related workers",0,2002200719,S‰hkˆ- ja vesimittareiden lukijat ym.,Profesiona Code,Provider,1970-01-01,2099-12-31
+916,Garbage collectors and related labourers,0,2002200720,Puhdistustyˆntekij‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+9161,Garbage collectors,0,2002200721,J‰te- ja kaatopaikkatyˆntekij‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+9162,Sweepers and related labourers,0,2002200722,Kadunlakaisijat ym.,Profesiona Code,Provider,1970-01-01,2099-12-31
+92,"Agricultural, fishery and related labourers",0,2002200723,Maa- ja mets‰talouden avustavat tyˆntekij‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+921,"Agricultural, fishery and related labourers",0,2002200724,Maa- ja mets‰talouden avustavat tyˆntekij‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+9210,"Agricultural, fishery and related labourers",0,2002200725,Maa- ja mets‰talouden avustavat tyˆntekij‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+93,Labourers in manufacturing and construction,0,2002200726,Teollisuuden ja rakentamisen avustavat tyˆntekij‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+931,Mining and construction labourers,0,2002200727,Kaivos- ja rakennusalan ym. alojen avustavat tyˆntekij‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+9311,Mining and quarrying labourers,0,2002200728,Kaivosten avustavat tyˆntekij‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+9312,"Construction and maintenance labourers: roads, dams and similar constructions",0,2002200729,Maa- ja vesirakennusalan avustavat tyˆntekij‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+9313,Building construction labourers,0,2002200730,Rakennusalan avustavat tyˆntekij‰t,Profesiona Code,Provider,1970-01-01,2099-12-31
+932,Manufacturing labourers,0,2002200731,Pakkaajat ja muut avustavat teollisuustyˆntekij‰t ym.,Profesiona Code,Provider,1970-01-01,2099-12-31
+9320,Manufacturing labourers,0,2002200732,"Pakkaajat, lajittelijat ym.",Profesiona Code,Provider,1970-01-01,2099-12-31
+933,Transport labourers and freight handlers,0,2002200733,"Rahdink‰sittelij‰t, varastotyˆntekij‰t ym.",Profesiona Code,Provider,1970-01-01,2099-12-31
+9330,Transport labourers and freight handlers,0,2002200734,"Rahdink‰sittelij‰t, varastotyˆntekij‰t ym.",Profesiona Code,Provider,1970-01-01,2099-12-31
+0,Armed forces,0,2002200735,Sotilaat,Profesiona Code,Provider,1970-01-01,2099-12-31
+01,Armed forces,0,2002200736,Sotilaat,Profesiona Code,Provider,1970-01-01,2099-12-31
+011,Armed forces,0,2002200737,Sotilaat,Profesiona Code,Provider,1970-01-01,2099-12-31
+0110,Armed forces,0,2002200738,Sotilaat,Profesiona Code,Provider,1970-01-01,2099-12-31
+01101,Officers,0,2002200739,Upseerit,Profesiona Code,Provider,1970-01-01,2099-12-31
+01102,Special officers,0,2002200740,Erikoisupseerit,Profesiona Code,Provider,1970-01-01,2099-12-31
+01103,Warrant officers,0,2002200741,Opistoupseerit,Profesiona Code,Provider,1970-01-01,2099-12-31
+01104,Military special personnel,0,2002200742,Sotilasammattihenkilˆstˆ,Profesiona Code,Provider,1970-01-01,2099-12-31
+01105,Conscripts,0,2002200743,Varusmiehet,Profesiona Code,Provider,1970-01-01,2099-12-31
+X,Unknown,0,2002200744,Tuntematon,Profesiona Code,Provider,1970-01-01,2099-12-31
+XX,Unknown,0,2002200745,Tuntematon,Profesiona Code,Provider,1970-01-01,2099-12-31
+XXX,Unknown,0,2002200746,Tuntematon,Profesiona Code,Provider,1970-01-01,2099-12-31
+XXXX,Unknown,0,2002200747,Tuntematon,Profesiona Code,Provider,1970-01-01,2099-12-31
+XXXXX,Unknown,0,2002200748,Tuntematon,Profesiona Code,Provider,1970-01-01,2099-12-31

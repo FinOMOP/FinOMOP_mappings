@@ -1,0 +1,830 @@
+SOURCE	Location	Original_variable_name_fi	Original_variable_name_en	Code	name_fi	name_en	valid_start_date	valid_end_date
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE5	PALA/Palveluala	Service sector	1	Sairaalan vuodeosasto / terveyskeskuksen vuodeosastohoito	Hospital / health center ward	34700	43465
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE5	PALA/Palveluala	Service sector	2	Päiväkirurgia	Day surgery	34700	43465
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE5	PALA/Palveluala	Service sector	31	Iäkkäiden laitospalvelu	Institutional service for the elderly	34700	73050
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE5	PALA/Palveluala	Service sector	32	Iäkkäiden tehostettu palveluasuminen	Enhanced service housing for the elderly	34700	73050
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE5	PALA/Palveluala	Service sector	33	Dementoituneen laitoshoito	Institutional care for the demented	38718	44561
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE5	PALA/Palveluala	Service sector	34	Dementoituneen tehostettu eli ympärivuorokautinen palveluasuminen	Enhanced, ie 24h per day, for the demented	38718	44561
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE5	PALA/Palveluala	Service sector	38	Iäkkäiden palveluasuminen	Service housing for the elderly	44562	73050
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE5	PALA/Palveluala	Service sector	41	Kehitysvammaisten laitospalvelu	Institutional service for the mentally handicapped	34700	73050
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE5	PALA/Palveluala	Service sector	42	Kehitysvammaisten tehostettu palveluasuminen	Enhanced service housing for the mentally handicapped	34700	73050
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE5	PALA/Palveluala	Service sector	43	Kehitysvammaisten palveluasuminen	Service housing for the mentally handicapped	34700	73050
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE5	PALA/Palveluala	Service sector	44	Kehitysvammaisten tuettu asuminen	Supported housing for the mentally handicapped	34700	73050
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE5	PALA/Palveluala	Service sector	5	Päihdehuollon laitospalvelu	Substance abuse treatment facility service	34700	73050
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE5	PALA/Palveluala	Service sector	6	Kuntoutuslaitoshoito	Rehabilitation facility care	34700	44561
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE5	PALA/Palveluala	Service sector	7	Kotihoito	domiciliary care	34700	44561
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE5	PALA/Palveluala	Service sector	8	Muu palveluala	Other service sector	34700	40543
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE5	PALA/Palveluala	Service sector	81	Palveluasuminen	Service housing	34700	44561
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE5	PALA/Palveluala	Service sector	82	Mielenterveyskuntoutujien palveluasuminen	Service housing for mental health rehabilitators	34700	73050
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE5	PALA/Palveluala	Service sector	83	Päiväsairaalahoito	day care	34700	44561
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE5	PALA/Palveluala	Service sector	84	Vaikeavammaisten tehostettu palveluasuminen	Enhanced service housing for the severely disabled	38718	73050
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE5	PALA/Palveluala	Service sector	85	Mielenterveyskuntoutujien tehostettu palveluasuminen	Enhanced service housing for mental health rehabilitators	38718	73050
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE5	PALA/Palveluala	Service sector	86	Vanhainkodin/ palvelukeskuksen vanhusten päivähoito	Day care for the elderly in a nursing home / service center	39083	44561
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE5	PALA/Palveluala	Service sector	88	Vaikeavammaisten palveluasuminen	Service housing for the severely disabled	44562	73050
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE5	PALA/Palveluala	Service sector	91	Päivystyskäynti	Emergency visit	34700	43465
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE5	PALA/Palveluala	Service sector	92	Ajanvarauskäynti, ensikäynti	Appointment visit, first visit	34700	43465
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE5	PALA/Palveluala	Service sector	93	Ajanvarauskäynti, uusintakäynti	Appointment visit, repeat visit	34700	43465
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE5	PALA/Palveluala	Service sector	94	Konsultaatiokäynti	Consultation visit	34700	43465
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE6	EA/Erikoisala	Speciality	10	Sisätaudit	Internal medicine	34335	73050
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE6	EA/Erikoisala	Speciality	10A	Sisätautien allergologia	Allergology of internal medicine	34335	73050
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE6	EA/Erikoisala	Speciality	10E	Sisätautien endokrinologia	Endocrinology of internal medicine	34335	73050
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE6	EA/Erikoisala	Speciality	10F	Geriatria  (sisätaudit)	Geriatrics (internal medicine)	34335	73050
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE6	EA/Erikoisala	Speciality	10G	Sisätautien gastroenterologia	Gastroenterology of internal medicine	34335	73050
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE6	EA/Erikoisala	Speciality	10H	Kliininen hematologia	Clinical Hematology	34335	73050
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE6	EA/Erikoisala	Speciality	10I	Infektiosairaudet	Infectious diseases	34335	73050
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE6	EA/Erikoisala	Speciality	10K	Kardiologia	Cardiology	34335	73050
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE6	EA/Erikoisala	Speciality	10M	Nefrologia	Renal diseases; nephrology	34335	73050
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE6	EA/Erikoisala	Speciality	10R	Reumatologia	Rheumatology	34335	73050
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE6	EA/Erikoisala	Speciality	11	Anestesiologia ja tehohoito	Anesthesiology; anaesthetics and intensive care	34335	73050
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE6	EA/Erikoisala	Speciality	15	Akuuttilääketiede	Emergency medicine	41275	73050
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE6	EA/Erikoisala	Speciality	15E	Akuuttilääketiede/erikoissairaanhoito	Emergency medicine / Specialised health care	41275	73050
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE6	EA/Erikoisala	Speciality	15Y	Akuuttilääketiede/yleislääketiede	Emergency medicine / Primary care medicine	41275	73050
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE6	EA/Erikoisala	Speciality	20	Kirurgia	Surgery	34335	73050
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE6	EA/Erikoisala	Speciality	20G	Gastroenterologinen kirurgia	Gastroenterological surgery	34335	73050
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE6	EA/Erikoisala	Speciality	20J	Käsikirurgia	Hand surgery	34335	73050
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE6	EA/Erikoisala	Speciality	20L	Lastenkirurgia	Paediatric surgery	34335	73050
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE6	EA/Erikoisala	Speciality	20O	Ortopedia ja traumatologia	Orthopaedics and traumatology	34335	73050
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE6	EA/Erikoisala	Speciality	20P	Plastiikkakirurgia	Plastic surgery	34335	73050
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE6	EA/Erikoisala	Speciality	20R	Sydän- ja rintaelinkirurgia	Cardiothoracic surgery	34335	73050
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE6	EA/Erikoisala	Speciality	20T	Thorax- ja verisuonikirurgia	Thoracic surgery	34335	39447
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE6	EA/Erikoisala	Speciality	20U	Urologia	Urology	34335	73050
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE6	EA/Erikoisala	Speciality	20V	Verisuonikirurgia	Vascular surgery	34335	73050
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE6	EA/Erikoisala	Speciality	20Y	Yleiskirurgia	General surgery	34335	73050
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE6	EA/Erikoisala	Speciality	25	Neurokirurgia	Neurosurgery; neurological surgery	34335	73050
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE6	EA/Erikoisala	Speciality	30	Naistentaudit ja synnytykset	Gynecology and Obstetrics	34335	73050
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE6	EA/Erikoisala	Speciality	30E	Gynekologinen endokrinologia ja andrologia	Gynecological Endocrinology and Andrology	34335	73050
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE6	EA/Erikoisala	Speciality	30Q	Perinatologia	Perinatology	34335	73050
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE6	EA/Erikoisala	Speciality	30S	Naistentautien sädehoito	Radiation Therapy in Gynecology	34335	73050
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE6	EA/Erikoisala	Speciality	30U	Naistentautien urologia	Urogynecology	34335	73050
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE6	EA/Erikoisala	Speciality	40	Lastentaudit	Paediatrics	34335	73050
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE6	EA/Erikoisala	Speciality	40A	Lasten allergologia	Paediatric Allergology	34335	73050
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE6	EA/Erikoisala	Speciality	40D	Neonatologia	Neonatology	34335	73050
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE6	EA/Erikoisala	Speciality	40E	Lastenendokrinologia	Paediatric Endocrinology	34335	73050
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE6	EA/Erikoisala	Speciality	40G	Lasten gastroenterologia	Paediatric Gastroenterology	34335	73050
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE6	EA/Erikoisala	Speciality	40H	Lasten hematologia	Paediatric hematology	34335	73050
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE6	EA/Erikoisala	Speciality	40I	Lasten infektiosairaudet	Paediatric Infectious Diseases	34335	73050
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE6	EA/Erikoisala	Speciality	40K	Lasten kardiologia	Paediatric Cardiology	34335	73050
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE6	EA/Erikoisala	Speciality	40M	Lasten nefrologia	Paediatric Nephrology	34335	73050
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE6	EA/Erikoisala	Speciality	50	Silmätaudit	Ophthalmology	34335	73050
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE6	EA/Erikoisala	Speciality	50N	Neuro-oftalmologia	Neuro-ophthalmology	34335	73050
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE6	EA/Erikoisala	Speciality	55	Korva-, nenä- ja kurkkutaudit	Ear, nose and throat diseases	34335	73050
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE6	EA/Erikoisala	Speciality	55A	Korva-, nenä ja kurkkutautien allergologia	Allergology of ear, nose and throat diseases	34335	73050
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE6	EA/Erikoisala	Speciality	55B	Audiologia	Audiology	34335	73050
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE6	EA/Erikoisala	Speciality	57	Foniatria	Phoniatrics	34335	73050
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE6	EA/Erikoisala	Speciality	57B	Audiologia (foniatria)	Audiology (Phoniatrics)	34335	73050
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE6	EA/Erikoisala	Speciality	58	Hammas-, suu- ja leukasairaudet	Dental, oral and maxillo-facial diseases	34335	73050
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE6	EA/Erikoisala	Speciality	58V	Suu-ja leukakirurgia	Maxillo-facial surgery	34335	73050
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE6	EA/Erikoisala	Speciality	58X	Hampaiston oikomishoito	Orthodontics	40179	73050
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE6	EA/Erikoisala	Speciality	58Y	Kliininen hammashoito	Clinical dental care	34335	73050
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE6	EA/Erikoisala	Speciality	60	Ihotaudit ja allergologia	Dermatology and Allergology	34335	73050
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE6	EA/Erikoisala	Speciality	60A	Ihotautien allergologia	Dermatological Allergology	34335	73050
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE6	EA/Erikoisala	Speciality	60C	Ammatti-ihotaudit	Occupational skin disease	34335	73050
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE6	EA/Erikoisala	Speciality	65	Syöpätaudit	Malignant tumours?	34335	73050
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE6	EA/Erikoisala	Speciality	70	Psykiatria	Psychiatry	34335	73050
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE6	EA/Erikoisala	Speciality	70F	Geriatrinen psykiatria	Geriatric psychiatry	34335	73050
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE6	EA/Erikoisala	Speciality	70X	Nuorisopsykiatria (psykiatria)	Adolescent psychiatry (psychiatry)	34335	39082
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE6	EA/Erikoisala	Speciality	70Z	Oikeuspsykiatria	Forensic psychiatry	34335	73050
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE6	EA/Erikoisala	Speciality	74	Nuorisopsykiatria	Adolescent psychiatry	37622	73050
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE6	EA/Erikoisala	Speciality	75	Lastenpsykiatria	Child psychiatry	34335	73050
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE6	EA/Erikoisala	Speciality	75X	Nuorisopsykiatria (lastenpsykiatria)	Adolescent psychiatry (Child psychiatry)	34335	39082
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE6	EA/Erikoisala	Speciality	77	Neurologia	Neurology	34335	73050
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE6	EA/Erikoisala	Speciality	77F	Neurologinen geriatria	Neurological geriatry	34335	73050
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE6	EA/Erikoisala	Speciality	78	Lastenneurologia	Paediatric Neurology	34335	73050
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE6	EA/Erikoisala	Speciality	80	Keuhkosairaudet	Respiratory diseases	34335	73050
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE6	EA/Erikoisala	Speciality	80A	Keuhkosairaudet ja allergologia	Respiratory diseases and allergology	34335	73050
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE6	EA/Erikoisala	Speciality	91K	Kliininen farmakologia ja lääkehoito	Clinical pharmacology and pharmacotherapy	44256	73050
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE6	EA/Erikoisala	Speciality	93	Liikuntalääketiede	Sports and Exercise medicine	34335	73050
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE6	EA/Erikoisala	Speciality	94	Perinnöllisyyslääketiede	Medical genetics	34335	73050
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE6	EA/Erikoisala	Speciality	95	Työlääketiede ja työterveyshuolto	Occupational medicine and occupational health services	34335	73050
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE6	EA/Erikoisala	Speciality	96	Fysiatria	Physiatry	34335	73050
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE6	EA/Erikoisala	Speciality	97	Geriatria	Geriatrics	34335	73050
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE6	EA/Erikoisala	Speciality	98	Yleislääketiede	General Medicine	34335	73050
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE7	PALTU/Palveluntuottajan koodi (toimintayksikkökoodi)	Hospital type (Derived from the original)	University Hospital	Yliopistosairaala	University Hospital	NA	NA
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE7	PALTU/Palveluntuottajan koodi (toimintayksikkökoodi)	Hospital type (Derived from the original)	Central Hospital	Keskussairaala	Central Hospital	NA	NA
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE7	PALTU/Palveluntuottajan koodi (toimintayksikkökoodi)	Hospital type (Derived from the original)	Other Hospital	Muu sairaala	Other	NA	NA
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE8	YHTEYSTAPA	Contact type	R10	Asiakkaan käynti vastaanotolla	The customer's visit to the reception	39083	73050
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE8	YHTEYSTAPA	Contact type	R20	Ammattihenkilön käynti asiakkaan kotona	Professional's visit to customer's home	39083	73050
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE8	YHTEYSTAPA	Contact type	R30	Ammattihenkilön käynti asiakkaan työpaikalla	Professional's visit to customer's work place	39083	73050
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE8	YHTEYSTAPA	Contact type	R40	Sairaalakäynti	Hospital visit	39083	43465
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE8	YHTEYSTAPA	Contact type	R41	Ammattihenkilön käynti asiakkaan luona muualla kuin kotona tai työpaikalla	Professional's visit to other than home or work place	43466	73050
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE8	YHTEYSTAPA	Contact type	R50	Puhelinyhteys	Phone connection	39083	43465
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE8	YHTEYSTAPA	Contact type	R51	Sähköinen asiointi	Electronical transaction	39083	43465
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE8	YHTEYSTAPA	Contact type	R52	Reaaliaikainen etäasiointi	Realtime distance transaction	43466	73050
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE8	YHTEYSTAPA	Contact type	R55	Kirje	Letter	39083	43465
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE8	YHTEYSTAPA	Contact type	R56	Etäasiointi ilman reaaliaikaista kontaktia	Distance transaction without a realtime contact	43466	73050
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE8	YHTEYSTAPA	Contact type	R60	Ammattihenkilöiden välinen konsultaatio	Consultation between professionals	39083	73050
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE8	YHTEYSTAPA	Contact type	R70	Asiakirjamerkintä ilman asiakaskontaktia	Document marking without a customer contact	40148	43465
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE8	YHTEYSTAPA	Contact type	R71	Ammattihenkilöiden välinen neuvottelu	Negotiation between professionals	43466	73050
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE8	YHTEYSTAPA	Contact type	R72	Asiakkaan asian hoito	Taking care of the customer's affairs	43466	73050
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE8	YHTEYSTAPA	Contact type	R80	Vuodeosastohoito	Inpatient care	43466	73050
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE8	YHTEYSTAPA	Contact type	R90	Muu asiointi	Other transaction	39083	73050
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE9	KIIRELLISYYS	Urgency	E	Kiireetön hoito	non-urgent treatment	39083	73050
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE9	KIIRELLISYYS	Urgency	K	Kiireellinen hoidon tarve	urgent need for treatment	39083	42004
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE9	KIIRELLISYYS	Urgency	V	Välitön hoidon tarve	immediate need for treatment	39083	42004
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE9	KIIRELLISYYS	Urgency	1	Päivystyskäynti	emergency visit	42005	43465
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE9	KIIRELLISYYS	Urgency	2	1-7 päivää	1-7 days	42005	43465
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE9	KIIRELLISYYS	Urgency	3	Kiireellisenä alkanut vuodeosastohoito	Inpatient treatment started as an emergency	43466	73050
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE9	KIIRELLISYYS	Urgency	4	Kiireettömänä alkanut vuodeosastohoito	Inpatient treatment that started without urgency	43466	73050
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE9	KIIRELLISYYS	Urgency	5	Kiireellinen hoito muussa yksikössä	Urgent treatment in another unit	43466	73050
+INPAT/OUTPAT/OPER_IN/OPER_OUT	CODE9	KIIRELLISYYS	Urgency	6	Hoito päivystysyksikössä	Treatment in the emergency unit	43466	73050
+PRIM_OUT	CODE5	KAYNTI_YHTEYSTAPA	Contact type	R10	Asiakkaan käynti vastaanotolla	The customer's visit to the reception	39083	73050
+PRIM_OUT	CODE5	KAYNTI_YHTEYSTAPA	Contact type	R20	Ammattihenkilön käynti asiakkaan kotona	Professional's visit to customer's home	39083	73050
+PRIM_OUT	CODE5	KAYNTI_YHTEYSTAPA	Contact type	R30	Ammattihenkilön käynti asiakkaan työpaikalla	Professional's visit to customer's work place	39083	73050
+PRIM_OUT	CODE5	KAYNTI_YHTEYSTAPA	Contact type	R40	Sairaalakäynti	Hospital visit	39083	43465
+PRIM_OUT	CODE5	KAYNTI_YHTEYSTAPA	Contact type	R41	Ammattihenkilön käynti muualla kuin kotona tai työ	Professional's visit to other than home or work place	43466	73050
+PRIM_OUT	CODE5	KAYNTI_YHTEYSTAPA	Contact type	R50	Puhelinyhteys	Phone connection	39083	43465
+PRIM_OUT	CODE5	KAYNTI_YHTEYSTAPA	Contact type	R51	Sähköinen asiointi	Electronical transaction	39083	43465
+PRIM_OUT	CODE5	KAYNTI_YHTEYSTAPA	Contact type	R52	Reaaliaikainen etäasiointi	Realtime distance transaction	43466	73050
+PRIM_OUT	CODE5	KAYNTI_YHTEYSTAPA	Contact type	R55	Kirje	Letter	39083	43465
+PRIM_OUT	CODE5	KAYNTI_YHTEYSTAPA	Contact type	R56	Etäasiointi ilman reaaliaikaista kontaktia	Distance transaction without a realtime contact	43466	73050
+PRIM_OUT	CODE5	KAYNTI_YHTEYSTAPA	Contact type	R60	Ammattihenkilöiden välinen konsultaatio	Consultation between professionals	39083	73050
+PRIM_OUT	CODE5	KAYNTI_YHTEYSTAPA	Contact type	R70	Asiakirjamerkintä ilman asiakaskontaktia	Document marking without a customer contact	40148	43465
+PRIM_OUT	CODE5	KAYNTI_YHTEYSTAPA	Contact type	R71	Ammattihenkilöiden välinen neuvottelu	Negotiation between professionals	43466	73050
+PRIM_OUT	CODE5	KAYNTI_YHTEYSTAPA	Contact type	R72	Asiakkaan asian hoito	Taking care of the customer's affairs	43466	73050
+PRIM_OUT	CODE5	KAYNTI_YHTEYSTAPA	Contact type	R80	Vuodeosastohoito	Inpatient care	43466	73050
+PRIM_OUT	CODE5	KAYNTI_YHTEYSTAPA	Contact type	R90	Muu asiointi	Other transaction	39083	73050
+PRIM_OUT	CODE6	KAYNTI_PALVELUMUOTO	Service type	T11	Avosairaanhoito	Non-institutional health care	39083	47848
+PRIM_OUT	CODE6	KAYNTI_PALVELUMUOTO	Service type	T21	Äitiysneuvola	Prenatal clinic	39083	47848
+PRIM_OUT	CODE6	KAYNTI_PALVELUMUOTO	Service type	T22	Lastenneuvola	Child health clinic	39083	47848
+PRIM_OUT	CODE6	KAYNTI_PALVELUMUOTO	Service type	T23	Perhesuunnittelu-/ehkäisyneuvola	Family planning -/ contraceptive counselling	39083	47848
+PRIM_OUT	CODE6	KAYNTI_PALVELUMUOTO	Service type	T24	Muut neuvolapalvelut	Other guidance centre services	39083	47848
+PRIM_OUT	CODE6	KAYNTI_PALVELUMUOTO	Service type	T25	Kasvatus- ja perheneuvola	Child guidance and family counselling centre	41275	47848
+PRIM_OUT	CODE6	KAYNTI_PALVELUMUOTO	Service type	T26	Kouluterveydenhuolto	School health service	39083	47848
+PRIM_OUT	CODE6	KAYNTI_PALVELUMUOTO	Service type	T27	Opiskeluterveydenhuolto	Student health service	39083	47848
+PRIM_OUT	CODE6	KAYNTI_PALVELUMUOTO	Service type	T28	Seulonnat ja muut joukkotarkastukset	Screenings and other mass inspections	39083	47848
+PRIM_OUT	CODE6	KAYNTI_PALVELUMUOTO	Service type	T29	Muu terveydenhoito	Other health care	39083	47848
+PRIM_OUT	CODE6	KAYNTI_PALVELUMUOTO	Service type	T30	Lakisääteinen työterveyshuolto	Statutory employee health service	39083	47848
+PRIM_OUT	CODE6	KAYNTI_PALVELUMUOTO	Service type	T31	Ei-lakisääteinen työterveyshuolto	Non-statutory employee health service	39083	47848
+PRIM_OUT	CODE6	KAYNTI_PALVELUMUOTO	Service type	T35	Merimiesterveydenhuolto	Sailors' healthcare	39083	47848
+PRIM_OUT	CODE6	KAYNTI_PALVELUMUOTO	Service type	T40	Kotihoito	Domiciliary care	39083	47848
+PRIM_OUT	CODE6	KAYNTI_PALVELUMUOTO	Service type	T41	Kotisairaanhoito	Home nursing	39083	47848
+PRIM_OUT	CODE6	KAYNTI_PALVELUMUOTO	Service type	T42	Kotipalvelu	Home service	39083	47848
+PRIM_OUT	CODE6	KAYNTI_PALVELUMUOTO	Service type	T43	Kotisairaala	At-home hospital	43101	47848
+PRIM_OUT	CODE6	KAYNTI_PALVELUMUOTO	Service type	T51	Fysioterapia	Physiotherapy	39083	47848
+PRIM_OUT	CODE6	KAYNTI_PALVELUMUOTO	Service type	T52	Apuvälinepalvelu	Aid service	39083	47848
+PRIM_OUT	CODE6	KAYNTI_PALVELUMUOTO	Service type	T53	Puheterapia	Speech therapy	39083	47848
+PRIM_OUT	CODE6	KAYNTI_PALVELUMUOTO	Service type	T54	Toimintaterapia	Occupational therapy	39083	47848
+PRIM_OUT	CODE6	KAYNTI_PALVELUMUOTO	Service type	T55	Jalkaterapia	Foot therapy	39083	47848
+PRIM_OUT	CODE6	KAYNTI_PALVELUMUOTO	Service type	T56	Ravitsemusterapia	Nutritional therapy	39083	47848
+PRIM_OUT	CODE6	KAYNTI_PALVELUMUOTO	Service type	T58	Terveyssosiaalityö	Health social work	40909	47848
+PRIM_OUT	CODE6	KAYNTI_PALVELUMUOTO	Service type	T59	Muu kuntoutus ja erityisterapia	Other rehabilitation and special therapy	39083	47848
+PRIM_OUT	CODE6	KAYNTI_PALVELUMUOTO	Service type	T60	Suun terveydenhuolto	Oral health care	39083	47848
+PRIM_OUT	CODE6	KAYNTI_PALVELUMUOTO	Service type	T71	Mielenterveystyö	Mental health work	39083	47848
+PRIM_OUT	CODE6	KAYNTI_PALVELUMUOTO	Service type	T73	Päihdetyö	Drug prevention	39083	47848
+PRIM_OUT	CODE6	KAYNTI_PALVELUMUOTO	Service type	T80	Päivätoiminta	Day provision	39083	47848
+PRIM_OUT	CODE6	KAYNTI_PALVELUMUOTO	Service type	T81	Päiväsairaalatoiminta	Day hospital provision	39083	47848
+PRIM_OUT	CODE6	KAYNTI_PALVELUMUOTO	Service type	T90	Muu palvelutoiminta	Other service provision	39083	47848
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'1'	Johtajat ja ylimm‰t virkamiehet	Legislators, senior officials and managers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'11'	Ylimm‰t virkamiehet ja j‰rjestˆjen johtajat	Legislators and senior officials	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'111'	Ylimm‰t virkamiehet	Legislators and senior government officers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'1110'	Ylimm‰t virkamiehet	Legislators and senior government officers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'11101'	Valtion keskushallinnon johtajat	Senior central government officials	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'11102'	Valtion piiri- ja paikallishallinnon johtajat	Senior district and local government officials	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'11103'	Kuntien ja kaupunkien johtajat	Senior local administration officials	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'114'	J‰rjestˆjen johtajat	Senior officials of special-interest organisations	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'1141'	Puolueiden johtajat	Senior officials of political party organisations	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'1142'	Tyˆmarkkina- ja elinkeinoel‰m‰n j‰rjestˆjen johtajat	Senior officials of employers&#39;, workers&#39; and other economic-interest organisations	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'1143'	Muiden j‰rjestˆjen johtajat	Senior officials of humanitarian and other special-interest organisations	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'12'	Yritysten ja muiden toimintayksikˆiden johtajat	Corporate managers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'121'	P‰‰johtajat ja toimitusjohtajat	Directors and chief executives	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'1210'	P‰‰johtajat ja toimitusjohtajat	Directors and chief executives	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'122'	Tuotanto- ja linjajohtajat	Production and operations managers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'1221'	Maa- ja mets‰talouden johtajat	Production and operations managers in agriculture, hunting, forestry and fishing	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'1222'	Teollisuuden tuotantojohtajat	Production and operations managers in manufacturing	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'1223'	Rakennusalan tuotantojohtajat	Production and operations managers in construction	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'1224'	Kaupan ym. johtajat	Production and operations managers in wholesale and retail trade	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'1225'	Hotellinjohtajat ja ravintolap‰‰llikˆt	Production and operations managers in restaurants and hotels	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'1226'	Kuljetuksen, varastoinnin ja tietoliikenteen johtajat	Production and operations managers in transport, storage and communications	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'12261'	Laivan p‰‰llikˆt (iso alus)	Ships&#39; officers (large ship)	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'12269'	Muut kuljetuksen, varastoinnin ja tietoliikenteen johtajat	Other production and operations managers in transport, storage and communications	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'1227'	Yrityspalvelu- ym. yritysten johtajat	Production and operations managers in business services enterprises	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'1228'	Siivous- ja kauneudenhoitoalan ym. alojen johtajat	Production and operations managers in personal care, cleaning and related services	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'1229'	Muiden yritysten ja toimintayksikˆiden johtajat	Production and operations managers not elsewhere classified	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'12291'	Opetusalan johtajat ja rehtorit	Education managers and headmasters and headmistresses	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'12292'	Sosiaali- ja terveydenhuoltoalan johtajat	Health and social services managers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'12293'	Liikunta- ja vapaa-aikatoiminnan johtajat	Recreational and leisure services managers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'12294'	Kulttuurijohtajat	Cultural services managers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'12299'	Muut tuotanto- ja linjajohtajat	Other production and operations managers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'123'	Asiantuntijajohtajat	Other specialist managers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'1231'	Talous- ja hallintojohtajat	Finance and administration managers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'1232'	Henkilˆstˆjohtajat	Personnel and industrial relations managers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'1233'	Myynti- ja markkinointijohtajat	Sales and marketing managers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'1234'	Mainos- ja tiedotusjohtajat	Advertising and public relations managers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'1235'	Osto- ja varastop‰‰llikˆt	Supply and distribution managers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'1236'	Tietotekniikkajohtajat	Computing services managers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'1237'	Tutkimus- ja kehitysjohtajat	Research and development managers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'1239'	Muut asiantuntijajohtajat	Other specialist managers not elsewhere classified	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'13'	Pienyritysten johtajat	Managers of small enterprises	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'131'	Pienyritysten johtajat	Managers of small enterprises	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'1311'	Maa- ja mets‰talousalan pienyritysten johtajat	Managers of small enterprises in agriculture, hunting, forestry and fishing	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'1312'	Pienteollisuuden johtajat	Managers of small enterprises in manufacturing	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'1313'	Rakennusalan pienyritysten johtajat	Managers of small enterprises in construction	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'1314'	Kaupan ym. alojen pienyritysten johtajat	Managers of small enterprises in wholesale and retail trade	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'1315'	Hotelli- ja ravintola-alan pienyritysten johtajat	Managers of small enterprises of restaurants and hotels	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'1316'	Kuljetuksen, varastoinnin ja tietoliikenteen pienyritysten johtajat	Managers of small enterprises in transport, storage and communications	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'1317'	Yrityspalvelutoiminnan pienyritysten johtajat	Managers of small enterprises of business services enterprises	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'1318'	Siivous- ja kauneudenhoitoalan ym. pienyritysten johtajat	Managers of small enterprises in personal care, cleaning and related services	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'1319'	Muut pienyritysten johtajat	Managers of small enterprises not elsewhere classified	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'2'	Erityisasiantuntijat	Professionals	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'21'	Matemaattis-luonnontieteelliset ja tekniikan erityisasiantuntijat	Physical, mathematical and engineering science professionals	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'211'	Fysiikan ja kemian erityisasiantuntijat	Physicists, chemists and related professionals	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'2111'	Fyysikot ja astronomit	Physicists and astronomers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'2112'	Meteorologit	Meteorologists	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'2113'	Kemistit	Chemists	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'2114'	Geologit ja geofyysikot	Geologists and geophysicists	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'212'	Matematiikan ja tilastotieteen erityisasiantuntijat	Mathematicians, statisticians and related professionals	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'2121'	Matematiikan erityisasiantuntijat	Mathematicians and related professionals	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'2122'	Tilastotieteen erityisasiantuntijat	Statistical professionals	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'213'	Tietotekniikan erityisasiantuntijat	Computing professionals	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'2131'	Tietotekniikan suunnittelijat ja ohjelmoijat	Computer systems designers, analysts and programmers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'2139'	Muut tietotekniikan erityisasiantuntijat	Computing professionals not elsewhere classified	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'214'	Arkkitehdit ja muut tekniikan erityisasiantuntijat	Architects and engineering science professionals	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'2141'	Talonrakennusalan erityisasiantuntijat	Architects, town and traffic planners	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'2142'	Maank‰ytˆn ja yhdyskuntarakentamisen erityisasiantuntijat	Civil engineers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'2143'	S‰hkˆtekniikan erityisasiantuntijat	Electrical engineers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'2144'	Elektroniikan ja informaatiotekniikan erityisasiantuntijat	Electronics and telecommunications engineers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'2145'	Konetekniikan erityisasiantuntijat	Mechanical engineers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'2146'	Puunjalostuksen ja kemian prosessitekniikan erityisasiantuntijat	Chemical engineers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'2147'	Vuoriteollisuuden prosessitekniikan erityisasiantuntijat	Mining engineers, metallurgists and related professionals	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'2148'	Kartoituksen ja maanmittauksen erityisasiantuntijat	Cartographers and surveyors	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'2149'	Muut tekniikan erityisasiantuntijat	Architects, engineers and related professionals not elsewhere classified	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'22'	Maa- ja mets‰taloustieteiden ja terveydenhuollon erityisasiantuntijat	Life science and health professionals	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'221'	Maa- ja mets‰taloustieteiden ym. erityisasiantuntijat	Life science professionals	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'2211'	Biologit, kasvitieteilij‰t, el‰intieteilij‰t ym.	Biologists, botanists, zoologists and related professionals	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'2212'	Farmakologit, patologit ym.	Pharmacologists, pathologists and related professionals	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'22121'	Farmakologit, biokemistit ym.	Pharmacologists, biochemists and related professionals	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'22122'	Patologit	Pathologists	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'2213'	Maa- ja mets‰talouden erityisasiantuntijat	Agronomists and related professionals	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'22131'	Maatalous-, puutarha- ja kalatalousalan erityisasiantuntijat	Agronomists, horticulturists and fishery professionals	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'22132'	Mets‰alan erityisasiantuntijat	Forestry professionals	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'222'	L‰‰k‰rit, proviisorit ja muut terveydenhuollon erityisasiantuntijat	Health professionals (except nursing)	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'2221'	L‰‰k‰rit	Medical doctors	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'22211'	Ylil‰‰k‰rit	Senior physicians	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'22212'	Erikoisl‰‰k‰rit ja osastonl‰‰k‰rit	Specialists and ward physicians	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'22213'	Muut l‰‰k‰rit	Other medical doctors	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'2222'	Hammasl‰‰k‰rit	Dentists	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'2223'	El‰inl‰‰k‰rit	Veterinarians	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'2224'	Proviisorit	Qualified chemists	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'2229'	Muut terveydenhuollon erityisasiantuntijat	Health professionals (except nursing) not elsewhere classified	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'223'	Ylihoitajat ja osastonhoitajat	Matrons and ward sisters	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'2230'	Ylihoitajat ja osastonhoitajat	Matrons and ward sisters	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'22301'	Ylihoitajat	Matrons	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'22302'	Osastonhoitajat	Ward sisters	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'23'	Opettajat ja muut opetusalan erityisasiantuntijat	Teaching professionals	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'231'	Yliopisto- ja korkeakouluopettajat	College, university and higher education teaching professionals	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'2310'	Yliopisto- ja korkeakouluopettajat	College, university and higher education teaching professionals	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'23101'	Professorit	Professors	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'23102'	Lehtorit ja yliassistentit	Lecturers and senior assistants	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'23103'	Assistentit ja tuntiopettajat	Assistants and part-time lecturers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'232'	Aineenopettajat ja lehtorit	Secondary education teaching professionals	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'2321'	Peruskoulun ja lukion lehtorit ja tuntiopettajat	Secondary education teaching professionals	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'23211'	Matemaattisten aineiden opettajat	Teachers in mathematical subjects	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'23212'	ƒidinkielenopettajat	Native language teachers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'23213'	Kieltenopettajat	Foreign language teachers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'23214'	Humanististen ja luonnontieteellisten aineiden opettajat	Arts and science teachers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'23215'	Taito- ja taideaineiden opettajat	Crafts and art teachers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'23219'	Muut peruskoulun ja lukion lehtorit ja tuntiopettajat	Other secondary education teaching professionals	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'2322'	Ammattikorkeakoulujen ja ammatillisten oppilaitosten opettajat	College and polytechnic education teaching professionals	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'23221'	Ammattikorkeakoulujen yliopettajat ja lehtorit	College and polytechnic head teachers and lectures	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'23222'	Ammatillisten oppilaitosten lehtorit	Vocational and professional education institution lecturers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'2323'	Muiden oppilaitosten opettajat sek‰ yksityisopettajat	Teaching professionals not elsewhere classified	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'233'	Luokanopettajat ja lastentarhanopettajat	Primary and pre-primary education teaching professionals	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'2331'	Luokanopettajat	Primary education teaching professionals	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'2332'	Lastentarhanopettajat	Pre-primary education teaching professionals	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'234'	Erityisopettajat	Special education teaching professionals	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'2340'	Erityisopettajat	Special education teaching professionals	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'235'	Muut opetusalan erityisasiantuntijat	Other teaching professionals	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'2351'	Muut opettajat ja koulutussuunnittelijat	Education methods specialists	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'23511'	Koulutusp‰‰llikˆt, -suunnittelijat ja kouluttajat	Training directors, training planners and trainers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'23512'	Puhe- ja esiintymistaidon opettajat	Teachers of public speaking and presentation skills	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'2352'	Tarkastajat ja opetusmenetelmien erityisasiantuntijat	School inspectors	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'2359'	Opinto-ohjaajat	Career counsellors	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'24'	Muiden alojen erityisasiantuntijat	Other professionals	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'241'	Liike-el‰m‰n ja j‰rjestˆalan erityisasiantuntijat	Business professionals	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'2411'	Tilintarkastajat, kamreerit ym.	Accountants	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'2412'	Henkilˆstˆsuunnittelijat ym.	Personnel and careers professionals	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'2419'	Muut liike-el‰m‰n ja j‰rjestˆalan erityisasiantuntijat	Business professionals not elsewhere classified	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'24191'	Mainonnan ja markkinoinnin erityisasiantuntijat	Advertising and marketing professionals	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'24192'	Tiedottajat	Public relations professionals	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'24193'	Kuluttajaneuvojat ym.	Consumer advisers and related professionals	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'24194'	J‰rjestˆalan erityisasiantuntijat	Administrative professionals in organisations	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'242'	Lainopilliset erityisasiantuntijat	Legal professionals	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'2421'	Asianajajat ja syytt‰j‰t	Lawyers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'2422'	Tuomioistuinlakimiehet	Judges	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'2429'	Muut lainopilliset erityisasiantuntijat	Legal professionals not elsewhere classified	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'243'	Arkiston- ja kirjastonhoitajat sek‰ museoalan erityisasiantuntijat	Archivists, librarians and related information professionals	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'2431'	Arkistonhoitajat ja museoalan erityisasiantuntijat	Archivists and curators	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'24311'	Arkistonhoitajat	Archivists	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'24312'	Museoalan erityisasiantuntijat	Curators	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'2432'	Kirjastonhoitajat, informaatikot ym.	Librarians and related information professionals	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'244'	Yhteiskunta- ja sosiaalialan erityisasiantuntijat	Social science and related professionals	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'2441'	Ekonomistit	Economists	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'2442'	Yhteiskunta- ja kulttuuritutkijat	Sociologists, anthropologists and related professionals	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'2443'	Historioitsijat ym.	Philosophers, historians and political scientists	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'2444'	Kielentutkijat, k‰‰nt‰j‰t ja tulkit	Philologists, translators and interpreters	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'2445'	Psykologit, psykoterapeutit ja puheterapeutit	Psychologists, psychotherapists and speech therapists	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'24451'	Psykologit	Psychologists	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'24452'	Psykoterapeutit	Psychotherapists	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'24453'	Puheterapeutit	Speech therapists	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'2446'	Sosiaalialan erityisasiantuntijat	Social work professionals	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'24461'	Sosiaalityˆntekij‰t	Social workers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'24462'	Sosiaalialan suunnittelijat	Social planners	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'245'	Toimittajat, taiteilijat ym.	Writers and creative or performing artists	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'2451'	Toimittajat, kirjailijat ym.	Authors, journalists and other writers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'24511'	P‰‰llikkˆtoimittajat	Managing editors	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'24512'	Lehden- ja kustannustoimittajat sek‰ kriitikot	Journalists, editors and critics	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'24513'	Radio- ja tv-toimittajat	Radio and television journalists	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'24514'	Mainostoimittajat	Advertising copywriters	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'24515'	Kirjailijat ja dramaturgit	Authors and dramaturgists	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'2452'	Kuvataiteilijat, taideteollisen alan suunnittelijat ym.	Sculptors, painters and related artists	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'24521'	Kuvataiteilijat	Sculptors and painters	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'24522'	Graafiset suunnittelijat	Graphic designers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'24523'	Taideteollisen alan suunnittelijat ja taiteilijat	Art and craft designers and related artists	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'2453'	Klassisen musiikin s‰velt‰j‰t, muusikot ja laulajat	Composers, musicians and singers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'2454'	Tanssitaiteilijat	Choreographers and dancers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'2455'	N‰yttelij‰t ja ohjaajat	Film, stage and related actors and directors	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'24551'	N‰yttelij‰t	Actors	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'24552'	Teatteri- ja elokuvaohjaajat	Stage and film directors	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'246'	Papit ym. uskonnollisen el‰m‰n erityisasiantuntijat	Parish clergy and other religious professionals	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'2460'	Papit ym. uskonnollisen el‰m‰n erityisasiantuntijat	Parish clergy and other religious professionals	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'247'	Julkisen alan erityisasiantuntijat	Public service administrative professionals	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'2470'	Julkisen alan erityisasiantuntijat	Public service administrative professionals	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'24701'	Valtionhallinnon erityisasiantuntijat	Central government professionals	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'24702'	Kunnallishallinnon erityisasiantuntijat	Local government professionals	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'3'	Asiantuntijat	Technicians and associate professionals	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'31'	Luonnontieteen ja tekniikan asiantuntijat	Physical and engineering science associate professionals	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'311'	Fysiikan, kemian ja teknisten alojen asiantuntijat	Physical, chemical and engineering science technicians	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'3111'	Luonnontieteen tekniset asiantuntijat	Chemical and physical science technicians	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'3112'	Rakennusalan ja yhdyskuntarakentamisen asiantuntijat	Civil engineering technicians	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'31121'	Talonrakennusalan asiantuntijat	Building construction technicians	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'31122'	Maank‰ytˆn ja yhdyskuntarakentamisen asiantuntijat	Land use and civil engineering technicians	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'31123'	Kartoituksen ja maanmittauksen asiantuntijat	Cartographic and surveying technicians	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'3113'	S‰hkˆtekniikan asiantuntijat	Electrical engineering technicians	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'3114'	Elektroniikan ja informaatiotekniikan asiantuntijat	Electronics and telecommunications technicians	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'3115'	Konetekniikan asiantuntijat	Mechanical engineering technicians	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'3116'	Puunjalostuksen ja kemian prosessitekniikan asiantuntijat	Wood processing and chemical engineering technicians	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'3117'	Vuoriteollisuuden prosessitekniikan asiantuntijat	Mining and metallurgical technicians	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'3118'	Tekniset piirt‰j‰t	Draughtspersons	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'3119'	Mekaanisen mets‰teollisuuden ym. tekniikan asiantuntijat	Physical and engineering science technicians not elsewhere classified	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'31191'	Mekaanisen mets‰teollisuuden tekniikan asiantuntijat	Mechanical forest industry technicians	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'31192'	Graafisen tekniikan asiantuntijat	Printing technicians	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'31193'	Tekstiili- ja vaatetusalan tekniikan asiantuntijat	Textile and clothing technicians	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'31199'	Muut teknisten alojen asiantuntijat	Other physical and engineering science technicians not elsewhere classified	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'312'	Tietotekniikan tukihenkilˆt, operaattorit ym.	Computer associate professionals	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'3120'	Tietotekniikan tukihenkilˆt, operaattorit ym.	Computer assistants, computer equipment operators and related associate professionals	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'313'	Optisten ja elektronisten laitteiden k‰ytt‰j‰t	Optical and electronic equipment operators	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'3131'	Kuvaajat, kuvanauhoittajat ja ‰‰nitt‰j‰t	Photographers and image and sound recording equipment operators	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'3132'	Radio- ja tv-tarkkailijat	Broadcasting and telecommunications equipment operators	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'3139'	Muut optisten ja elektronisten laitteiden k‰ytt‰j‰t	Optical and electronic equipment operators not elsewhere classified	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'314'	Meri-, lento- ja satamaliiikenteen p‰‰llikˆt ja ohjaajat	Ship, aircraft and harbour traffic controllers and technicians	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'3141'	Alusten konep‰‰llikˆt ja konemestarit	Ships&#39; engineers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'3142'	Per‰miehet ja pienten alusten p‰‰llikˆt	Pilots and small ships&#39; officers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'3143'	Lentokapteenit ja -per‰miehet	Aircraft pilots and related associate professionals	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'3144'	Lento- ja satamaliikenteen ohjaajat	Air and harbour traffic controllers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'31441'	Lennonjohtajat ym.	Air traffic controllers and related associate professionals	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'31442'	Satamaliikenteen ohjaajat	Harbour traffic controllers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'3145'	Lentoturvallisuusteknikot ym.	Air traffic safety technicians	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'315'	Turvallisuuden ja laadun tarkastajat	Safety and quality inspectors	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'3151'	Rakennus- ja palotarkastajat	Building and fire inspectors	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'3152'	Tyˆsuojelu- ja tuoteturvallisuuden tarkastajat	Safety, health and quality inspectors	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'31521'	Tyˆsuojelutarkastajat	Occupational safety inspectors	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'31522'	Katsastajat, tuoteturvallisuuden ja laadun tarkastajat	Inspectors, product safety and quality inspectors	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'32'	Maa- ja mets‰taloustieteiden ja terveydenhuollon asiantuntijat	Life science and health associate professionals	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'321'	Maa- ja mets‰taloustieteiden asiantuntijat	Life science technicians and related associate professionals	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'3211'	Laborantit ym.	Life science technicians	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'3212'	Agrologit ja mets‰talousteknikot	Agronomy and forestry technicians	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'32121'	Agrologit	Agrologists	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'32122'	Mets‰talousteknikot	Forestry technicians	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'3213'	Maatalous-, puutarha- ja kalastusalan neuvojat	Farming, horticulture and fishery advisers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'322'	Terveydenhuollon asiantuntijat (lukuun ottamatta sairaanhoitoa)	Health associate professionals (except nursing)	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'3222'	Terveystarkastajat ja ymp‰ristˆnsuojelutyˆntekij‰t	Hygienists, health and environmental officers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'32221'	Terveystarkastajat	Health officers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'32222'	Ymp‰ristˆnsuojelutyˆntekij‰t	Environmental officers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'3223'	Ravitsemusalan asiantuntijat	Dieticians and nutritionists	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'3224'	Optikot	Optometrists and opticians	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'3225'	Hammashuoltajat	Dental hygienists	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'3226'	Fysioterapeutit, toimintaterapeutit ym.	Physiotherapists and occupational therapists	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'32261'	Fysioterapeutit	Physiotherapists	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'32262'	Toimintaterapeutit	Occupational therapists	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'32269'	Muut terapeutit	Other therapists	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'3227'	Seminologit ym.	Veterinary assistants	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'3228'	Farmaseutit	Pharmacists	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'3229'	Luontaisparantajat	Nature healers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'323'	Sairaanhoitajat, k‰tilˆt ym.	Nursing and related associate professionals	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'3231'	Sairaanhoitajat ym.	Nursing and related associate professionals	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'32311'	Sairaanhoitajat	Nurses	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'32312'	Terveydenhoitajat	Public health nurses	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'32313'	Rˆntgenhoitajat	Radiographers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'32314'	Laboratoriohoitajat	Medical laboratory technologists	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'32315'	Kuulontutkijat	Hearing testers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'3232'	K‰tilˆt	Midwives	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'33'	Liikenneopettajat ym.	Traffic instructors and other teaching associate professionals	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'334'	Liikenneopettajat ym.	Traffic instructors and other teaching associate professionals	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'3340'	Liikenneopettajat, kampaamo- ja kosmetologikoulujen opettajat ym.	Traffic instructors, hairdresser, beautician and related teaching associate professionals	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'34'	Liikealan ja muiden palvelualojen asiantuntijat	Other associate professionals	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'341'	Myynnin ja rahoituksen asiantuntijat	Finance and sales associate professionals	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'3411'	Arvopaperi- ja valuuttakauppiaat	Securities and finance dealers and brokers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'3412'	Vakuutusalan asiamiehet	Insurance representatives	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'3413'	Kiinteistˆnv‰litt‰j‰t ja is‰nnˆitsij‰t	Estate agents and property managers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'34131'	Kiinteistˆnv‰litt‰j‰t	Estate agents	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'34132'	Is‰nnˆitsij‰t	Property managers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'3414'	Matkailuasiamiehet ja matkanj‰rjest‰j‰t	Travel consultants and organisers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'3415'	Myyntineuvottelijat, -edustajat ja -sihteerit	Technical and commercial sales representatives	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'34151'	Myyntineuvottelijat ja myyntiedustajat	Sales consultants and sales representatives	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'34152'	Myynti- ja vientisihteerit	Sales and exports secretaries	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'34153'	Tukkumyyj‰t	Wholesale dealers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'3416'	Ostajat	Buyers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'3417'	Vahinkotarkastajat ja huutokaupanpit‰j‰t	Appraisers, valuers and auctioneers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'3419'	Myynnin ja rahoituksen esimiehet	Finance and sales associate professionals not elsewhere classified	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'34191'	Pankkien ja postien esimiehet	Superiors at banks and post offices	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'34192'	Myym‰l‰nhoitajat ja pienkauppiaat	Shop managers and small shopkeepers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'34193'	Huoltoasemanhoitajat	Service station managers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'34194'	Toimistonhoitajat	Office managers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'342'	Liike-el‰m‰n palvelujen v‰litt‰j‰t	Business services agents and trade brokers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'3421'	Kauppa-agentit	Trade brokers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'3422'	Huolitsijat ja tullaajat	Clearing and forwarding agents	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'3423'	Tyˆnv‰litt‰j‰t	Employment agents and labour contractors	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'3429'	Muut liike-el‰m‰n palvelujen v‰litt‰j‰t	Business services agents and trade brokers not elsewhere classified	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'343'	Hallinnolliset toimihenkilˆt	Administrative associate professionals	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'3431'	Johdon sihteerit, osastosihteerit ym.	Administrative secretaries and related associate professionals	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'3432'	Oikeudenk‰yntiasiamiehet ja ulosottomiehet	Legal and related business associate professionals	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'3433'	Kirjanpit‰j‰t ym.	Bookkeepers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'3434'	Tilastonlaatijat, haastattelijat ym.	Statistical, mathematical and related associate professionals	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'344'	Tullivirkamiehet, raja- ja merivartijat, verovalmistelijat ym.	Customs inspectors, frontier and coast guards, government tax officials and related associate professional	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'3441'	Tullivirkamiehet ja raja- ja merivartijat	Customs inspectors, frontier guards and coast guards	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'34411'	Tullivirkamiehet	Customs inspectors	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'34412'	Raja- ja merivartijat	Frontier and coast guards	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'3442'	Verovalmistelijat ja -tarkastajat	Government tax and excise officials	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'3443'	Sosiaaliturvatoimihenkilˆt	Government social benefits officials	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'345'	Komisariot ja ylikonstaapelit	Police inspectors and detectives	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'3450'	Komisariot ja ylikonstaapelit	Police inspectors and detectives	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'346'	Sosiaalialan ohjaajat ym.	Social instructors and related associate professionals	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'3460'	Sosiaalialan ohjaajat ym.	Social instructors and related associate professionals	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'34601'	Sosiaalialan ohjaajat ja kasvattajat	Social work instructors and educators	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'34602'	Nuoriso-ohjaajat	Youth leaders	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'34603'	Tyˆn- ja askartelunohjaajat	Work and craft leaders	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'347'	Taidealan asiantuntijat, viihdetaiteilijat, urheilijat ym.	Artistic, entertainment and sports associate professionals	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'3471'	Taidealan asiantuntijat, kuvaussihteerit ym.	Artistic and crafts and design associate professionals and producer&#39;s assistants	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'34711'	Taide- ja taideteollisen alan asiantuntijat	Artistic and crafts and design associate professionals	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'34712'	Kuvaussihteerit ym.	Producer&#39;s assistants and related associate professionals	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'3472'	Juontajat, kuuluttajat ym.	Radio, television and other announcers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'3473'	Viihdemuusikot, laulajat, tanssijat ym.	Night-club and related musicians, singers and dancers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'3474'	Klovnit, taikurit, akrobaatit ym.	Clowns, magicians, acrobats and related associate professionals	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'3475'	Urheilijat, urheiluvalmentajat, liikunnanohjaajat ym.	Athletes, sportspersons, coaches, physical exercise instructors and related associate professionals	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'34751'	Urheilijat ja urheiluvalmentajat	Athletes, sportspersons and coaches	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'34752'	Urheilu- ja liikunnanohjaajat	Physical exercise and sports instructors	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'348'	Seurakuntatyˆntekij‰t	Religious associate professionals	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'3480'	Diakonit ja seurakuntatyˆntekij‰t	Deacons, deaconesses and religious associate professionals	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'34801'	Diakonit ja diakonissat	Deacons and deaconesses	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'34809'	Muut seurakuntatyˆntekij‰t	Other religious associate professionals	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'4'	Toimisto- ja asiakaspalvelutyˆntekij‰t	Clerks	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'41'	Toimistotyˆntekij‰t	Office clerks	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'411'	Sihteerit, tekstink‰sittelij‰t ym.	Secretaries and keyboard-operating clerks	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'4112'	Tekstink‰sittelij‰t	Word-processor and related operators	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'4113'	Tallentajat	Data entry operators	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'4114'	Laskuttajat	Calculating-machine operators	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'4115'	Sihteerit	Secretaries	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'412'	Palkanlaskijat, vakuutusk‰sittelij‰t ym.	Payroll accounting and insurance clerks	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'4121'	Palkanlaskijat, kassanhoitajat ym.	Payroll accounting and book-keeping clerks	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'4122'	Vakuutusalan konttoritoimihenkilˆt	Insurance clerks	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'413'	Kuljetuksen ja varastoinnin toimistotyˆntekij‰t	Material-recording and transport clerks	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'4131'	Varastonhoitajat ym.	Stock clerks	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'4133'	Raideliikenteen ohjaajat ja muut kuljetuksen toimistotyˆntekij‰t	Rail traffic controllers and other transport clerks	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'41331'	Raideliikenteen ohjaajat	Rail traffic controllers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'41339'	Muut kuljetuksen ja huolinnan toimistotyˆntekij‰t	Other transport clerks	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'414'	Kirjastojen, postitoimistojen ym. tyˆntekij‰t	Library, mail and related clerks	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'4141'	Kirjasto-, arkisto- ja museotyˆntekij‰t	Library and filing clerks	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'4142'	Postink‰sittelij‰t ja toimistovahtimestarit	Mail carriers, sorting clerks and porters	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'41421'	Postinkantajat ja -lajittelijat	Mail carriers and sorting clerks	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'41422'	Toimistovahtimestarit	Porters	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'419'	Muut toimistotyˆntekij‰t	Other office clerks	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'4190'	Muut toimistotyˆntekij‰t	Other office clerks	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'42'	Asiakaspalvelutyˆntekij‰t	Customer services clerks	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'421'	Rahaliikenteen asiakaspalvelutyˆntekij‰t	Cashiers, tellers and related clerks	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'4211'	Lipunmyyj‰t	Cashiers and ticket clerks	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'4212'	Posti- ja pankkitoimihenkilˆt	Tellers and other counter clerks	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'4213'	Bingo- ja kasinopelien hoitajat ym.	Croupiers and related clerks	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'4214'	Panttilainaajat	Pawnbrokers and money-lenders	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'4215'	Maksujenperij‰t	Debt-collectors and related workers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'422'	Muut asiakaspalvelutyˆntekij‰t	Client information clerks	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'4221'	Matkatoimistovirkailijat	Travel agency and related clerks	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'4222'	Vastaanoton ja neuvonnan hoitajat	Receptionists and information clerks	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'4223'	Puhelinvaihteenhoitajat ja h‰lytysp‰ivyst‰j‰t	Telephone switchboard operators and emergency officers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'42231'	Puhelinvaihteenhoitajat	Telephone switchboard operators	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'42232'	H‰lytysp‰ivyst‰j‰t	Emergency officers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'5'	Palvelu-, myynti- ja hoitotyˆntekij‰t	Service and care workers, and shop and market sales workers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'51'	Palvelu- ja suojelutyˆntekij‰t ym.	Personal and protective services workers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'511'	Matkustuspalvelutyˆntekij‰t	Travel attendants and related workers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'5111'	Lentoem‰nn‰t, purserit ym.	Travel attendants and travel stewards	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'5112'	Konduktˆˆrit, rahastajat ym.	Transport conductors	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'5113'	Matkaoppaat ja matkanjohtajat	Travel guides and tour leaders	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'512'	Ravintola- ja suurtaloustyˆntekij‰t	Housekeeping and restaurant services workers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'5121'	Ravintola-, suurtalous- ym. esimiehet	Housekeepers and related supervisors	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'51211'	Ravintola- ja suurtalousesimiehet	Housekeeping and restaurant services supervisors	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'51212'	Siivoustyˆnjohtajat	Cleaning supervisors	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'5122'	Kokit, keitt‰j‰t ja kylm‰kˆt	Cooks	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'5123'	Tarjoilutyˆntekij‰t	Waiters, waitresses and bartenders	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'513'	Perus- ja l‰hihoitajat, lasten- ja kodinhoitajat ym.	Practical nurses, childminders and home care assistants	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'5131'	Lastenhoitotyˆntekij‰t	Child-care workers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'51311'	Lastenhoitajat ja p‰iv‰kotiapulaiset	Childminders and kindergarten assistants	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'51312'	Perhep‰iv‰hoitajat ym.	Private childminders	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'5132'	Perushoitajat, l‰hihoitajat ym.	Practical nurses	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'51321'	Perushoitajat ja l‰hihoitajat	Practical nurses	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'51322'	Mielenterveyshoitajat	Practical mental nurses	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'51323'	L‰‰kint‰vahtimestari-sairaankuljettajat	Hospital and ambulance attendants	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'51324'	Kehitysvammaistenhoitajat	Mental handicap nurses	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'51325'	Hammashoitajat	Dental assistants	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'51326'	Sosiaalialan hoitajat	Social work assistants	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'51327'	V‰linehuoltajat	Equipment maintenance assistants	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'5133'	Kodinhoitajat, henkilˆkohtaiset avustajat ym.	Home care assistants, personal care workers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'51331'	Kodinhoitajat ja kotiavustajat	Home care assistants	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'51332'	Henkilˆkohtaiset avustajat ym.	Personal care workers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'5139'	Apteekkien l‰‰ketyˆntekij‰t ym.	Pharmaceutical assistants	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'51391'	Apteekkien l‰‰ketyˆntekij‰t	Pharmaceutical assistants	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'51399'	El‰inl‰‰kint‰avustajat	Veterinary aids	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'514'	Henkilˆkohtaisen palvelun tyˆntekij‰t	Other personal services workers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'5141'	Kampaajat, parturit, kosmetologit ym.	Hairdressers, barbers, beauticians and related workers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'51411'	Kampaajat ja parturit	Hairdressers and barbers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'51412'	Kauneudenhoitajat	Beauticians	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'51413'	Kuntohoitajat, jalkojenhoitajat ym.	Practical rehabilitation nurses and chiropodists	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'51419'	Kylvett‰j‰t ym.	Bath attendants and related workers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'5143'	Hautauspalvelutyˆntekij‰t	Undertakers and embalmers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'51431'	Hautaustoimistonhoitajat ym.	Undertakers and related funeral workers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'51432'	Muut hautaustyˆntekij‰t	Other funeral workers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'5149'	Muut henkilˆkohtaisen palvelun tyˆntekij‰t	Other personal services workers not elsewhere classified	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'516'	Suojelu- ja vartiointityˆntekij‰t	Protective services workers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'5161'	Palomiehet	Fire-fighters	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'5162'	Poliisit	Police officers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'5163'	Vanginvartijat	Prison guards	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'5169'	Valvojat ja vartijat	Protective services workers not elsewhere classified	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'52'	Mallit, myyj‰t ja tuote-esittelij‰t	Models, salespersons and demonstrators	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'521'	Mallit	Fashion and other models	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'5210'	Mallit	Fashion and other models	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'522'	Myyj‰t ja tuote-esittelij‰t	Shop, stall and market salespersons and demonstrators	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'5220'	Myyj‰t ja tuote-esittelij‰t	Shop, stall and market salespersons and demonstrators	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'52201'	Tuote-esittelij‰t	Demonstrators	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'52202'	Myyj‰t ja myym‰l‰kassanhoitajat	Salespersons and cashiers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'52203'	Erikoismyyj‰t	Salespersons in specialised shops	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'6'	Maanviljelij‰t, mets‰tyˆntekij‰t ym.	Skilled agricultural and fishery workers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'61'	Maanviljelij‰t, mets‰tyˆntekij‰t ym.	Skilled agricultural and fishery workers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'611'	Pelto- ja puutarhaviljelij‰t	Market gardeners and crop growers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'6111'	Peltoviljelij‰t ja peltoviljelytyˆntekij‰t	Field crop and vegetable growers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'61111'	Peltoviljelij‰t	Field crop growers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'61112'	Peltoviljelytyˆnjohtajat ja -tyˆntekij‰t	Field crop supervisors and workers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'6112'	Puutarha- ja kasvihuoneviljelij‰t ja -tyˆntekij‰t	Gardeners, horticultural and nursery growers and workers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'61121'	Puutarha- ja kasvihuoneviljelij‰t	Gardeners, horticultural and nursery growers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'61122'	Puutarha- ja kasvihuonetyˆnjohtajat	Horticultural and nursery supervisors	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'61123'	Puutarha-  ja kasvihuonetyˆntekij‰t	Horticultural and nursery workers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'612'	El‰intenkasvattajat ja -hoitajat	Animal producers and related workers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'6121'	El‰intenkasvattajat	Dairy and livestock producers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'6122'	El‰intenhoitajat	Dairy and livestock workers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'6123'	Maatalouslomittajat	Farmer&#39;s locums	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'6129'	Muut el‰intenhoitajat	Animal producers and related workers not elsewhere classified	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'613'	Yhdistetyn maanviljelyn ja el‰intenhoidon harjoittajat ja tyˆntekij‰t	Crop and animal producers and workers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'6130'	Yhdistetyn maanviljelyn ja el‰intenhoidon harjoittajat ja tyˆntekij‰t	Crop and animal producers and workers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'614'	Metsurit ja mets‰tyˆntekij‰t	Forestry and related workers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'6140'	Metsurit ja mets‰tyˆntekij‰t	Forestry and related workers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'615'	Kalanviljelij‰t, kalastajat ja mets‰st‰j‰t	Fishery workers, hunters and trappers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'6151'	Kalanviljely-yritt‰j‰t ja -tyˆntekij‰t	Aquatic life cultivation workers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'61511'	Kalanviljely-yritt‰j‰t	Fish farmers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'61512'	Kalanviljelytyˆnjohtajat ja -tyˆntekij‰t	Fishery supervisors and workers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'6152'	Kalastajat	Inland and coastal waters fishery workers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'6154'	Riistanhoitajat ja mets‰st‰j‰t	Hunters and trappers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'7'	Rakennus-, korjaus- ja valmistustyˆntekij‰t	Craft and related trades workers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'71'	Kaivos-, louhos- ja rakennustyˆntekij‰t	Extraction and building trades workers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'711'	Kaivostyˆntekij‰t, panostajat, kivenhakkaajat ym.	Miners, shotfirers, stone cutters and carvers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'7111'	Kaivos- ja louhostyˆntekij‰t	Miners and quarry workers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'7112'	Panostajat ja r‰j‰ytt‰j‰t	Shotfirers and blasters	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'7113'	Kivenhakkaajat ja -leikkaajat ym.	Stone splitters, cutters and carvers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'712'	Rakennustyˆntekij‰t ym.	Building frame and related trades workers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'7121'	Rakennustyˆntekij‰t	Builders	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'7122'	Muurarit ja laatoittajat	Bricklayers and stonemasons	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'7123'	Raudoittajat	Concrete placers, concrete finishers and related workers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'7124'	Kirvesmiehet	Carpenters and joiners	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'7129'	Muut rakennustyˆntekij‰t ja -korjaajat ym.	Building frame and related trades workers not elsewhere classified	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'713'	Rakennusten viimeistelytyˆntekij‰t	Building finishers and related trades workers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'7131'	Kattoasentajat ja -korjaajat	Roofers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'7132'	Lattianp‰‰llystystyˆntekij‰t	Floor layers and tile setters	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'7133'	Rappaajat	Plasterers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'7134'	Erist‰j‰t	Insulation workers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'7135'	Lasinasentajat	Glaziers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'7136'	Putkiasentajat	Plumbers and pipe fitters	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'7137'	Rakennuss‰hkˆasentajat	Building and related electricians	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'7139'	Muut rakennusten viimeistelytyˆntekij‰t	Building finishers and related trade workers not elsewhere classified	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'714'	Maalarit ja rakennuspuhdistajat	Painters, building structure cleaners and related trades workers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'7141'	Maalarit	Painters and related workers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'71411'	Rakennusmaalarit	Building painters	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'71412'	Auto- ja muut maalarit	Vehicle and other painters	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'7143'	Rakennuspuhdistajat ja nuohoojat	Building structure cleaners	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'72'	Konepaja- ja valimotyˆntekij‰t sek‰ asentajat ja korjaajat	Metal, machinery and related trades workers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'721'	Valimotyˆntekij‰t, hitsaajat, levysep‰t ym.	Metal moulders, welders, sheet-metal workers, structural metal preparers, and related trades workers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'7211'	Muovaajat ja keernantekij‰t	Metal moulders and coremakers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'7212'	Hitsaajat ja kaasuleikkaajat	Welders and flame cutters	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'7213'	Ohutlevysep‰t	Sheet-metal workers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'7214'	Paksulevysep‰t ja rautarakennetyˆntekij‰t	Structural-metal preparers and erectors	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'7215'	Kaapelin- ja kˆysienasentajat	Riggers and cable splicers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'7216'	Vedenalaistyˆntekij‰t	Underwater workers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'722'	Sep‰t, tyˆkaluntekij‰t ja koneenasettajat	Blacksmiths, tool-makers and related trades workers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'7221'	Sep‰t	Blacksmiths, hammer-smiths and forging-press workers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'7222'	Tyˆkaluntekij‰t ja lukkosep‰t	Tool-makers and related workers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'7223'	Koneenasettajat ja koneistajat	Machine-tool setters and setter-operators	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'7224'	Konehiojat, kiillottajat ja teroittajat	Metal wheel-grinders, polishers and tool sharpeners	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'723'	Koneasentajat ja -korjaajat	Machinery mechanics and fitters	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'7231'	Moottoriajoneuvojen ja tyˆkoneiden asentajat ja korjaajat	Motor-vehicle mechanics and fitters	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'7232'	Lentokoneasentajat ja -korjaajat	Aircraft engine mechanics and fitters	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'7233'	Maatalous- ja teollisuuskoneasentajat ja -korjaajat	Agricultural- or industrial-machinery mechanics and fitters	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'724'	S‰hkˆ-, elektroniikka- ja tietoliikennelaitteiden asentajat ja korjaajat	Electrical, electronic and telecommunications equipment mechanics and fitters	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'7241'	S‰hkˆlaitteiden asentajat ja korjaajat	Electrical mechanics and servicers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'7242'	Elektroniikkalaitteiden asentajat ja korjaajat	Electronics mechanics and servicers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'72421'	Tietokoneasentajat ja -korjaajat	Computer installers and repairers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'72422'	Automaatioasentajat ja -korjaajat	Automation installers and repairers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'72423'	Elektroniikka-asentajat ja -korjaajat	Electronic installers and repairers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'7244'	Tietoliikenneasentajat ja -korjaajat	Telecommunications installers and mechanics	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'7245'	Linja-asentajat ja -korjaajat	Electrical line installers, repairers and cable jointers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'73'	Hienomekaniikan ja taideteollisuuden tyˆntekij‰t	Precision, handicraft, craft printing and related trades workers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'731'	Hienomekaanikot	Precision workers in metal and related materials	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'7311'	Instrumentintekij‰t ja instrumenttiasentajat	Precision-instrument makers and repairers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'7312'	Soittimien tekij‰t ja viritt‰j‰t	Musical-instrument makers and tuners	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'7313'	Jalokivi-, kulta- ja hopeasep‰t	Jewellery and precious-metal workers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'732'	Savenvalajat, lasihyttityˆntekij‰t ym.	Potters, glass-makers and related trades workers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'7321'	Saven- ja tiilenvalajat ja dreijaajat	Abrasive wheel formers, potters and related workers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'7322'	Lasinpuhaltajat ja -leikkaajat ym.	Glass-makers, cutters, grinders and finishers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'7323'	Lasinkaivertajat ja -etsaajat	Glass-engravers and etchers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'7324'	Koristelijat, lasittajat ym.	Glass, ceramics and related decorative painters	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'733'	Puu-, tekstiili-, nahka- ym. k‰sityˆtuotteiden tekij‰t	Handicraft workers in wood, textile, leather and related materials	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'7330'	Puu-, tekstiili-, nahka- ym. k‰sityˆtuotteiden tekij‰t	Handicraft workers in wood, textile, leather and related materials	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'734'	Painopinnan valmistajat, tekstiilipainajat ym.	Craft printing and related trades workers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'7341'	Latojat ja asemoijat	Compositors, typesetters and related workers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'7342'	Painopinnan valmistajat	Stereotypers and electrotypers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'7343'	Kaivertajat ja syˆvytt‰j‰t	Printing engravers and etchers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'7344'	Valokuvalaboratorioiden tyˆntekij‰t	Photographic and related workers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'7345'	Kirjansitomotyˆntekij‰t	Bookbinders and related workers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'7346'	Silkki- ja tekstiilipainajat	Silk-screen, block and textile printers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'74'	Muut valmistustyˆntekij‰t	Other craft and related trades workers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'741'	Teurastajat, leipurit, meijeristit ym.	Food processing and related trades workers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'7411'	Teurastajat, kalank‰sittelij‰t ym.	Butchers, fishmongers and related food preparers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'7412'	Leipurit ja kondiittorit	Bakers, pastry-cooks and confectionery makers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'7413'	Meijeristit, juustomestarit ym.	Dairy-products workers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'7414'	Hedelm‰- ja vihannestuotteiden valmistajat	Fruit, vegetable and related preservers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'7415'	Ruokien ja juomien laaduntarkkailijat	Food and beverage tasters and graders	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'7416'	Tupakkatuotteiden valmistajat	Tobacco preparers and tobacco products makers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'742'	Puutavaran k‰sittelij‰t, puusep‰t ym.	Wood treaters, cabinet-makers and related trades workers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'7421'	Puutavaran k‰sittelij‰t	Wood treaters	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'7422'	Huonekalu- ja koristepuusep‰t	Cabinetmakers and related workers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'7423'	Konepuusep‰t	Woodworking machine setters and setter-operators	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'7424'	Korin- ja harjantekij‰t ym.	Basketry weavers, brush makers and related workers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'743'	Kutojat, vaatturit ym.	Textile, garment and related trades workers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'7431'	Kehr‰‰j‰t, karstaajat ym.	Fibre preparers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'7432'	Kutojat, neulojat ym.	Weavers, knitters and related workers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'7433'	Vaatturit, pukuompelijat ja hatuntekij‰t	Tailors, dressmakers and hatters	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'7434'	Turkkurit	Furriers and related workers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'7435'	Leikkaajat ja mallimestarit	Textile, leather and related pattern-makers and cutters	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'7436'	Koru- ja muut tekstiiliompelijat	Sewers, embroiderers and related workers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'7437'	Verhoilijat	Upholsterers and related workers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'744'	Turkisten ja nahkojen muokkaajat sek‰ suutarit	Pelt, leather and shoemaking trades workers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'7441'	Turkisten muokkaajat ja nahkurit	Pelt dressers, tanners and fellmongers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'7442'	Suutarit, jalkinemallintekij‰t ym.	Shoe-makers and related workers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'8'	Prosessi- ja kuljetustyˆntekij‰t	Plant and machine operators and assemblers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'81'	Prosessityˆntekij‰t	Stationary plant and related operators	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'811'	Kaivos- ja louhintatyˆn koneenk‰ytt‰j‰t	Mining and mineral-processing-plant operators	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'8111'	Vaunuporarit	Mining plant operators	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'8112'	Rikastustyˆntekij‰t	Mineral-ore and stone-processing plant operators	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'8113'	Iskuporaajat ja syv‰kairaajat	Well drillers and borers and related workers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'812'	Metalliteollisuuden prosessityˆntekij‰t	Metal-processing plant operators	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'8121'	Sulatto- ja sulatusuunityˆntekij‰t	Ore and metal furnace operators	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'8122'	Metallurgiset muokkaajat	Metal melters, casters and rolling-mill operators	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'8123'	L‰mpˆk‰sittelij‰t	Metal heat-treating-plant operators	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'8124'	Langan- ja putkenvet‰j‰t	Metal drawers and extruders	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'813'	Lasi- ja keramiikkateollisuuden tyˆntekij‰t	Glass, ceramics and related plant operators	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'8131'	Lasi- ja keramiikkauunienhoitajat	Glass and ceramics kiln and related machine operators	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'8139'	Muut lasi- ja keramiikkateollisuuden tyˆntekij‰t	Glass, ceramics and related plant operators not elsewhere classified	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'814'	Puunjalostuksen ja paperinvalmistuksen prosessityˆntekij‰t	Wood-processing- and papermaking-plant operators	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'8141'	Sahausprosessinhoitajat	Wood-processing-plant operators	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'8142'	Paperimassan ja hakkeen teolliset valmistajat	Paper-pulp plant operators	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'8143'	Paperin ja kartongin teolliset valmistajat	Papermaking-plant operators	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'815'	Kemianteollisuuden prosessinhoitajat	Chemical-processing-plant operators	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'8150'	Kemianteollisuuden prosessinhoitajat	Chemical-processing-plant operators	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'816'	Voimalaitosten, vesilaitosten ym. koneenhoitajat	Power-production and related plant operators	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'8161'	Voimalaitosten koneenhoitajat	Power-production plant operators	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'8162'	L‰mmityskattiloiden hoitajat	Steam-engine and boiler operators	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'8163'	J‰tteenpoltto- ja vedenpuhdistuslaitosten koneenhoitajat	Incinerator, water-treatment and related plant operators	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'817'	Teollisuusrobottien hoitajat	Industrial robot operators	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'8170'	Teollisuusrobottien hoitajat	Industrial robot operators	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'82'	Teollisuustuotteiden valmistajat ja kokoonpanijat	Machine operators and assemblers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'821'	Metalli- ja mineraalituotteiden teolliset valmistajat	Metal- and mineral-products machine operators	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'8211'	Metallin koneelliset tyˆst‰j‰t	Machine-tool operators	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'8212'	Betoni- ym. tuotteiden teolliset valmistajat	Cement and other mineral products machine operators	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'822'	Kemiallisten tuotteiden teolliset valmistajat	Chemical-products machine operators	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'8221'	L‰‰kkeiden ja hygieniatuotteiden teolliset valmistajat	Pharmaceutical- and toiletry-products machine operators	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'8222'	Ammusten ja r‰j‰hteiden teolliset valmistajat	Ammunition- and explosive-products machine operators	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'8223'	Metallien teolliset p‰‰llyst‰j‰t ja viimeistelij‰t	Metal finishing-, plating- and coating-machine operators	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'8224'	Valokuvatuotteiden teolliset valmistajat	Photographic-products machine operators	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'8229'	Muut kemiallisten tuotteiden teolliset valmistajat	Chemical-products machine operators not elsewhere classified	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'823'	Kumi- ja muovituotteiden teolliset valmistajat	Rubber- and plastic-products machine operators	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'8231'	Kumituotteiden teolliset valmistajat	Rubber-products machine operators	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'8232'	Muovituotteiden teolliset valmistajat	Plastic-products machine operators	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'824'	Puutuotteiden teolliset valmistajat	Wood-products machine operators	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'8240'	Puutuotteiden teolliset valmistajat	Wood-products machine operators	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'825'	Painajat, j‰lkik‰sittelij‰t ja paperituotteiden teolliset valmistajat	Printing-, binding- and paper-products machine operators	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'8251'	Painokoneen hoitajat	Printing-machine operators	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'8252'	J‰lkik‰sittelij‰t	Book-binding-machine operators	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'8253'	Paperituotteiden teolliset valmistajat	Paper-products machine operators	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'826'	Tekstiili-, turkis- ja nahkatuotteiden teolliset valmistajat	Textile-, fur- and leather-products machine operators	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'8261'	Kuitujenvalmistus-, kehruu- ja puolauskoneiden hoitajat	Fibre-preparing, spinning- and winding-machine operators	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'8262'	Kutoma- ja neulekoneiden hoitajat	Weaving- and knitting-machine operators	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'8263'	Ompelukoneiden hoitajat	Sewing-machine operators	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'8264'	Pesu-, valkaisu- ja v‰rj‰yskoneiden hoitajat	Bleaching-, dyeing- and cleaning-machine operators	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'8265'	Turkisten ja nahkojen teolliset k‰sittelij‰t	Fur- and leather-preparing-machine operators	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'8266'	Jalkineiden, laukkujen ym. teolliset valmistajat	Shoemaking- and related machine operators	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'8269'	Muut tekstiili-, turkis- ja nahkatuotteiden teolliset valmistajat	Textile-, fur- and leather-products machine operators not elsewhere classified	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'827'	Elintarvikkeiden ja tupakkatuotteiden teolliset valmistajat	Food and tobacco products machine operators	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'8271'	Liha- ja kalajalosteiden teolliset valmistajat	Meat- and fish-processing-machine operators	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'8272'	Maitotaloustuotteiden teolliset valmistajat	Dairy-products machine operators	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'8273'	Jauhotuotteiden ja mausteiden teolliset valmistajat	Grain- and spice-milling-machine operators	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'8274'	Leipomo- ja suklaatuotteiden teolliset valmistajat	Baked-goods, cereal- and chocolate-products machine operators	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'8275'	Hedelm‰-, vihannes- ym. tuotteiden teolliset valmistajat	Fruit-, vegetable- and nut-processing-machine operators	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'8276'	Sokerin teolliset valmistajat	Sugar production machine operators	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'8277'	Teen, kahvin ja kaakaon teolliset valmistajat	Tea-, coffee- and cocoa-processing-machine operators	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'8278'	Oluen, viinin ja muiden juomien teolliset valmistajat	Brewers, wine and other beverage machine operators	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'8279'	Tupakkatuotteiden teolliset valmistajat	Tobacco production machine operators	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'828'	Teollisuustuotteiden kokoonpanijat	Assemblers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'8281'	Konepaja- ja metallituotteiden kokoonpanijat	Mechanical-machinery assemblers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'8282'	S‰hkˆlaitteiden kokoonpanijat	Electrical-equipment assemblers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'8283'	Elektronisten laitteiden kokoonpanijat	Electronic-equipment assemblers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'8284'	Metalli-, kumi- ja muovituotteiden teolliset kokoonpanijat	Metal-, rubber- and plastic-products assemblers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'8285'	Puu- ym. tuotteiden teolliset kokoonpanijat	Wood and related products assemblers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'8286'	Kartonki-, tekstiili- ym. tuotteiden teolliset kokoonpanijat	Paperboard, textile and related products assembler	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'829'	Muut teolliset valmistajat ja kokoonpanijat	Other machine operators nor elsewhere classified	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'8290'	Muut teolliset valmistajat ja kokoonpanijat	Other machine operators not elsewhere classified	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'83'	Kuljettajat, vesiliikennetyˆntekij‰t ym.	Drivers and related water traffic operators	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'831'	Veturin- ja moottorivaununkuljettajat	Locomotive engine drivers and related workers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'8311'	Veturin- ja moottorivaununkuljettajat	Locomotive engine drivers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'8312'	Vaihdetyˆhenkilˆstˆ	Railway brakers, signallers and shunters	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'832'	Moottoriajoneuvojen kuljettajat	Motor vehicle drivers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'8321'	Moottoripyˆr‰l‰hetit ym.	Motorcycle drivers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'8322'	Henkilˆ- ja pakettiautonkuljettajat	Car, taxi and van drivers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'8323'	Linja-auton- ja raitiovaununkuljettajat	Bus and tram drivers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'8324'	Kuorma-auton ja erikoisajoneuvojen kuljettajat	Heavy truck and lorry drivers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'833'	Tyˆkoneiden kuljettajat	Mobile-plant operators	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'8331'	Maa- ja mets‰taloustyˆkoneiden kuljettajat	Motorised farm and forestry plant operators	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'8332'	Maanrakennus- ym. koneiden kuljettajat	Earth-moving and related plant operators	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'8333'	Nosturinkuljettajat	Crane, hoist and related plant operators	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'8334'	Trukin- ja siirtokoneenkuljettajat	Lifting-truck operators	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'834'	Kansi- ja konemiehistˆ ym. vesiliikenteen tyˆntekij‰t	Ships&#39; deck and engine crews and related workers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'8340'	Kansi- ja konemiehistˆ ym. vesiliikenteen tyˆntekij‰t	Ships&#39; deck and engine crews and related workers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'9'	Muut tyˆntekij‰t	Elementary occupations	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'91'	Muut palvelutyˆntekij‰t	Sales and services elementary occupations	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'911'	Katu- ja kotimyyj‰t ym.	Street vendors and related workers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'9111'	Katumyyj‰t ym.	Street vendors and related workers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'9113'	Puhelinmyyj‰t ja kotimyyj‰t	Door-to-door and telephone salespersons	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'912'	Keng‰nkiillottajat ym.	Shoe cleaning and other street services elementary occupations	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'9120'	Keng‰nkiillottajat ym.	Shoe cleaning and other street services elementary occupations	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'913'	Sairaala-, hoito- ja keittiˆapulaiset, siivoojat ym.	Hospital, domestic, kitchen and related helpers, cleaners	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'9131'	Kotiapulaiset ym.	Domestic helpers and cleaners	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'9132'	Sairaala-, hoito- ja keittiˆapulaiset sek‰ siivoojat	Hospital, domestic and kitchen helpers, cleaners	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'91321'	Sairaala- ja hoitoapulaiset	Assistant nurses and hospital ward assistants	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'91322'	Siivoojat	Cleaners	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'91323'	Keittiˆapulaiset	Kitchen helpers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'9133'	Puhdistajat ja pr‰ss‰‰j‰t	Hand-launderers and pressers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'914'	Kiinteistˆtyˆntekij‰t, ikkunanpesij‰t ym.	Building caretakers, window and related cleaners	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'9141'	Kiinteistˆhuoltomiehet	Building caretakers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'9142'	Ajoneuvojen ja ikkunoiden pesij‰t ym.	Vehicle, window and related cleaners	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'915'	L‰hetit, ovenvartijat ja mittareiden lukijat	Messengers, doorkeepers and related workers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'9151'	Sanomalehtien ja mainosten jakajat ja l‰hetit	Newspaper and advertisement deliverers and messengers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'9152'	Ovenvartijat ja vahtimestarit	Doorkeepers, watchpersons and related workers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'9153'	S‰hkˆ- ja vesimittareiden lukijat ym.	Vending-machine money collectors, meter readers and related workers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'916'	Puhdistustyˆntekij‰t	Garbage collectors and related labourers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'9161'	J‰te- ja kaatopaikkatyˆntekij‰t	Garbage collectors	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'9162'	Kadunlakaisijat ym.	Sweepers and related labourers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'92'	Maa- ja mets‰talouden avustavat tyˆntekij‰t	Agricultural, fishery and related labourers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'921'	Maa- ja mets‰talouden avustavat tyˆntekij‰t	Agricultural, fishery and related labourers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'9210'	Maa- ja mets‰talouden avustavat tyˆntekij‰t	Agricultural, fishery and related labourers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'93'	Teollisuuden ja rakentamisen avustavat tyˆntekij‰t	Labourers in manufacturing and construction	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'931'	Kaivos- ja rakennusalan ym. alojen avustavat tyˆntekij‰t	Mining and construction labourers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'9311'	Kaivosten avustavat tyˆntekij‰t	Mining and quarrying labourers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'9312'	Maa- ja vesirakennusalan avustavat tyˆntekij‰t	Construction and maintenance labourers: roads, dams and similar constructions	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'9313'	Rakennusalan avustavat tyˆntekij‰t	Building construction labourers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'932'	Pakkaajat ja muut avustavat teollisuustyˆntekij‰t ym.	Manufacturing labourers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'9320'	Pakkaajat, lajittelijat ym.	Manufacturing labourers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'933'	Rahdink‰sittelij‰t, varastotyˆntekij‰t ym.	Transport labourers and freight handlers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'9330'	Rahdink‰sittelij‰t, varastotyˆntekij‰t ym.	Transport labourers and freight handlers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'0'	Sotilaat	Armed forces	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'01'	Sotilaat	Armed forces	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'011'	Sotilaat	Armed forces	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'0110'	Sotilaat	Armed forces	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'01101'	Upseerit	Officers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'01102'	Erikoisupseerit	Special officers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'01103'	Opistoupseerit	Warrant officers	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'01104'	Sotilasammattihenkilˆstˆ	Military special personnel	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'01105'	Varusmiehet	Conscripts	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'X'	Tuntematon	Unknown	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'XX'	Tuntematon	Unknown	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'XXX'	Tuntematon	Unknown	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'XXXX'	Tuntematon	Unknown	NA	NA
+PRIM_OUT	CODE7	KAYNTI_AMMATTI	Professional code of the recipient of the visit	'XXXXX'	Tuntematon	Unknown	NA	NA
+PURCH	CODE5	KORV_EUR	Reimbursement	NA	Lääketoimituksesta maksettu perus- tai erityiskorvaus. Ei sisällä lisäkorvausta. Vuoteen 2001 asti markkoina, vuodesta 2002 alkaen euroina.	Basic- or special reimbursement paid for the pharmaceutical delivery. Doesn't include an additional reimbursement. Until the year 2001 as Finnish marks, as of year 2002 as euros.	NA	NA
+PURCH	CODE6	KAKORV_EUR	Additional reimbursement	NA	Lääkkeestä maksettu lisäkorvaus. Lisäkorvausta maksetaan lääkkeiden vuosiomavastuun eli lääkekaton ylittymisen jälkeen. Vuoteen 2001 asti markkoina, vuodesta 2002 alkaen euroina.	Additional reimbursment paid for the drug. The additional reimbursement will be paid after the drug's yearly deductible has been surpassed.  Until the year 2001 as Finnish marks, as of year 2002 as euros.	NA	NA
+PURCH	CODE7	LAJI	Reimbursement category	O	peruskorvattava	basic reimbursement	NA	NA
+PURCH	CODE7	LAJI	Reimbursement category	U	rajoitetusti peruskorvattava (vuosina 1999-2004 "merkittävät ja kalliit peruskorvattavat", vuonna 2005 "erityisin perustein korvattavat")	limited basic reimbursement  (during the years 1999-2004 "significant and expensive basic reimbursements", in the year 2005 "reimbursement on specific grounds")	NA	NA
+PURCH	CODE7	LAJI	Reimbursement category	Y	alempi erityiskorvausluokka	lower special reimbursement category	NA	NA
+PURCH	CODE7	LAJI	Reimbursement category	K	ylempi erityiskorvausluokka	upper special reimbursement category	NA	NA

@@ -1,0 +1,196 @@
+---
+title: "NOMESCO or NCSPfi codes english names check"
+author: "Sam Padmanabhuni"
+date: "06/07/2023"
+output: 
+  github_document:
+    df_print: tibble
+editor_options: 
+  chunk_output_type: inline
+  markdown: 
+    wrap: 72
+---
+
+```{r setup, include=FALSE}
+rm(list = ls())
+library(dplyr)
+library(stringr)
+knitr::opts_chunk$set(echo = TRUE,warning = FALSE, message = FALSE)
+```
+
+# Abstract
+
+Purpose of this is to properly check NCSPfi codes names in the Usagi and
+Code_Set_Compilation_v2.xlsx files. It appears there are procedure codes
+in NCSPfi that have wrong name. For example: SXA10 should have name as
+`Oral muccosal sampling` rather than `Epithelial mouth biopsy`
+
+Below steps are performed:
+
+1.    Load the Code Set Compilation with all the codes prepared by FinnGen team. Filter out NOM and MOP code sets
+1.25. Get common codes present in both NOM and MOP code sets.
+1.5.  Among the common codes, check for codes having both different `name_en_source` and `name_en`. Filter them out.
+1.75. Codes that have different `name_en_source` and `name_en` values will have to select only one based on priority:
+      - TRANSLATOR
+      - DENTAL_GRP
+      - GOOGLE_REVD
+      - THL
+2.    Load the Usagi file and filter for codes from 1.75
+3.    Check if the names of the common codes between NOM and MOP code sets within Usagi has the same name in final
+
+## 1. Load the Code Set Compilation and filter out NOM and MOP code sets
+
+Total number of NOM and MOP code sets is
+```{r}
+path_to_code_set_xlsx <- "Code_Set_Compilation_v2.xlsx"
+col_types = c(
+  "text","text","text","text","text","date","date"
+)
+fg_code_set <- readxl::read_xlsx(path_to_code_set_xlsx, col_types = col_types)
+fg_code_set_nom_mop <- fg_code_set |> 
+  filter(grepl('^MOP|NOM',code_set))
+fg_code_set_nom_mop |> nrow()
+```
+
+## 1.25.  Filter out common codes present in both NOM and MOP code sets.
+
+
+```{r}
+fg_code_set_nom_mop_common <- fg_code_set_nom_mop |> 
+  group_by(code) |> 
+  filter(n() >= 2) |> 
+  arrange(code) |> 
+  # Some names have double spaces which need to be changed to single space
+  mutate(name_en = str_replace_all(name_en, "\\s{2}", " "))
+```
+
+The number of common codes between NOM and MOP code sets is 
+```{r}
+fg_code_set_nom_mop_common |> group_by(code) |> 
+  distinct(code) |> 
+  nrow()
+```
+
+
+## 1.5. Check for different `name_en_source` and `name_en` for common codes. Filter out such codes.
+
+
+```{r}
+fg_code_set_nom_mop_common <- fg_code_set_nom_mop_common |> group_by(code) |>
+  mutate(translator_difference = any(name_en_source != first(name_en_source)),
+                                     name_difference = any(name_en != first(name_en)))
+```
+
+Number of codes with translator difference
+```{r}
+fg_code_set_nom_mop_common |> group_by(code) |> 
+  filter(translator_difference == TRUE) |> 
+  distinct(code) |> 
+  nrow()
+```
+
+Number of codes with name difference
+```{r}
+fg_code_set_nom_mop_common |> group_by(code) |> 
+  filter(name_difference == TRUE) |> 
+  distinct(code) |> 
+  nrow()
+```
+
+Number of codes with both translator and name difference
+```{r}
+fg_code_set_nom_mop_common |> group_by(code) |> 
+  filter(translator_difference == TRUE & name_difference == TRUE) |> 
+  distinct(code) |> 
+  nrow()
+```
+Filter out codes
+```{r}
+fg_code_set_nom_mop_common_diff <- fg_code_set_nom_mop_common |> 
+  group_by(code) |> 
+  filter(translator_difference == TRUE & name_difference == TRUE)
+fg_code_set_nom_mop_common_diff
+```
+
+
+## 1.75. Prioritize `name_en_source` and select only top priority
+```{r}
+fg_code_set_nom_mop_common_diff_final <- fg_code_set_nom_mop_common_diff |> 
+  group_by(code) |> 
+  mutate(priority = case_when(name_en_source == "TRANSLATOR" ~ 1,
+                              name_en_source == "DENTAL_GRP" ~ 2,
+                              name_en_source == "GOOGLE_REVD" ~ 3,
+                              name_en_source == "THL" ~ 4)) |>
+  arrange(priority) |>
+  slice_head(n = 1)
+
+fg_code_set_nom_mop_common_diff_final <- fg_code_set_nom_mop_common_diff_final |> 
+  select(code, name_en, name_fi, name_en_source, valid_start_date, valid_end_date) |> 
+  rename("sourceCode" = "code")
+```
+
+## 2. Load usagi file
+```{r}
+path_to_usagi <- "../NCSPfi.usagi.csv"
+ncspfi_usagi <- readr::read_csv(path_to_usagi, show_col_types = FALSE)
+ncspfi_usagi_common <- semi_join(ncspfi_usagi, fg_code_set_nom_mop_common_diff_final, by="sourceCode")
+```
+
+## 3. Check the names
+```{r}
+usagi_fg_common <- ncspfi_usagi_common |> merge(fg_code_set_nom_mop_common_diff_final, by= "sourceCode")
+
+```
+
+Number of codes with different `sourceName` from Usagi and `name_en` from code set excel file
+```{r}
+ncspfi_usagi_common |> merge(fg_code_set_nom_mop_common_diff_final, by= "sourceCode") |> 
+  select(sourceCode, sourceName, name_en, `ADD_INFO:sourceName_fi`, name_fi) |> 
+  group_by(sourceCode) |> 
+  filter(sourceName != name_en) |> 
+  select(sourceCode) |> 
+  distinct() |> 
+  nrow()
+```
+
+Number of codes with different `ADD_INFO:sourceName_fi` from Usagi and `name_fi` from code set excel file
+```{r}
+ncspfi_usagi_common |> merge(fg_code_set_nom_mop_common_diff_final, by= "sourceCode") |>
+  select(sourceCode, sourceName, name_en, `ADD_INFO:sourceName_fi`, name_fi) |> 
+  group_by(sourceCode) |> 
+  filter(`ADD_INFO:sourceName_fi` != name_fi) |> 
+  select(sourceCode) |> 
+  distinct() |> 
+  nrow()
+```
+
+Number of codes with having either `sourceName` or `ADD_INFO:sourceName_fi` from Usagi different from either `name_en` or `name_fi` from code set excel file
+```{r}
+ncspfi_usagi_common |> merge(fg_code_set_nom_mop_common_diff_final, by= "sourceCode") |>
+  select(sourceCode, sourceName, name_en, `ADD_INFO:sourceName_fi`, name_fi) |> 
+  group_by(sourceCode) |> 
+  filter(sourceName != name_en | `ADD_INFO:sourceName_fi` != name_fi) |> 
+  select(sourceCode) |> 
+  distinct() |> 
+  nrow()
+```
+Get the codes with different `sourceName` from Usagi and `name_en` from code set excel file
+```{r}
+usagi_fg_common <- ncspfi_usagi_common |> merge(fg_code_set_nom_mop_common_diff_final, by= "sourceCode") |> 
+  select(sourceCode, sourceName, name_en) |> 
+  group_by(sourceCode) |> 
+  filter(sourceName != name_en) |> 
+  select(sourceCode, name_en) |>
+  distinct()
+```
+
+## 4. Replace the different codes with `sourceName` with `name_en`. Write it into Usagi file
+
+```{r}
+ncspfi_usagi_updated <- ncspfi_usagi |> 
+  left_join(usagi_fg_common, by = "sourceCode") |>
+  mutate(sourceName = ifelse(!is.na(name_en), name_en, sourceName)) |>
+  select(-name_en)
+
+ncspfi_usagi_updated |> readr::write_csv("../../NCSPfi/NCSPfi.usagi.csv", na = "")
+```
