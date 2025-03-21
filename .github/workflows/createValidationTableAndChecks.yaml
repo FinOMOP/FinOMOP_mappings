@@ -59,13 +59,17 @@ jobs:
           path: output_data/validationResults
           retention-days: 1
 
-      - name: Commit and push validationStatus.md
+      - name: Commit and push validation status
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
+          # Get the current branch name from GITHUB_HEAD_REF (for pull requests) or GITHUB_REF
+          branch_name="${GITHUB_HEAD_REF:-${GITHUB_REF#refs/heads/}}"
           git add validationStatus.md
           git commit -m "Update validation status [skip ci]" || echo "No changes to commit"
-          git push
+          git push origin HEAD:${branch_name}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     
 
       
