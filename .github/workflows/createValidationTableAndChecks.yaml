@@ -39,7 +39,7 @@ jobs:
           token: ${{ secrets.TOKEN_OMOP_VOCABULARIES }}
 
       - name: unzip input_omop_vocabulary.zip
-        working-directory: input_data
+        working-directory: OMOP_vocabularies/data
         shell: bash
         run: |
          rm input_omop_vocabulary/*
