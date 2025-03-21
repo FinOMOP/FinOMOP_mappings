@@ -41,9 +41,11 @@ validationLogTibble <- ROMOPMappingTools::buildVocabulariesAll(
 )
 
 # Write rm
-pathToValidationStatusMdFile <- file.path(pathToOutputFolder, "validationStatus.md")
+pathToValidationStatusMdFile <- file.path(pathToValidationResultsFolder, "validationStatus.md")
 ROMOPMappingTools::buildValidationStatusMd(
     validationLogTibble = validationLogTibble,
     pathToValidationStatusMdFile = pathToValidationStatusMdFile
 )
 
+# copy validationStatus.md to the root of the repository
+file.copy(pathToValidationStatusMdFile, file.path(githubWorkspace, "validationStatus.md"), overwrite = TRUE)

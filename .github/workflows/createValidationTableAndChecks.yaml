@@ -14,6 +14,9 @@ jobs:
     runs-on: ubuntu-latest
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+    permissions:
+      contents: write      # Allows pushing to the repository
+      pull-requests: write # If you need to comment on PRs
     steps:
       - uses: actions/checkout@v3
 
@@ -55,3 +58,14 @@ jobs:
           name: validationResults
           path: output_data/validationResults
           retention-days: 1
+
+      - name: Commit and push validationStatus.md
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add validationStatus.md
+          git commit -m "Update validation status [skip ci]" || echo "No changes to commit"
+          git push
+    
+
+      
