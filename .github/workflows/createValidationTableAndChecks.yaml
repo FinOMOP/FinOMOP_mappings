@@ -35,15 +35,14 @@ jobs:
           repository: 'FinOMOP/OMOP_vocabularies'
           latest: true
           fileName: 'input_omop_vocabulary.zip'
-          out-file-path: 'OMOP_vocabularies/data'
+          out-file-path: 'input_data'
           token: ${{ secrets.TOKEN_OMOP_VOCABULARIES }}
 
       - name: unzip input_omop_vocabulary.zip
-        working-directory: OMOP_vocabularies/data
+        working-directory: input_data
         shell: bash
         run: |
-         rm input_omop_vocabulary/*
-         unzip input_omop_vocabulary.zip
+         unzip -o input_omop_vocabulary.zip
 
       - name: Run R script
         working-directory: .github/scripts
