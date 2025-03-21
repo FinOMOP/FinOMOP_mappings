@@ -63,11 +63,16 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          # Get the current branch name from GITHUB_HEAD_REF (for pull requests) or GITHUB_REF
+          # Get the current branch name
           branch_name="${GITHUB_HEAD_REF:-${GITHUB_REF#refs/heads/}}"
+          # Fetch and merge changes
+          git fetch origin ${branch_name}
+          git checkout ${branch_name}
+          git pull origin ${branch_name}
+          # Make changes and push
           git add validationStatus.md
           git commit -m "Update validation status [skip ci]" || echo "No changes to commit"
-          git push origin HEAD:${branch_name}
+          git push origin ${branch_name}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     
