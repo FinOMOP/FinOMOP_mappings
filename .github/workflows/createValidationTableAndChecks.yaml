@@ -36,7 +36,7 @@ jobs:
           latest: true
           fileName: 'input_omop_vocabulary.zip'
           out-file-path: 'OMOP_vocabularies/data'
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.TOKEN_OMOP_VOCABULARIES }}
 
       - name: unzip input_omop_vocabulary.zip
         working-directory: input_data
