@@ -70,7 +70,7 @@ jobs:
           git checkout ${branch_name}
           git pull origin ${branch_name}
           # Make changes and push
-          git add validationStatus.md
+          git add VOCABULARIES/*
           git commit -m "Update validation status [skip ci]" || echo "No changes to commit"
           git push origin ${branch_name}
         env:

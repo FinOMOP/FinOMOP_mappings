@@ -46,11 +46,3 @@ validationLogTibble <- ROMOPMappingTools::buildVocabulariesAll(
     pathToCodeCountsFolder = pathToCodeCountsFolder,
     validationResultsFolder = validationResultsFolder
 )
-
-# Write rm
-pathToValidationStatusMdFile <- file.path(tempdir(), "validationStatus.md")
-ROMOPMappingTools::buildValidationStatusMd(
-    validationLogTibble = validationLogTibble,
-    pathToValidationStatusMdFile = pathToValidationStatusMdFile
-)
-
