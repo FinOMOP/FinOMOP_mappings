@@ -2,6 +2,7 @@
 # Setting environment
 #
 githubWorkspace <- Sys.getenv("GITHUB_WORKSPACE")
+createDashboard <- Sys.getenv("CREATE_DASHBOARD")
 pathToOMOPVocabularyCSVsFolder <- file.path(githubWorkspace, "input_data/input_omop_vocabulary")
 pathToVocabularyFolder <- file.path(githubWorkspace, "VOCABULARIES")
 pathToOutputFolder <- file.path(githubWorkspace, "output_data")
@@ -37,11 +38,28 @@ validationLogTibble <- ROMOPMappingTools::buildVocabulariesAll(
     validationResultsFolder = pathToVocabularyFolder
 )
 
+#
+# Create dashboard
+#
+pathToDashboardFolder <- "public"
+dir.create(pathToDashboardFolder, showWarnings = FALSE, recursive = TRUE)
+
+if (createDashboard == "TRUE") {
+    validationLogTibble_dashboard <- ROMOPMappingTools::buildStatusDashboard(
+        pathToCodeCountsFolder = pathToCodeCountsFolder,
+        connectionDetails = connectionDetails,
+        vocabularyDatabaseSchema = vocabularyDatabaseSchema,
+        output_file_html = file.path(pathToDashboardFolder, "MappingStatusDashboard.html")
+    )
+
+    validationLogTibble  <- dplyr::bind_rows(validationLogTibble, validationLogTibble_dashboard)
+}
+
+
 ROMOPMappingTools::buildValidationStatusMd(
     validationLogTibble = validationLogTibble,
     pathToValidationStatusMdFile = file.path(pathToVocabularyFolder, "VOCABULARIES_VALIDATION_STATUS.md")
 )
-
 
 #
 # pass final status to github action
