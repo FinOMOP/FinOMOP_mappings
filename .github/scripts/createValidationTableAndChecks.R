@@ -40,3 +40,9 @@ validationLogTibble <- ROMOPMappingTools::buildVocabulariesAll(
     validationResultsFolder = pathToVocabularyFolder
 )
 
+ROMOPMappingTools::buildValidationStatusMd(
+    validationLogTibble = validationLogTibble,
+    pathToValidationStatusMdFile = file.path(pathToValidationResultsFolder, "VOCABULARIES_VALIDATION_STATUS.md")
+)
+
+
