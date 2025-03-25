@@ -46,7 +46,6 @@ ROMOPMappingTools::buildValidationStatusMd(
 #
 # pass final status to github action
 #
-
 Sys.setenv(FINAL_STATUS = "SUCCESS")
 if (any(validationLogTibble$status == "WARNING")) {
     Sys.setenv(FINAL_STATUS = "WARNING")
