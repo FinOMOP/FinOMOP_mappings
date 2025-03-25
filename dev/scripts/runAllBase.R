@@ -1,12 +1,9 @@
 #
-# Setting environment
+# Set environment using runAll.R or runAllGitHubAction.R
 #
-githubWorkspace <- Sys.getenv("GITHUB_WORKSPACE")
-createDashboard <- Sys.getenv("CREATE_DASHBOARD")
-pathToOMOPVocabularyCSVsFolder <- file.path(githubWorkspace, "input_data/input_omop_vocabulary")
-pathToVocabularyFolder <- file.path(githubWorkspace, "VOCABULARIES")
-pathToOutputFolder <- file.path(githubWorkspace, "output_data")
-dir.create(pathToOutputFolder, showWarnings = FALSE, recursive = TRUE)
+if (!dir.exists(validationResultsFolder)) {
+    dir.create(validationResultsFolder, showWarnings = FALSE, recursive = TRUE)
+}
 
 # create a temporary copy of the OMOP vocabulary duckdb file
 pathToOMOPVocabularyDuckDBfile <- tempfile(fileext = ".duckdb")
@@ -35,16 +32,15 @@ validationLogTibble <- ROMOPMappingTools::buildVocabulariesAll(
     pathToVocabularyFolder = pathToVocabularyFolder,
     connectionDetails = connectionDetails,
     vocabularyDatabaseSchema = vocabularyDatabaseSchema,
-    validationResultsFolder = pathToVocabularyFolder
+    validationResultsFolder = validationResultsFolder
 )
 
 #
 # Create dashboard
 #
-pathToDashboardFolder <- "public"
-dir.create(pathToDashboardFolder, showWarnings = FALSE, recursive = TRUE)
-
 if (createDashboard == "TRUE") {
+    dir.create(pathToDashboardFolder, showWarnings = FALSE, recursive = TRUE)
+
     validationLogTibble_dashboard <- ROMOPMappingTools::buildStatusDashboard(
         pathToCodeCountsFolder = pathToCodeCountsFolder,
         connectionDetails = connectionDetails,
@@ -58,7 +54,7 @@ if (createDashboard == "TRUE") {
 
 ROMOPMappingTools::buildValidationStatusMd(
     validationLogTibble = validationLogTibble,
-    pathToValidationStatusMdFile = file.path(pathToVocabularyFolder, "VOCABULARIES_VALIDATION_STATUS.md")
+    pathToValidationStatusMdFile = file.path(validationResultsFolder, "VOCABULARIES_VALIDATION_STATUS.md")
 )
 
 #
@@ -71,5 +67,4 @@ if (any(validationLogTibble$status == "WARNING")) {
 if (any(validationLogTibble$status == "ERROR")) {
     Sys.setenv(FINAL_STATUS = "ERROR")
 }
-
 

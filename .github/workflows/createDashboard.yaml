@@ -50,9 +50,8 @@ jobs:
          unzip -o input_omop_vocabulary.zip
 
       - name: Run R script
-        working-directory: .github/scripts
         shell: Rscript {0}
-        run: source("createValidationTableAndChecks.R")
+        run: source("dev/scripts/runAllGitHubAction.R")
 
       - name: If any error fail the workflow
         if: ${{ env.FINAL_STATUS }} == 'ERROR'
