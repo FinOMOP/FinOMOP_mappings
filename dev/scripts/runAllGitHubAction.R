@@ -8,3 +8,7 @@ pathToVocabularyFolder <- file.path(githubWorkspace, "VOCABULARIES")
 pathToOutputFolder <- pathToVocabularyFolder
 pathToDashboardFolder <- "public"
 
+#
+# Run function
+#
+source("dev/scripts/runAllBase.R")

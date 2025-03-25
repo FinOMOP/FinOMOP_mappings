@@ -1,5 +1,5 @@
 #
-# Set environment using runAll.R or runAllGitHubAction.R
+# Set environment using runAllLocal.R or runAllGitHubAction.R
 #
 if (!dir.exists(validationResultsFolder)) {
     dir.create(validationResultsFolder, showWarnings = FALSE, recursive = TRUE)
