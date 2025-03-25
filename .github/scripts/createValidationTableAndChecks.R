@@ -30,9 +30,6 @@ DatabaseConnector::disconnect(connection)
 #
 # Run function
 #
-pathToValidationResultsFolder <- file.path(pathToOutputFolder, "validationResults")
-dir.create(pathToValidationResultsFolder, showWarnings = FALSE, recursive = TRUE)
-
 validationLogTibble <- ROMOPMappingTools::buildVocabulariesAll(
     pathToVocabularyFolder = pathToVocabularyFolder,
     connectionDetails = connectionDetails,
@@ -42,7 +39,20 @@ validationLogTibble <- ROMOPMappingTools::buildVocabulariesAll(
 
 ROMOPMappingTools::buildValidationStatusMd(
     validationLogTibble = validationLogTibble,
-    pathToValidationStatusMdFile = file.path(pathToValidationResultsFolder, "VOCABULARIES_VALIDATION_STATUS.md")
+    pathToValidationStatusMdFile = file.path(pathToVocabularyFolder, "VOCABULARIES_VALIDATION_STATUS.md")
 )
+
+
+#
+# pass final status to github action
+#
+
+Sys.setenv(FINAL_STATUS = "SUCCESS")
+if (any(validationLogTibble$status == "WARNING")) {
+    Sys.setenv(FINAL_STATUS = "WARNING")
+}
+if (any(validationLogTibble$status == "ERROR")) {
+    Sys.setenv(FINAL_STATUS = "ERROR")
+}
 
 
