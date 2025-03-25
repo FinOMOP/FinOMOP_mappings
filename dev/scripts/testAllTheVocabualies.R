@@ -1,6 +1,6 @@
 #
 # install dependencies
-# 
+#
 if (require("remotes")) {
     install.packages("remotes")
 }
@@ -43,6 +43,12 @@ validationLogTibble <- ROMOPMappingTools::buildVocabulariesAll(
     pathToVocabularyFolder = pathToVocabularyFolder,
     connectionDetails = connectionDetails,
     vocabularyDatabaseSchema = vocabularyDatabaseSchema,
-    pathToCodeCountsFolder = pathToCodeCountsFolder,
     validationResultsFolder = validationResultsFolder
+)
+
+# save validation log tibble
+pathToValidationStatusMdFile <- file.path(validationResultsFolder, "VALIDATION_STATUS.md")
+ROMOPMappingTools::buildValidationStatusMd(
+    validationLogTibble = validationLogTibble,
+    pathToValidationStatusMdFile = pathToValidationStatusMdFile
 )

@@ -37,6 +37,6 @@ validationLogTibble <- ROMOPMappingTools::buildVocabulariesAll(
     pathToVocabularyFolder = pathToVocabularyFolder,
     connectionDetails = connectionDetails,
     vocabularyDatabaseSchema = vocabularyDatabaseSchema,
-    validationResultsFolder = pathToValidationResultsFolder
+    validationResultsFolder = pathToVocabularyFolder
 )
 
