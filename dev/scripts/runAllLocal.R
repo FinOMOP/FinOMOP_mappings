@@ -17,7 +17,7 @@ pathToVocabularyFolder <- "./VOCABULARIES"
 pathToCodeCountsFolder <- "./CODE_COUNTS"
 validationResultsFolder <- "./output_data/VOCABULARIES"
 #validationResultsFolder <- pathToVocabularyFolder
-pathToDashboardFolder <- "./output_data/public"
+pathToDashboardFolder <- file.path(getwd(), "output_data", "public")
 
 #
 # Run function
