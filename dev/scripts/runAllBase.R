@@ -1,6 +1,10 @@
 #
-# Set environment using runAllLocal.R or runAllGitHubAction.R
+# runAllBase.R
 #
+# This script is the main script that is called by runAllLocal.R or runAllGitHubAction.R.
+#
+
+
 if (!dir.exists(validationResultsFolder)) {
     dir.create(validationResultsFolder, showWarnings = FALSE, recursive = TRUE)
 }
@@ -38,7 +42,7 @@ validationLogTibble <- ROMOPMappingTools::buildVocabulariesAll(
 #
 # Create dashboard
 #
-if (createDashboard == "TRUE") {
+if (createDashboard == "TRUE" & any(validationLogTibble$status != "ERROR")) {
     dir.create(pathToDashboardFolder, showWarnings = FALSE, recursive = TRUE)
 
     validationLogTibble_dashboard <- ROMOPMappingTools::buildStatusDashboard(

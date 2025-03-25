@@ -1,4 +1,13 @@
 #
+# runAllLocal.R
+#
+# This script set the variable to run the validation of the vocabularies locally.
+# 1. install dependencies
+# 2. set the environment variables
+# 3. call runAllBase.R
+#
+
+#
 # install dependencies
 #
 if (require("remotes")) {
@@ -12,7 +21,7 @@ if (require("ROMOPMappingTools")) {
 # Setting environment
 #
 createDashboard <- "TRUE"
-pathToOMOPVocabularyCSVsFolder <- "../OMOP_vocabularies/data/input_omop_vocabulary"
+pathToOMOPVocabularyCSVsFolder <- "../OMOP_vocabularies/data/input_omop_vocabulary" # SET TO LOCAL PATH
 pathToVocabularyFolder <- "./VOCABULARIES"
 pathToCodeCountsFolder <- "./CODE_COUNTS"
 validationResultsFolder <- "./output_data/VOCABULARIES"
