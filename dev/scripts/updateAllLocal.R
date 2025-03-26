@@ -1,6 +1,15 @@
 #
+# updateAllLocal.R
+#
+# This script set the variable to run the validation of the vocabularies locally.
+# 1. install dependencies
+# 2. set the environment variables
+# 3. call runAllBase.R
+#
+
+#
 # install dependencies
-# 
+#
 if (require("remotes")) {
     install.packages("remotes")
 }
@@ -11,9 +20,15 @@ if (require("ROMOPMappingTools")) {
 #
 # Setting environment
 #
-pathToOMOPVocabularyCSVsFolder <- "../OMOP_vocabularies/data/input_omop_vocabulary"
+pathToOMOPVocabularyCSVsFolder <- "../OMOP_vocabularies/data/input_omop_vocabulary" # SET TO LOCAL PATH
 pathToVocabularyFolder <- "./VOCABULARIES"
-pathToCodeCountsFolder <- "./CODE_COUNTS"
+updateResultsFolder <- "./output_data/VOCABULARIES"
+#updateResultsFolder <- pathToVocabularyFolder
+
+
+if (!dir.exists(updateResultsFolder)) {
+    dir.create(updateResultsFolder, showWarnings = FALSE, recursive = TRUE)
+}
 
 # create a temporary copy of the OMOP vocabulary duckdb file
 pathToOMOPVocabularyDuckDBfile <- tempfile(fileext = ".duckdb")
@@ -35,22 +50,17 @@ ROMOPMappingTools::omopVocabularyCSVsToDuckDB(
 
 DatabaseConnector::disconnect(connection)
 
+#
 # Run function
-validationResultsFolder <- file.path(tempdir(), "validationResults")
-dir.create(validationResultsFolder, showWarnings = FALSE, recursive = TRUE)
-
-validationLogTibble <- ROMOPMappingTools::buildVocabulariesAll(
+#
+connection <- DatabaseConnector::connect(connectionDetails)
+updateLogTibble <- ROMOPMappingTools::updateVocabularyFolder(
     pathToVocabularyFolder = pathToVocabularyFolder,
-    connectionDetails = connectionDetails,
+    connection = connection,
     vocabularyDatabaseSchema = vocabularyDatabaseSchema,
-    pathToCodeCountsFolder = pathToCodeCountsFolder,
-    validationResultsFolder = validationResultsFolder
+    updateResultsFolder = updateResultsFolder
 )
 
-# Write rm
-pathToValidationStatusMdFile <- file.path(tempdir(), "validationStatus.md")
-ROMOPMappingTools::buildValidationStatusMd(
-    validationLogTibble = validationLogTibble,
-    pathToValidationStatusMdFile = pathToValidationStatusMdFile
-)
+DatabaseConnector::disconnect(connection)
 
+updateLogTibble |> print(n = Inf)
