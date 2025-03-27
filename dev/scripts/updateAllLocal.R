@@ -23,7 +23,7 @@ if (require("ROMOPMappingTools")) {
 pathToOMOPVocabularyCSVsFolder <- "../OMOP_vocabularies/data/input_omop_vocabulary" # SET TO LOCAL PATH
 pathToVocabularyFolder <- "./VOCABULARIES"
 updateResultsFolder <- "./output_data/VOCABULARIES"
-#updateResultsFolder <- pathToVocabularyFolder
+updateResultsFolder <- pathToVocabularyFolder
 
 
 if (!dir.exists(updateResultsFolder)) {
@@ -64,3 +64,8 @@ updateLogTibble <- ROMOPMappingTools::updateVocabularyFolder(
 DatabaseConnector::disconnect(connection)
 
 updateLogTibble |> print(n = Inf)
+
+ROMOPMappingTools::buildUpdateStatusMd(
+    updateLogTibble = updateLogTibble,
+    pathToUpdateStatusMd = file.path(updateResultsFolder, "VOCABULARIES_LAST_AUTOMATIC_UPDATE_STATUS.md")
+)
