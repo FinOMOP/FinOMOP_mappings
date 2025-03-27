@@ -21,7 +21,7 @@ ROMOPMappingTools version: 2.0.0
 |MEDSPECfi            |      24|       0|     0|
 |MICROBEfi            |      24|       0|     0|
 |MICROBEfi_TKU        |      24|       0|     0|
-|NCSPfi               |      21|       2|     1|
+|NCSPfi               |      22|       2|     0|
 |SNOMED2fi            |      23|       0|     1|
 |ProcedureModifier    |      23|       0|     1|
 |REIMB                |      24|       0|     0|
@@ -353,7 +353,7 @@ ROMOPMappingTools version: 2.0.0
 |NCSPfi               |SUCCESS |SourceDomain is empty                                    |                                                     |
 |NCSPfi               |SUCCESS |SourceDomain is not a valid domain                       |                                                     |
 |NCSPfi               |WARNING |Not APPROVED mappingStatus with valid domain combination |Found 2 codes with invalid domain combinations       |
-|NCSPfi               |ERROR   |APPROVED mappingStatus with valid domain combination     |Found 2 codes with invalid domain combinations       |
+|NCSPfi               |SUCCESS |APPROVED mappingStatus with valid domain combination     |                                                     |
 |NCSPfi               |SUCCESS |Missing date columns                                     |                                                     |
 |NCSPfi               |SUCCESS |SourceValidStartDate is after SourceValidEndDate         |                                                     |
 |NCSPfi               |SUCCESS |Missing parent columns                                   |                                                     |
