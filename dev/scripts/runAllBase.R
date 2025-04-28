@@ -74,4 +74,4 @@ if (any(validationLogTibble$status == "ERROR")) {
 
 message("FINAL_STATUS: ", FINAL_STATUS)
 
-writeLines(FINAL_STATUS, file.path(validationResultsFolder, "FINAL_STATUS.txt"))
+writeLines(FINAL_STATUS, "/tmp/FINAL_STATUS.txt")

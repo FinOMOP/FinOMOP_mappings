@@ -55,7 +55,7 @@ jobs:
       - name: Read final status
         id: read_status
         run: |
-          FINAL_STATUS=$(cat VOCABULARIES/FINAL_STATUS.txt)
+          FINAL_STATUS=$(cat /tmp/FINAL_STATUS.txt)
           echo "FINAL_STATUS=$FINAL_STATUS" >> $GITHUB_ENV
 
       - name: Commit and push validation status
