@@ -25,10 +25,11 @@ pathToOMOPVocabularyCSVsFolder <- "../OMOP_vocabularies/data/input_omop_vocabula
 pathToVocabularyFolder <- "./VOCABULARIES"
 pathToCodeCountsFolder <- "./CODE_COUNTS"
 validationResultsFolder <- "./output_data/VOCABULARIES"
-#validationResultsFolder <- pathToVocabularyFolder
+validationResultsFolder <- pathToVocabularyFolder
 pathToDashboardFolder <- file.path(getwd(), "output_data", "public")
 
 #
 # Run function
 #
 source("dev/scripts/runAllBase.R")
+
