@@ -65,10 +65,10 @@ ROMOPMappingTools::buildValidationStatusMd(
 # pass final status to github action
 #
 FINAL_STATUS = "SUCCESS"
-if (any(validationLogTibble$status == "WARNING")) {
+if (any(validationLogTibble$type == "WARNING")) {
     FINAL_STATUS = "WARNING"
 }
-if (any(validationLogTibble$status == "ERROR")) {
+if (any(validationLogTibble$type == "ERROR")) {
     FINAL_STATUS = "ERROR"
 }
 
