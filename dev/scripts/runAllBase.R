@@ -72,3 +72,4 @@ if (any(validationLogTibble$status == "ERROR")) {
     Sys.setenv(FINAL_STATUS = "ERROR")
 }
 
+message("FINAL_STATUS: ", Sys.getenv("FINAL_STATUS"))
