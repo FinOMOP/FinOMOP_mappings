@@ -52,6 +52,12 @@ jobs:
         shell: Rscript {0}
         run: source("dev/scripts/runAllGitHubAction.R")
 
+      - name: Read final status
+        id: read_status
+        run: |
+          FINAL_STATUS=$(cat VOCABULARIES/FINAL_STATUS.txt)
+          echo "FINAL_STATUS=$FINAL_STATUS" >> $GITHUB_ENV
+
       - name: Commit and push validation status
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
@@ -70,7 +76,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: If any error fail the workflow
-        if: ${{ $(cat VOCABULARIES/FINAL_STATUS.txt) != 'SUCCESS' }}
+        if: ${{ env.FINAL_STATUS != 'SUCCESS' }}
         run: |
           cat VOCABULARIES/VOCABULARIES_VALIDATION_STATUS.md
           echo "Final status is Error"
