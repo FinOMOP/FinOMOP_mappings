@@ -14,7 +14,6 @@ jobs:
     runs-on: ubuntu-latest
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
-      FINAL_STATUS: "ERROR"
       CREATE_DASHBOARD: "FALSE"
     permissions:
       contents: write      # Allows pushing to the repository
@@ -71,7 +70,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: If any error fail the workflow
-        if: ${{ env.FINAL_STATUS }} == 'ERROR'
+        if: ${{ $(cat VOCABULARIES/FINAL_STATUS.txt) != 'SUCCESS' }}
         run: |
           cat VOCABULARIES/VOCABULARIES_VALIDATION_STATUS.md
           echo "Final status is Error"
