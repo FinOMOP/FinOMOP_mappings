@@ -21,7 +21,7 @@ ROMOPMappingTools version: 2.0.0
 |MEDSPECfi            |      24|       0|     0|
 |MICROBEfi            |      24|       0|     0|
 |MICROBEfi_TKU        |      24|       0|     0|
-|NCSPfi               |      22|       2|     0|
+|NCSPfi               |      23|       1|     0|
 |SNOMED2fi            |      23|       1|     0|
 |ProcedureModifier    |      24|       0|     0|
 |REIMB                |      24|       0|     0|
@@ -353,7 +353,7 @@ ROMOPMappingTools version: 2.0.0
 |NCSPfi               |SUCCESS |SourceConceptClass is more than 20 characters                                                                                                                                                                                              |                                                 |
 |NCSPfi               |SUCCESS |SourceDomain is empty                                                                                                                                                                                                                      |                                                 |
 |NCSPfi               |SUCCESS |SourceDomain is not a valid domain                                                                                                                                                                                                         |                                                 |
-|NCSPfi               |WARNING |Not APPROVED mappingStatus with valid domain combination                                                                                                                                                                                   |Found 2 codes with invalid domain combinations   |
+|NCSPfi               |SUCCESS |Not APPROVED mappingStatus with valid domain combination                                                                                                                                                                                   |                                                 |
 |NCSPfi               |SUCCESS |APPROVED mappingStatus with valid domain combination                                                                                                                                                                                       |                                                 |
 |NCSPfi               |SUCCESS |Missing date columns                                                                                                                                                                                                                       |                                                 |
 |NCSPfi               |SUCCESS |SourceValidStartDate is after SourceValidEndDate                                                                                                                                                                                           |                                                 |

@@ -2,20 +2,19 @@
 # Need help debugging build failures? Start at https://github.com/r-lib/actions#where-to-find-help
 on:
   pull_request:
-    branches: [development]
+    branches: [main, development]
     paths:
         - 'VOCABULARIES/**'
   workflow_dispatch:
 
-name: validateChanges
+name: validateAndCreateDashboardIfMain
 
 jobs:
-  validateChanges:
+  validateAndCreateDashboardIfMain:
     runs-on: ubuntu-latest
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
-      FINAL_STATUS: "ERROR"
-      CREATE_DASHBOARD: "FALSE"
+      CREATE_DASHBOARD: ${{ github.ref == 'refs/heads/main' && 'TRUE' || 'FALSE' }}
     permissions:
       contents: write      # Allows pushing to the repository
       pull-requests: write # If you need to comment on PRs
@@ -53,6 +52,12 @@ jobs:
         shell: Rscript {0}
         run: source("dev/scripts/runAllGitHubAction.R")
 
+      - name: Read final status
+        id: read_status
+        run: |
+          FINAL_STATUS=$(cat /tmp/FINAL_STATUS.txt)
+          echo "FINAL_STATUS=$FINAL_STATUS" >> $GITHUB_ENV
+
       - name: Commit and push validation status
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
@@ -71,8 +76,15 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: If any error fail the workflow
-        if: ${{ env.FINAL_STATUS }} == 'ERROR'
+        if: ${{ env.FINAL_STATUS != 'SUCCESS' && env.FINAL_STATUS != 'WARNING' }}
         run: |
           cat VOCABULARIES/VOCABULARIES_VALIDATION_STATUS.md
           echo "Final status is Error"
           exit 1
+
+      - name: If main branch, Deploy to GitHub Pages
+        if: success() && ${{ github.ref == 'refs/heads/main' }}
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public

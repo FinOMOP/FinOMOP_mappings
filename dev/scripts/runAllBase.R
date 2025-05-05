@@ -64,12 +64,14 @@ ROMOPMappingTools::buildValidationStatusMd(
 #
 # pass final status to github action
 #
-Sys.setenv(FINAL_STATUS = "SUCCESS")
-if (any(validationLogTibble$status == "WARNING")) {
-    Sys.setenv(FINAL_STATUS = "WARNING")
+FINAL_STATUS = "SUCCESS"
+if (any(validationLogTibble$type == "WARNING")) {
+    FINAL_STATUS = "WARNING"
 }
-if (any(validationLogTibble$status == "ERROR")) {
-    Sys.setenv(FINAL_STATUS = "ERROR")
+if (any(validationLogTibble$type == "ERROR")) {
+    FINAL_STATUS = "ERROR"
 }
 
-message("FINAL_STATUS: ", Sys.getenv("FINAL_STATUS"))
+message("FINAL_STATUS: ", FINAL_STATUS)
+
+writeLines(FINAL_STATUS, "/tmp/FINAL_STATUS.txt")
