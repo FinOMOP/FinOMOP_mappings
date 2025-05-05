@@ -17,7 +17,7 @@ jobs:
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
       # If the branch is main or development, create the dashboard
-      CREATE_DASHBOARD: ${{ (github.ref == 'refs/heads/main' || github.base_ref == 'refs/heads/main') && 'TRUE' || 'FALSE' }}
+      CREATE_DASHBOARD: ${{ (github.ref == 'refs/heads/main' || github.base_ref == 'main') && 'TRUE' || 'FALSE' }}
       BRANCH_NAME: ${{ github.ref }}
       BASE_BRANCH_NAME: ${{ github.base_ref }}
     permissions:
