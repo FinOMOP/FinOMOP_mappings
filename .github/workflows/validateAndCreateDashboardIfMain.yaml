@@ -5,8 +5,8 @@ on:
     branches: [main]
   pull_request:
     branches: [main, development]
-    paths:
-        - 'VOCABULARIES/**'
+    #paths:
+     #   - 'VOCABULARIES/**'
   workflow_dispatch:
 
 name: validateAndCreateDashboardIfMain
