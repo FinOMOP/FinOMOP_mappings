@@ -64,6 +64,7 @@ jobs:
           echo "FINAL_STATUS=$FINAL_STATUS" >> $GITHUB_ENV
 
       - name: Commit and push validation status
+        if: success() && ${{ env.CREATE_DASHBOARD == 'TRUE' }}
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
