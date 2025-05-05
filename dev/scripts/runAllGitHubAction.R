@@ -15,7 +15,7 @@ pathToOMOPVocabularyCSVsFolder <- file.path(githubWorkspace, "input_data/input_o
 pathToVocabularyFolder <- file.path(githubWorkspace, "VOCABULARIES")
 pathToCodeCountsFolder <- file.path(githubWorkspace, "CODE_COUNTS")
 validationResultsFolder <- pathToVocabularyFolder
-pathToDashboardFolder <- "public"
+pathToDashboardFolder <- file.path(githubWorkspace, "public")
 
 #
 # Run function
