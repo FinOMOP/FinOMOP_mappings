@@ -19,6 +19,7 @@ jobs:
       # If the branch is main or development, create the dashboard
       CREATE_DASHBOARD: ${{ (github.ref == 'refs/heads/main' || github.base_ref == 'refs/heads/main') && 'TRUE' || 'FALSE' }}
       BRANCH_NAME: ${{ github.ref }}
+      BASE_BRANCH_NAME: ${{ github.base_ref }}
     permissions:
       contents: write      # Allows pushing to the repository
       pull-requests: write # If you need to comment on PRs
