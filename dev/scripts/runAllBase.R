@@ -44,7 +44,7 @@ validationLogTibble <- ROMOPMappingTools::buildVocabulariesAll(
 #
 # Create dashboard
 #
-if (createDashboard == "TRUE" & any(validationLogTibble$status != "ERROR")) {
+if (createDashboard == "TRUE" & any(validationLogTibble$type != "ERROR")) {
     message("Creating dashboard")
 
     dir.create(pathToDashboardFolder, showWarnings = FALSE, recursive = TRUE)
