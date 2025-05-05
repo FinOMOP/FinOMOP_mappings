@@ -1,6 +1,8 @@
 # Workflow derived from https://github.com/r-lib/actions/tree/v2/examples
 # Need help debugging build failures? Start at https://github.com/r-lib/actions#where-to-find-help
 on:
+  push:
+    branches: [main]
   pull_request:
     branches: [main, development]
     paths:
@@ -14,7 +16,8 @@ jobs:
     runs-on: ubuntu-latest
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
-      CREATE_DASHBOARD: ${{ github.ref == 'refs/heads/main' && 'TRUE' || 'FALSE' }}
+      # If the branch is main or development, create the dashboard
+      CREATE_DASHBOARD: ${{ (github.ref == 'refs/heads/main' || github.ref == 'refs/heads/development') && 'TRUE' || 'FALSE' }}
     permissions:
       contents: write      # Allows pushing to the repository
       pull-requests: write # If you need to comment on PRs
