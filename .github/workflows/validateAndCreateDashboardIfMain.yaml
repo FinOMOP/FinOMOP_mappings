@@ -5,8 +5,8 @@ on:
     branches: [main]
   pull_request:
     branches: [main, development]
-    #paths:
-     #   - 'VOCABULARIES/**'
+    paths:
+      - 'VOCABULARIES/**'
   workflow_dispatch:
 
 name: validateAndCreateDashboardIfMain
@@ -20,7 +20,7 @@ jobs:
       PR_SOURCE_BRANCH_NAME: ${{ github.head_ref }}
       PUSH_TARGET_BRANCH_NAME: ${{ github.ref_name }}
       # If the PR source brunch is a feature branch (not main or development), commit the validation status
-      COMMIT_VALIDATION_STATUS: ${{ !(github.head_ref == 'main' || github.head_ref == 'development') && 'TRUE' || 'FALSE' }}
+      COMMIT_VALIDATION_STATUS: ${{ !(github.head_ref == 'main' || github.head_ref == 'development' || github.ref_name == 'main') && 'TRUE' || 'FALSE' }}
       # If the PR target branch is main , build the dashboard
       BUILD_DASHBOARD: ${{ (github.base_ref == 'main' ||github.ref_name == 'main') && 'TRUE' || 'FALSE' }}
       # If the push target branch is main, deploy the dashboard
@@ -97,7 +97,7 @@ jobs:
           exit 1
 
       - name: If main branch, Deploy to GitHub Pages
-        if: success() && ${{ env.DEPLOY_DASHBOARD == 'TRUE' }}
+        if: ${{ env.DEPLOY_DASHBOARD == 'TRUE' }}
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
