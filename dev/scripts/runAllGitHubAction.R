@@ -10,7 +10,7 @@
 # Setting environment
 #
 githubWorkspace <- Sys.getenv("GITHUB_WORKSPACE")
-createDashboard <- Sys.getenv("CREATE_DASHBOARD")
+createDashboard <- Sys.getenv("BUILD_DASHBOARD")
 pathToOMOPVocabularyCSVsFolder <- file.path(githubWorkspace, "input_data/input_omop_vocabulary")
 pathToVocabularyFolder <- file.path(githubWorkspace, "VOCABULARIES")
 pathToCodeCountsFolder <- file.path(githubWorkspace, "CODE_COUNTS")
