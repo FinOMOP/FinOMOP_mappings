@@ -18,8 +18,8 @@ jobs:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
       # If the branch is main or development, create the dashboard
       CREATE_DASHBOARD: ${{ (github.ref == 'refs/heads/main' || github.base_ref == 'main') && 'TRUE' || 'FALSE' }}
-      BRANCH_NAME: ${{ github.ref }}
-      BASE_BRANCH_NAME: ${{ github.base_ref }}
+      PUSH_TARGET_BRANCH_NAME: ${{ github.ref_name }}
+      PR_TARGET_BRANCH_NAME: ${{ github.base_ref }}
     permissions:
       contents: write      # Allows pushing to the repository
       pull-requests: write # If you need to comment on PRs
@@ -64,6 +64,7 @@ jobs:
           echo "FINAL_STATUS=$FINAL_STATUS" >> $GITHUB_ENV
 
       - name: Commit and push validation status
+        if: ${{ env.CREATE_DASHBOARD != 'TRUE' }}
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
@@ -88,7 +89,7 @@ jobs:
           exit 1
 
       - name: If main branch, Deploy to GitHub Pages
-        if: success() && ${{ github.ref == 'refs/heads/main' }}
+        if: success() && ${{ github.ref_name == 'main' }}
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}

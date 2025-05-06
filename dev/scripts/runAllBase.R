@@ -10,6 +10,7 @@ if (!dir.exists(validationResultsFolder)) {
 }
 
 # create a temporary copy of the OMOP vocabulary duckdb file
+message("Creating temporary copy of the OMOP vocabulary duckdb file")
 pathToOMOPVocabularyDuckDBfile <- tempfile(fileext = ".duckdb")
 
 connectionDetails <- DatabaseConnector::createConnectionDetails(
@@ -32,6 +33,7 @@ DatabaseConnector::disconnect(connection)
 #
 # Run function
 #
+message("Running function to build vocabularies")
 validationLogTibble <- ROMOPMappingTools::buildVocabulariesAll(
     pathToVocabularyFolder = pathToVocabularyFolder,
     connectionDetails = connectionDetails,
@@ -42,7 +44,9 @@ validationLogTibble <- ROMOPMappingTools::buildVocabulariesAll(
 #
 # Create dashboard
 #
-if (createDashboard == "TRUE" & any(validationLogTibble$status != "ERROR")) {
+if (createDashboard == "TRUE" & any(validationLogTibble$type != "ERROR")) {
+    message("Creating dashboard")
+
     dir.create(pathToDashboardFolder, showWarnings = FALSE, recursive = TRUE)
 
     validationLogTibble_dashboard <- ROMOPMappingTools::buildStatusDashboard(
@@ -55,7 +59,7 @@ if (createDashboard == "TRUE" & any(validationLogTibble$status != "ERROR")) {
     validationLogTibble  <- dplyr::bind_rows(validationLogTibble, validationLogTibble_dashboard)
 }
 
-
+message("Building validation status markdown file")
 ROMOPMappingTools::buildValidationStatusMd(
     validationLogTibble = validationLogTibble,
     pathToValidationStatusMdFile = file.path(validationResultsFolder, "VOCABULARIES_VALIDATION_STATUS.md")
