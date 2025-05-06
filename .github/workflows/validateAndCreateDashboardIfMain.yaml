@@ -23,7 +23,7 @@ jobs:
       # If the PR source brunch is a feature branch (not main or development), commit the validation status
       COMMIT_VALIDATION_STATUS: ${{ !(env.PR_SOURCE_BRANCH_NAME == 'main' || env.PR_SOURCE_BRANCH_NAME == 'development') && 'TRUE' || 'FALSE' }}
       # If the PR target branch is main or development, build the dashboard
-      BUILD_DASHBOARD: ${{ (env.PR_TARGET_BRANCH_NAME == 'main' || env.PR_TARGET_BRANCH_NAME == 'development') && 'TRUE' || 'FALSE' }}
+      BUILD_DASHBOARD: ${{ (env.PR_TARGET_BRANCH_NAME == 'main' || env.PR_TARGET_BRANCH_NAME == 'development' || env.PUSH_TARGET_BRANCH_NAME == 'main') && 'TRUE' || 'FALSE' }}
       # If the push target branch is main, deploy the dashboard
       DEPLOY_DASHBOARD: ${{ env.PUSH_TARGET_BRANCH_NAME == 'main' && 'TRUE' || 'FALSE' }}
       #
