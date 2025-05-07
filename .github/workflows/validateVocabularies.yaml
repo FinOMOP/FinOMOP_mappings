@@ -40,7 +40,7 @@ jobs:
         shell: Rscript {0}
         run: |
           install.packages("remotes")
-          remotes::install_github("FinOMOP/ROMOPMappingTools", ref = "towards_v2", force = TRUE)
+          remotes::install_github("FinOMOP/ROMOPMappingTools", force = TRUE)
 
       - name: Copy OMOP_vocabularies from private repo       
         uses: robinraju/release-downloader@v1.7
