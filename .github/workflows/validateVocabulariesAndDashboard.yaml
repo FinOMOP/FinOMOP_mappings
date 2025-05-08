@@ -62,6 +62,7 @@ jobs:
           echo "FINAL_STATUS=$FINAL_STATUS" >> $GITHUB_ENV
 
       - name: If any error fail the workflow
+        if: ${{ env.FINAL_STATUS != 'SUCCESS' && env.FINAL_STATUS != 'WARNING' }}
         run: |
           cat VOCABULARIES/VOCABULARIES_VALIDATION_STATUS.md
           echo "Final status is Error"
