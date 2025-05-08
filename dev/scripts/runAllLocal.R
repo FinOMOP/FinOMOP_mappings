@@ -14,14 +14,16 @@ if (require("remotes")) {
     install.packages("remotes")
 }
 if (require("ROMOPMappingTools")) {
-    remotes::install_github("FinOMOP/ROMOPMappingTools", ref = "towards_v2", force = TRUE)
+    remotes::install_github("FinOMOP/ROMOPMappingTools", force = TRUE)
 }
 
 #
 # Setting environment
 #
 createDashboard <- "TRUE"
+createVocabularies <- "TRUE"
 pathToOMOPVocabularyCSVsFolder <- "../OMOP_vocabularies/data/input_omop_vocabulary" # SET TO LOCAL PATH
+pathToOMOPVocabularyCSVsFolderOutput <- tempdir()
 pathToVocabularyFolder <- "./VOCABULARIES"
 pathToCodeCountsFolder <- "./CODE_COUNTS"
 validationResultsFolder <- "./output_data/VOCABULARIES"

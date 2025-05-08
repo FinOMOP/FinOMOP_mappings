@@ -56,7 +56,7 @@ if (createDashboard == "TRUE" & any(validationLogTibble$type != "ERROR")) {
         output_file_html = file.path(pathToDashboardFolder, "MappingStatusDashboard.html")
     )
 
-    validationLogTibble  <- dplyr::bind_rows(validationLogTibble, validationLogTibble_dashboard)
+    validationLogTibble <- dplyr::bind_rows(validationLogTibble, validationLogTibble_dashboard)
 }
 
 message("Building validation status markdown file")
@@ -66,14 +66,50 @@ ROMOPMappingTools::buildValidationStatusMd(
 )
 
 #
+# Build vocabularies
+#
+if (createVocabularies == "TRUE") {
+    message("Building vocabularies")
+    connectionDetails <- DatabaseConnector::createConnectionDetails(
+        dbms = "duckdb",
+        server = pathToOMOPVocabularyDuckDBfile
+    )
+
+    vocabularyDatabaseSchema <- "main"
+
+    pathToOMOPVocabularyCSVsFolder <- file.path(pathToOMOPVocabularyCSVsFolderOutput, "OMOP_vocabulary")
+    if (!dir.exists(pathToOMOPVocabularyCSVsFolder)) {
+        dir.create(pathToOMOPVocabularyCSVsFolder, showWarnings = FALSE, recursive = TRUE)
+    }
+
+    connection <- DatabaseConnector::connect(connectionDetails)
+
+    ROMOPMappingTools::duckdbToOMOPVocabularyCSVs(
+        connection = connection,
+        vocabularyDatabaseSchema = vocabularyDatabaseSchema,
+        OMOPVocabularyTableNames = NULL,
+        pathToOMOPVocabularyCSVsFolder = pathToOMOPVocabularyCSVsFolder
+    )
+
+    message("Zipping OMOP vocabulary files")
+    utils::zip(
+        zipfile = file.path(pathToOMOPVocabularyCSVsFolderOutput, "finomop_vocabulary.zip"),
+        files = list.files(pathToOMOPVocabularyCSVsFolder, full.names = TRUE),
+        flags = "-j"
+    )
+
+    DatabaseConnector::disconnect(connection)
+}
+
+#
 # pass final status to github action
 #
-FINAL_STATUS = "SUCCESS"
+FINAL_STATUS <- "SUCCESS"
 if (any(validationLogTibble$type == "WARNING")) {
-    FINAL_STATUS = "WARNING"
+    FINAL_STATUS <- "WARNING"
 }
 if (any(validationLogTibble$type == "ERROR")) {
-    FINAL_STATUS = "ERROR"
+    FINAL_STATUS <- "ERROR"
 }
 
 message("FINAL_STATUS: ", FINAL_STATUS)
