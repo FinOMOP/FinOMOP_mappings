@@ -74,8 +74,8 @@ jobs:
           publish_dir: ./public
 
       - name: Save vocabularies as artefacts
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
-          name: vocabularies
-          path: VOCABULARIES
+          name: FinOMOP_vocabularies
+          path: output_data
 
