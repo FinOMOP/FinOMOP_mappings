@@ -11,7 +11,9 @@
 #
 githubWorkspace <- Sys.getenv("GITHUB_WORKSPACE")
 createDashboard <- Sys.getenv("BUILD_DASHBOARD")
+createVocabularies <- Sys.getenv("BUILD_VOCABULARIES")
 pathToOMOPVocabularyCSVsFolder <- file.path(githubWorkspace, "input_data/input_omop_vocabulary")
+pathToOMOPVocabularyCSVsFolderOutput <- file.path(githubWorkspace, "output_data")
 pathToVocabularyFolder <- file.path(githubWorkspace, "VOCABULARIES")
 pathToCodeCountsFolder <- file.path(githubWorkspace, "CODE_COUNTS")
 validationResultsFolder <- pathToVocabularyFolder

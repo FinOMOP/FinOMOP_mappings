@@ -1,0 +1,69 @@
+# Action to validate vocabularies and build the dashboard
+#
+# On a PR to main if any changes are detected in the VOCABULARIES or CODE_COUNTS directories then
+# - Check the vocabularies are correct
+# - Check the dashboard build with no errors
+#
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'VOCABULARIES/**'
+      - 'CODE_COUNTS/**'
+  workflow_dispatch:
+
+name: validateVocabulariesAndDashboard
+
+jobs:
+  validateVocabulariesAndDashboard:
+    runs-on: ubuntu-latest
+    env:
+      BUILD_DASHBOARD: TRUE
+      BUILD_VOCABULARIES: FALSE
+      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: r-lib/actions/setup-pandoc@v2
+
+      - uses: r-lib/actions/setup-r@v2
+        with:
+          use-public-rspm: true
+
+      - name: Install dependencies
+        shell: Rscript {0}
+        run: |
+          install.packages("remotes")
+          remotes::install_github("FinOMOP/ROMOPMappingTools", force = TRUE)
+
+      - name: Copy OMOP_vocabularies from private repo       
+        uses: robinraju/release-downloader@v1.7
+        with:
+          repository: 'FinOMOP/OMOP_vocabularies'
+          latest: true
+          fileName: 'input_omop_vocabulary.zip'
+          out-file-path: 'input_data'
+          token: ${{ secrets.TOKEN_OMOP_VOCABULARIES }}
+
+      - name: unzip input_omop_vocabulary.zip
+        working-directory: input_data
+        shell: bash
+        run: |
+         unzip -o input_omop_vocabulary.zip
+
+      - name: Run R script
+        shell: Rscript {0}
+        run: source("dev/scripts/runAllGitHubAction.R")
+
+      - name: Read final status
+        id: read_status
+        run: |
+          FINAL_STATUS=$(cat /tmp/FINAL_STATUS.txt)
+          echo "FINAL_STATUS=$FINAL_STATUS" >> $GITHUB_ENV
+
+      - name: If any error fail the workflow
+        if: ${{ env.FINAL_STATUS != 'SUCCESS' && env.FINAL_STATUS != 'WARNING' }}
+        run: |
+          cat VOCABULARIES/VOCABULARIES_VALIDATION_STATUS.md
+          echo "Final status is Error"
+          exit 1

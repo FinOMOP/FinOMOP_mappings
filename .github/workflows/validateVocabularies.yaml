@@ -1,30 +1,26 @@
-# Workflow derived from https://github.com/r-lib/actions/tree/v2/examples
-# Need help debugging build failures? Start at https://github.com/r-lib/actions#where-to-find-help
+# Action to validate vocabularies
+#
+# On a PR to development if any changes are detected in the VOCABULARIES directory then
+# - Check the changes in the vocabularies are correct
+# - Reformat the Usage files if they have been changed
+# - Update the VOCABULARIES_VALIDATION_STATUS.md file
+# - If errors are found, fail the workflow
+#
 on:
-  push:
-    branches: [main]
   pull_request:
-    branches: [main, development]
-    #paths:
-     #   - 'VOCABULARIES/**'
+    branches: [development]
+    paths:
+      - 'VOCABULARIES/**'
   workflow_dispatch:
 
-name: validateAndCreateDashboardIfMain
+name: validateVocabularies
 
 jobs:
-  validateAndCreateDashboardIfMain:
+  validateVocabularies:
     runs-on: ubuntu-latest
     env:
-      # for debugging
-      PR_TARGET_BRANCH_NAME: ${{ github.base_ref }}
-      PR_SOURCE_BRANCH_NAME: ${{ github.head_ref }}
-      PUSH_TARGET_BRANCH_NAME: ${{ github.ref_name }}
-      # If the PR source brunch is a feature branch (not main or development), commit the validation status
-      COMMIT_VALIDATION_STATUS: ${{ !(github.head_ref == 'main' || github.head_ref == 'development') && 'TRUE' || 'FALSE' }}
-      # If the PR target branch is main , build the dashboard
-      BUILD_DASHBOARD: ${{ (github.base_ref == 'main' ||github.ref_name == 'main') && 'TRUE' || 'FALSE' }}
-      # If the push target branch is main, deploy the dashboard
-      DEPLOY_DASHBOARD: ${{ github.ref_name == 'main' && 'TRUE' || 'FALSE' }}
+      BUILD_DASHBOARD: FALSE
+      BUILD_VOCABULARIES: FALSE
       #
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
       #
@@ -44,7 +40,7 @@ jobs:
         shell: Rscript {0}
         run: |
           install.packages("remotes")
-          remotes::install_github("FinOMOP/ROMOPMappingTools", ref = "towards_v2", force = TRUE)
+          remotes::install_github("FinOMOP/ROMOPMappingTools", force = TRUE)
 
       - name: Copy OMOP_vocabularies from private repo       
         uses: robinraju/release-downloader@v1.7
@@ -72,7 +68,6 @@ jobs:
           echo "FINAL_STATUS=$FINAL_STATUS" >> $GITHUB_ENV
 
       - name: Commit and push validation status
-        if: ${{ env.COMMIT_VALIDATION_STATUS == 'TRUE' }}
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
@@ -95,10 +90,3 @@ jobs:
           cat VOCABULARIES/VOCABULARIES_VALIDATION_STATUS.md
           echo "Final status is Error"
           exit 1
-
-      - name: If main branch, Deploy to GitHub Pages
-        if: success() && ${{ env.DEPLOY_DASHBOARD == 'TRUE' }}
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
