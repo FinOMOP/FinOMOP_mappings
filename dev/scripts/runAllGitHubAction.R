@@ -7,11 +7,32 @@
 #
 
 #
+# validate arguments
+#
+if (Sys.getenv("BUILD_DASHBOARD") == "TRUE" | Sys.getenv("BUILD_DASHBOARD") == "true") {
+    createDashboard <- TRUE
+} else if (Sys.getenv("BUILD_DASHBOARD") == "FALSE" | Sys.getenv("BUILD_DASHBOARD") == "false") {
+    createDashboard <- FALSE
+} else {
+    stop("BUILD_DASHBOARD is not set to TRUE or FALSE")
+}
+
+if (Sys.getenv("BUILD_VOCABULARIES") == "TRUE" | Sys.getenv("BUILD_VOCABULARIES") == "true") {
+    createVocabularies <- TRUE
+} else if (Sys.getenv("BUILD_VOCABULARIES") == "FALSE" | Sys.getenv("BUILD_VOCABULARIES") == "false") {
+    createVocabularies <- FALSE
+} else {
+    stop("BUILD_VOCABULARIES is not set to TRUE or FALSE")
+}
+
+githubWorkspace <- Sys.getenv("GITHUB_WORKSPACE")
+if (is.null(githubWorkspace)) {
+    stop("GITHUB_WORKSPACE is not set")
+}
+
+#
 # Setting environment
 #
-githubWorkspace <- Sys.getenv("GITHUB_WORKSPACE")
-createDashboard <- Sys.getenv("BUILD_DASHBOARD")
-createVocabularies <- Sys.getenv("BUILD_VOCABULARIES")
 pathToOMOPVocabularyCSVsFolder <- file.path(githubWorkspace, "input_data/input_omop_vocabulary")
 pathToOMOPVocabularyCSVsFolderOutput <- file.path(githubWorkspace, "output_data")
 pathToVocabularyFolder <- file.path(githubWorkspace, "VOCABULARIES")

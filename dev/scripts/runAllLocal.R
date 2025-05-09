@@ -20,8 +20,8 @@ if (require("ROMOPMappingTools")) {
 #
 # Setting environment
 #
-createDashboard <- "TRUE"
-createVocabularies <- "TRUE"
+createDashboard <- TRUE
+createVocabularies <- TRUE
 pathToOMOPVocabularyCSVsFolder <- "../OMOP_vocabularies/data/input_omop_vocabulary" # SET TO LOCAL PATH
 pathToOMOPVocabularyCSVsFolderOutput <- tempdir()
 pathToVocabularyFolder <- "./VOCABULARIES"

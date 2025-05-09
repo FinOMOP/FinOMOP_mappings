@@ -44,7 +44,7 @@ validationLogTibble <- ROMOPMappingTools::buildVocabulariesAll(
 #
 # Create dashboard
 #
-if (createDashboard == "TRUE" & any(validationLogTibble$type != "ERROR")) {
+if (createDashboard == TRUE & any(validationLogTibble$type != "ERROR")) {
     message("Creating dashboard")
 
     dir.create(pathToDashboardFolder, showWarnings = FALSE, recursive = TRUE)
@@ -68,7 +68,7 @@ ROMOPMappingTools::buildValidationStatusMd(
 #
 # Build vocabularies
 #
-if (createVocabularies == "TRUE") {
+if (createVocabularies == TRUE & any(validationLogTibble$type != "ERROR")) {
     message("Building vocabularies")
     connectionDetails <- DatabaseConnector::createConnectionDetails(
         dbms = "duckdb",
