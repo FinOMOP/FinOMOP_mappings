@@ -91,13 +91,6 @@ if (createVocabularies == "TRUE") {
         pathToOMOPVocabularyCSVsFolder = pathToOMOPVocabularyCSVsFolder
     )
 
-    message("Zipping OMOP vocabulary files")
-    utils::zip(
-        zipfile = file.path(pathToOMOPVocabularyCSVsFolderOutput, "finomop_vocabulary.zip"),
-        files = list.files(pathToOMOPVocabularyCSVsFolder, full.names = TRUE),
-        flags = "-j"
-    )
-
     DatabaseConnector::disconnect(connection)
 }
 
