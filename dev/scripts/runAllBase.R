@@ -49,7 +49,7 @@ if (createDashboard == TRUE & any(validationLogTibble$type != "ERROR")) {
 
     dir.create(pathToDashboardFolder, showWarnings = FALSE, recursive = TRUE)
 
-    validationLogTibble_dashboard <- ROMOPMappingTools::buildStatusDashboard(
+    ROMOPMappingTools::buildStatusDashboard(
         pathToCodeCountsFolder = pathToCodeCountsFolder,
         pathToVocabularyFolder = pathToVocabularyFolder,
         connectionDetails = connectionDetails,
@@ -57,7 +57,6 @@ if (createDashboard == TRUE & any(validationLogTibble$type != "ERROR")) {
         outputFolderPath = pathToDashboardFolder
     )
 
-    validationLogTibble <- dplyr::bind_rows(validationLogTibble, validationLogTibble_dashboard)
 }
 
 message("Building validation status markdown file")
