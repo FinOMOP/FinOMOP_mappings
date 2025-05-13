@@ -51,9 +51,10 @@ if (createDashboard == TRUE & any(validationLogTibble$type != "ERROR")) {
 
     validationLogTibble_dashboard <- ROMOPMappingTools::buildStatusDashboard(
         pathToCodeCountsFolder = pathToCodeCountsFolder,
+        pathToVocabularyFolder = pathToVocabularyFolder,
         connectionDetails = connectionDetails,
         vocabularyDatabaseSchema = vocabularyDatabaseSchema,
-        output_file_html = file.path(pathToDashboardFolder, "MappingStatusDashboard.html")
+        outputFolderPath = pathToDashboardFolder
     )
 
     validationLogTibble <- dplyr::bind_rows(validationLogTibble, validationLogTibble_dashboard)
