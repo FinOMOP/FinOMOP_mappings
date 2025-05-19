@@ -1,4 +1,4 @@
-# Update the OMOP vocabulary from Athena
+# How to update the vocabularies with a new Athena update
 
 ## 1. Create a new set of files in OMOP_vocabularies
 
@@ -21,13 +21,21 @@ Move your local head to the new branch.
 - Open the R script [dev/scripts/update_usagi.R](../dev/scripts/update_usagi.R)
 - Set the path to the new OMOP vocabulary folder obtained in the previous step. (line 22)
 - Run the script
+- Make a new commit with the changes, named "Update OMOP vocabulary"
 
 ## 4. Evaluate the changes
 
 - The script creates/updates a summary created in [VOCABULARIES/VOCABULARIES_VALIDATION_SUMMARY.md](../VOCABULARIES/VOCABULARIES_VALIDATION_SUMMARY.md) that you can use to evaluate the changes.
 - Also changes of indivudial files can be seen in each usagi-extended file.
 
-## 5. Create a pull request
+## 5. Fix changes due to the update
+
+- Run the script [dev/scripts/runAllLocal.R](../dev/scripts/runAllLocal.R) to find potential error introduced by the changes.
+- Make a new commit with the changes, named "Validation after update"
+- If any error is found, you can fix them manually by edditing the usagi-extended files in Usagi. Remeber to build the new index. 
+- Make a new commint for each vocabulary file you have changed, named "Fixed <vocabulary_name>"
+
+## 6. Create a pull request
 
 - Commit your last work and create a pull-request towards the `development` branch.
 - Wait. A repository maintainer will evaluate your changes and if correct will merge your vocabulary to the `development` branch.
