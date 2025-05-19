@@ -92,6 +92,12 @@ if (createVocabularies == TRUE & any(validationLogTibble$type != "ERROR")) {
     )
 
     DatabaseConnector::disconnect(connection)
+
+    # Create a zip file of the OMOP vocabulary CSVs
+    zip::zipr(
+        zipfile = file.path(pathToOMOPVocabularyCSVsFolderOutput, "FinOMOP_vocabularies.zip"),
+        files = list.files(pathToOMOPVocabularyCSVsFolder, full.names = TRUE)
+    )
 }
 
 #
