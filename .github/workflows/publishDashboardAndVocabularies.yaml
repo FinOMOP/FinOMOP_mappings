@@ -34,6 +34,7 @@ jobs:
         run: |
           install.packages("remotes")
           remotes::install_github("FinOMOP/ROMOPMappingTools", force = TRUE)
+          install.packages("zip")
 
       - name: Copy OMOP_vocabularies from private repo       
         uses: robinraju/release-downloader@v1.7
@@ -81,9 +82,9 @@ jobs:
           body: "Automated release from FinOMOP_mappings workflow."
           files: ./output_data/FinOMOP_vocabularies.zip
           draft: true
-        env:
-          GITHUB_TOKEN: ${{ secrets.TOKEN_FINOMOP_VOCABULARIES }}
-          GITHUB_REPOSITORY: FinOMOP/FinOMOP_vocabularies
+          prerelease: true
+          repository: FinOMOP/FinOMOP_vocabularies
+          token: ${{ secrets.TOKEN_FINOMOP_VOCABULARIES }}
 
           
 

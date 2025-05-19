@@ -16,6 +16,9 @@ if (require("remotes")) {
 if (require("ROMOPMappingTools")) {
     remotes::install_github("FinOMOP/ROMOPMappingTools", force = TRUE)
 }
+if (require("zip")) {
+    install.packages("zip")
+}
 
 #
 # Setting environment
