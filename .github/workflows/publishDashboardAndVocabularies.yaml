@@ -9,6 +9,7 @@
 on:
   push:
     branches: [main]
+  workflow_dispatch:
 
 name: publishDashboardAndVocabularies
 
@@ -72,9 +73,17 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
 
-      - name: Save vocabularies as artefacts
-        uses: actions/upload-artifact@v4
+      - name: Create Release in FinOMOP_vocabularies
+        uses: softprops/action-gh-release@v1
         with:
-          name: FinOMOP_vocabularies
-          path: ./output_data
+          tag_name: ${{ github.run_number }}-${{ github.sha }}
+          name: Automated Release ${{ github.run_number }}
+          body: "Automated release from FinOMOP_mappings workflow."
+          files: ./output_data/FinOMOP_vocabularies.zip
+          draft: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.TOKEN_FINOMOP_VOCABULARIES }}
+          GITHUB_REPOSITORY: FinOMOP/FinOMOP_vocabularies
+
+          
 
