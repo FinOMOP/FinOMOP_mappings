@@ -82,9 +82,9 @@ jobs:
           body: "Automated release from FinOMOP_mappings workflow."
           files: ./output_data/FinOMOP_vocabularies.zip
           draft: true
-        env:
-          GITHUB_TOKEN: ${{ secrets.TOKEN_FINOMOP_VOCABULARIES }}
-          GITHUB_REPOSITORY: FinOMOP/FinOMOP_vocabularies
+          prerelease: true
+          repository: FinOMOP/FinOMOP_vocabularies
+          token: ${{ secrets.TOKEN_FINOMOP_VOCABULARIES }}
 
           
 
