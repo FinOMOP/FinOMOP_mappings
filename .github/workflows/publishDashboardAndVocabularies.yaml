@@ -34,6 +34,7 @@ jobs:
         run: |
           install.packages("remotes")
           remotes::install_github("FinOMOP/ROMOPMappingTools", force = TRUE)
+          install.packages("zip")
 
       - name: Copy OMOP_vocabularies from private repo       
         uses: robinraju/release-downloader@v1.7
