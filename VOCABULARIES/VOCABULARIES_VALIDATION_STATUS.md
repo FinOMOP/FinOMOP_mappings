@@ -10,7 +10,7 @@ ROMOPMappingTools version: 2.0.2
 |:--------------------|-------:|-------:|-----:|
 |vocabulary.csv       |       6|       0|     0|
 |FHL                  |      24|       0|     0|
-|HPN                  |      23|       1|     0|
+|HPN                  |      24|       0|     0|
 |ICD8fi               |      24|       0|     0|
 |ICD9fi               |      24|       0|     0|
 |ICD10fi              |      23|       1|     0|
@@ -81,7 +81,7 @@ ROMOPMappingTools version: 2.0.2
 |HPN                  |SUCCESS |MappingStatus is not valid                                                                                                                                                                                                                 |                                               |
 |HPN                  |SUCCESS |APPROVED mappingStatus conceptId is 0                                                                                                                                                                                                      |                                               |
 |HPN                  |SUCCESS |APPROVED mappingStatus with concepts outdated                                                                                                                                                                                              |                                               |
-|HPN                  |WARNING |Not APPROVED mappingStatus with concepts outdated                                                                                                                                                                                          |1 conceptNames are outdated                    |
+|HPN                  |SUCCESS |Not APPROVED mappingStatus with concepts outdated                                                                                                                                                                                          |                                               |
 |HPN                  |SUCCESS |Missing C&CR columns                                                                                                                                                                                                                       |                                               |
 |HPN                  |SUCCESS |SourceConceptId is empty                                                                                                                                                                                                                   |                                               |
 |HPN                  |SUCCESS |SourceConceptId is not a number on the range                                                                                                                                                                                               |                                               |
