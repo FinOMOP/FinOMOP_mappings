@@ -38,3 +38,7 @@ pathToDashboardFolder <- file.path(getwd(), "output_data", "public")
 #
 source("dev/scripts/runAllBase.R")
 
+#
+# Open the dashboard in the browser
+#
+browseURL(file.path(pathToDashboardFolder, "index.html"))
