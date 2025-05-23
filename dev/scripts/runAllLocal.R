@@ -32,6 +32,7 @@ pathToCodeCountsFolder <- "./CODE_COUNTS"
 validationResultsFolder <- "./output_data/VOCABULARIES"
 validationResultsFolder <- pathToVocabularyFolder
 pathToDashboardFolder <- file.path(getwd(), "output_data", "public")
+fileIssueRepo <- "FinOMOP/FinOMOP_mappings"
 
 #
 # Run function
