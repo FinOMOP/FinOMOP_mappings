@@ -39,7 +39,7 @@ pathToVocabularyFolder <- file.path(githubWorkspace, "VOCABULARIES")
 pathToCodeCountsFolder <- file.path(githubWorkspace, "CODE_COUNTS")
 validationResultsFolder <- pathToVocabularyFolder
 pathToDashboardFolder <- file.path(githubWorkspace, "public")
-
+fileIssueRepo <- "FinOMOP/FinOMOP_mappings"
 #
 # Run function
 #

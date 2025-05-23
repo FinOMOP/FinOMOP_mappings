@@ -54,7 +54,8 @@ if (createDashboard == TRUE & any(validationLogTibble$type != "ERROR")) {
         pathToVocabularyFolder = pathToVocabularyFolder,
         connectionDetails = connectionDetails,
         vocabularyDatabaseSchema = vocabularyDatabaseSchema,
-        outputFolderPath = pathToDashboardFolder
+        outputFolderPath = pathToDashboardFolder,
+        fileIssueRepo = fileIssueRepo
     )
 
 }
