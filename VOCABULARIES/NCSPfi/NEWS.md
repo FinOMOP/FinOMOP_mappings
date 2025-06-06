@@ -1,3 +1,7 @@
+# NCSPfi 1.1.6
+
+- Updated name of `BA1AE` from `Thyroiid` to `Thyroid`
+
 # NCSPfi 1.1.5
 
 - Fixed 2 domain combination errors after update
