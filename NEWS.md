@@ -1,5 +1,5 @@
 # v2.0.1
-- Update dashboard to include download link
+- Update dashboard to include download  link
 
 # v2.0.0
 
