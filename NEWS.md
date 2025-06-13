@@ -1,3 +1,6 @@
+# v2.0.1
+- Update dashboard to include download link
+
 # v2.0.0
 
 - Updated output-omop-vocabualaries after fixing bug in ROMOPtools that was setting wrong domains
