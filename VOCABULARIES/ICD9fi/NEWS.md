@@ -1,6 +1,6 @@
 # ICD9fi 1.0.5
 
-- Updated mappings to Asthma codes `4930A`, `4931A` and `4939A`
+- Corrected usagi file, mappings in column 'sourceAutoAssignedConceptIds' moved to 'conceptIds'
 
 # ICD9fi 1.0.4
 
