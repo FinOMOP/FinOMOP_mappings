@@ -1,3 +1,9 @@
+# ICD10fi 1.1.4
+
+- Added 407 INVALID FinnGen combination codes
+- Mapped each of INVALID combination code to the individual code mappings
+- Example: H36.03*E10.3 ICD10fi code will be mapped to both H36.03 and E10.3 standard mappings.
+
 # ICD10fi 1.1.3
 - Made manual fixes for "Auto-remapped as poss_eq. Needs review." cases
 - Six codes have conflicting domain combinations needs further review
