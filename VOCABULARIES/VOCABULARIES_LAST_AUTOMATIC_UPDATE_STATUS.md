@@ -17,11 +17,11 @@ ROMOPMappingTools version: 2.0.2
 |ICD8fi               |WARNING |Updated conceptIds    |77 conceptIds could not be updated automatically, remapping needed  |
 |ICD8fi               |INFO    |Updated domains       |Updated 32 domains                                                  |
 |ICD8fi               |INFO    |Updated concept names |Updated 10 concept names                                            |
-|ICD9fi               |INFO    |Updated conceptIds    |Updated 75 conceptIds that don't need review                        |
-|ICD9fi               |WARNING |Updated conceptIds    |Updated 4 conceptIds that need review                               |
-|ICD9fi               |WARNING |Updated conceptIds    |128 conceptIds could not be updated automatically, remapping needed |
-|ICD9fi               |INFO    |Updated domains       |Updated 56 domains                                                  |
-|ICD9fi               |INFO    |Updated concept names |Updated 21 concept names                                            |
+|ICD9fi               |INFO    |Updated conceptIds    |Updated 542 conceptIds that don't need review                       |
+|ICD9fi               |WARNING |Updated conceptIds    |Updated 308 conceptIds that need review                             |
+|ICD9fi               |WARNING |Updated conceptIds    |156 conceptIds could not be updated automatically, remapping needed |
+|ICD9fi               |INFO    |Updated domains       |Updated 277 domains                                                 |
+|ICD9fi               |INFO    |Updated concept names |Updated 4912 concept names                                          |
 |ICD10fi              |INFO    |Updated conceptIds    |Updated 9 conceptIds that don't need review                         |
 |ICD10fi              |WARNING |Updated conceptIds    |Updated 7 conceptIds that need review                               |
 |ICD10fi              |WARNING |Updated conceptIds    |21 conceptIds could not be updated automatically, remapping needed  |
