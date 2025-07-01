@@ -23,5 +23,4 @@ HPO,Human Phenotype Ontology,2002100000,./HPO/HPO.usagi.csv,./HPO/NEWS.md,FALSE
 ProfessionalCode,Professional Code,2002200000,./ProfessionalCode/ProfessionalCode.usagi.csv,./ProfessionalCode/NEWS.md,FALSE
 FGVisitType,Visit Type,2002300000,./FGVisitType/FGVisitType.usagi.csv,./FGVisitType/NEWS.md,FALSE
 LABfi_ALL,Laboratory Finnish All,2002400000,./LABfi_ALL/LABfi_ALL.usagi.csv,./LABfi_ALL/NEWS.md,FALSE
-UNITfi_ALL,Unit Finnish All,2002500000,./UNITfi_ALL/UNITfi_ALL.usagi.csv,./UNITfi_ALL/NEWS.md,FALSE
 KantaServiceProvider,Kanta Service Provider,2002600000,./KantaServiceProvider/KantaServiceProvider.usagi.csv,./KantaServiceProvider/NEWS.md,FALSE
