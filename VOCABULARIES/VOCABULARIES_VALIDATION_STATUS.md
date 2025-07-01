@@ -12,7 +12,7 @@ ROMOPMappingTools version: 2.0.3
 |FHL                  |      24|       0|     0|
 |HPN                  |      24|       0|     0|
 |ICD8fi               |      24|       0|     0|
-|ICD9fi               |      24|       0|     0|
+|ICD9fi               |      23|       1|     0|
 |ICD10fi              |      23|       1|     0|
 |LABfi                |      24|       0|     0|
 |LABfi_TMP            |      24|       0|     0|
@@ -797,5 +797,6 @@ ROMOPMappingTools version: 2.0.3
 |DQD                  |SUCCESS |CONCEPT.VALID_START_DATE: The number and percent of records with a value in the VALID_START_DATE field of the CONCEPT that occurs after the date in the VALID_END_DATE.                                                                    |Number of violated rows: 0                     |
 |DQD                  |SUCCESS |CONCEPT_RELATIONSHIP.VALID_START_DATE: The number and percent of records with a value in the VALID_START_DATE field of the CONCEPT_RELATIONSHIP that occurs after the date in the VALID_END_DATE.                                          |Number of violated rows: 0                     |
 |DQD                  |SUCCESS |DRUG_STRENGTH.VALID_START_DATE: The number and percent of records with a value in the VALID_START_DATE field of the DRUG_STRENGTH that occurs after the date in the VALID_END_DATE.                                                        |Number of violated rows: 0                     |
+
 
 
