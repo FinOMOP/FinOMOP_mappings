@@ -73,6 +73,8 @@ jobs:
           git config --local user.name "github-actions[bot]"
           # Get the current branch name
           branch_name="${GITHUB_HEAD_REF:-${GITHUB_REF#refs/heads/}}"
+          # Create and check out the branch locally (overwriting if it exists)
+          git checkout -B "${branch_name}"  
           # Make changes and push
           git add VOCABULARIES/*
           git commit -m "Update validation status [skip ci]" || echo "No changes to commit"
