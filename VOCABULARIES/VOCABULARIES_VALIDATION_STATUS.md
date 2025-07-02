@@ -13,7 +13,7 @@ ROMOPMappingTools version: 2.0.3
 |HPN                  |      24|       0|     0|
 |ICD8fi               |      24|       0|     0|
 |ICD9fi               |      23|       1|     0|
-|ICD10fi              |      21|       1|     2|
+|ICD10fi              |      22|       1|     1|
 |LABfi                |      24|       0|     0|
 |LABfi_TMP            |      24|       0|     0|
 |LABfi_TKU            |      24|       0|     0|
@@ -164,7 +164,7 @@ ROMOPMappingTools version: 2.0.3
 |ICD10fi              |SUCCESS |Missing date columns                                     |                                                |
 |ICD10fi              |SUCCESS |SourceValidStartDate is after SourceValidEndDate         |                                                |
 |ICD10fi              |SUCCESS |Missing parent columns                                   |                                                |
-|ICD10fi              |ERROR   |Invalid parent concept code                              |Found 1 codes with invalid parent concept codes |
+|ICD10fi              |SUCCESS |Invalid parent concept code                              |                                                |
 |LABfi                |SUCCESS |Missing default columns                                  |                                                |
 |LABfi                |SUCCESS |SourceCode is empty                                      |                                                |
 |LABfi                |SUCCESS |SourceCode and conceptId are not unique                  |                                                |
