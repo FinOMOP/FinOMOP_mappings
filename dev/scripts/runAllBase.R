@@ -41,6 +41,10 @@ validationLogTibble <- ROMOPMappingTools::buildVocabulariesAll(
     validationResultsFolder = validationResultsFolder
 )
 
+# TMP : till https://github.com/OHDSI/DataQualityDashboard/issues/624 is resolved
+validationLogTibble <- validationLogTibble |> dplyr::filter(step != "DRUG_STRENGTH.INGREDIENT_CONCEPT_ID: The number and percent of records that have a value in the INGREDIENT_CONCEPT_ID field in the DRUG_STRENGTH table that do not conform to the INGREDIENT class.")
+# END TMP
+
 #
 # Create dashboard
 #
