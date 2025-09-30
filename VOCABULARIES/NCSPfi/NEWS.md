@@ -1,3 +1,7 @@
+# NCSPfi 1.1.7
+
+- Fixed typos i
+
 # NCSPfi 1.1.6
 
 - Updated name of `BA1AE` from `Thyroiid` to `Thyroid`
