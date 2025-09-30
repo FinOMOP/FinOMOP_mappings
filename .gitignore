@@ -4,3 +4,8 @@ errorReportSql.txt
 
 
 .DS_Store
+
+renv/
+renv.lock
+.Rprofile
+.Rhistory
