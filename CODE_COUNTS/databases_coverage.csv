@@ -1,5 +1,5 @@
 database_name,path_to_code_counts_file,ignore
 FinnGenDF13,./databases/FinnGenDF13.csv,FALSE
 HUS,./databases/HUS.csv,FALSE
-TAYS,./databases/TAYS.csv,FALSE
-TYKS,./databases/TYKS.csv,FALSE
+TAYS,./databases/TAYS.csv,TRUE
+TYKS,./databases/TYKS.csv,TRUE
