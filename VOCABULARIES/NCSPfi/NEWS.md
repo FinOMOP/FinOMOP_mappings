@@ -1,3 +1,12 @@
+# NCSPfi 1.1.7
+
+- Fixed typos i
+
+# NCSPfi 1.1.6
+
+- Updated name of `BA1AE` from `Thyroiid` to `Thyroid`
+- change the NSCPfi mapping concept with Source code AA1AA from its wrong name CT of head and brain to "Head X-ray examination"
+
 # NCSPfi 1.1.5
 
 - Fixed 2 domain combination errors after update

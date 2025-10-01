@@ -1,6 +1,12 @@
 output_data/*
 
 errorReportSql.txt
+resultsDQD.json
 
 
 .DS_Store
+
+renv/
+renv.lock
+.Rprofile
+.Rhistory

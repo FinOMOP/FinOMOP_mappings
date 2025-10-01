@@ -1,3 +1,7 @@
+# FGVisitType 1.8.2
+
+- Added five drug registry source codes where all map to pharmacy visit
+
 # FGVisitType 1.8.1
 
 - Added four hierarchy codes that captures visits in HILMO before and after 2019 as there are two systems in use.
