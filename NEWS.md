@@ -1,3 +1,12 @@
+# v3.0.0
+- Updated Athena vocabulary August 2025
+- Updated mappings for ICD8fi, ICD9fi, ICD10fi, NCSPfi, ICPC, LABfi, LABfi_ALL, MICROBEfi, MICROBEfi_TKU, SNOMED2fi and VNRfi vocabularies
+- NCSPfi: fixed spelling errors in the names of some codes
+- ICD10fi: Added 407 FinnGen combination codes
+- ICD10fi: Fixed mappings in lung cancer codes 
+- ICD9fi: Fixed bug that caused mappings to be link to wrong concepts
+
+
 # v2.0.1
 - Update dashboard to include download  link
 
