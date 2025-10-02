@@ -11,6 +11,7 @@
 
 ## Workflows 
 
+- [How to fix or add a mapping](./FINOMOP_vocab_contribution_deck.pdf)
 - (OUTDATED)[How to add a new local vocabulary](./how_to_add_a_new_vocabulary.md)
 - [How to update the vocabularies with a new Athena update](./how_to_update_OMOP_vocabulary.md)
 
