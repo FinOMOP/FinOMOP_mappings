@@ -66,7 +66,7 @@
     </div>
   </div>
   <div class="content-wrapper">
-    <iframe id="contentFrame" src="/main/index.html"></iframe>
+    <iframe id="contentFrame" src="/FinOMOP_mappings/main/index.html"></iframe>
   </div>
   <script>
     const mainBtn = document.getElementById('mainBtn');
@@ -74,12 +74,12 @@
     const iframe = document.getElementById('contentFrame');
 
     mainBtn.onclick = function() {
-      iframe.src = '/main/index.html';
+      iframe.src = '/FinOMOP_mappings/main/index.html';
       mainBtn.classList.add('active');
       devBtn.classList.remove('active');
     };
     devBtn.onclick = function() {
-      iframe.src = '/development/index.html';
+      iframe.src = '/FinOMOP_mappings/development/index.html';
       devBtn.classList.add('active');
       mainBtn.classList.remove('active');
     };
