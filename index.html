@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FinOMOP Mappings Wrapper</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background: #fafbfc;
+    }
+    .banner {
+      display: flex;
+      align-items: center;
+      background: #232f3e;
+      color: #fff;
+      padding: 2px 10px;
+      font-size: 0.87em;
+      font-weight: 500;
+      box-shadow: 0 2px 6px #0002;
+      justify-content: space-between;
+      height: 26px;
+      min-height: 26px;
+      max-height: 28px;
+    }
+    .switcher button {
+      background: #fff;
+      color: #232f3e;
+      border: none;
+      padding: 2px 10px;
+      margin-left: 6px;
+      font-weight: bold;
+      border-radius: 4px 4px 0 0;
+      cursor: pointer;
+      transition: background 0.1s, color 0.1s;
+      font-size: 0.92em;
+      height: 22px;
+      line-height: 20px;
+    }
+    .switcher button.active {
+      background: #f3c918;
+      color: #232f3e;
+      border-bottom: 2px solid #232f3e;
+    }
+    .content-wrapper {
+      width: 100vw;
+      height: calc(100vh - 28px);
+      background: #fff;
+    }
+    iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+      background: #fff;
+    }
+  </style>
+</head>
+<body>
+  <div class="banner">
+    <span>Select the branch to display</span>
+    <div class="switcher">
+      <button id="mainBtn" class="active">Main</button>
+      <button id="devBtn">Development</button>
+    </div>
+  </div>
+  <div class="content-wrapper">
+    <iframe id="contentFrame" src="/main/index.html"></iframe>
+  </div>
+  <script>
+    const mainBtn = document.getElementById('mainBtn');
+    const devBtn = document.getElementById('devBtn');
+    const iframe = document.getElementById('contentFrame');
+
+    mainBtn.onclick = function() {
+      iframe.src = '/main/index.html';
+      mainBtn.classList.add('active');
+      devBtn.classList.remove('active');
+    };
+    devBtn.onclick = function() {
+      iframe.src = '/development/index.html';
+      devBtn.classList.add('active');
+      mainBtn.classList.remove('active');
+    };
+  </script>
+</body>
+</html>
