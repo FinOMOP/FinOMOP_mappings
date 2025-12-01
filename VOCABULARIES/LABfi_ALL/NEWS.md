@@ -1,3 +1,9 @@
+# LABfi_ALL 1.0.2
+
+- SourceCodes with more than 50 characters are now truncated as: 
+   - first 23 characters + ".." + last 23 characters
+   - If duplicates padded the sourceConceptId is added to the end of the truncated sourceCode
+
 # LABfi_ALL 1.0.1
 
 - Updated mappings of 1 sourceCodes

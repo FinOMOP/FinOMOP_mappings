@@ -44,21 +44,3 @@ source("dev/scripts/runAllBase.R")
 #
 browseURL(file.path(pathToDashboardFolder, "index.html"))
 
-
-
-a  <- readr::read_csv("VOCABULARIES/LABfi_ALL/LABfi_ALL.usagi.csv", col_types = readr::cols(.default = "c"))
-
-b <- a  |> dplyr::mutate(
-    sourceCode = dplyr::if_else(
-        sourceCode %in% dup, 
-        paste0(substr(sourceCode, 1, nchar(sourceCode) - 10), `ADD_INFO:sourceConceptId`),
-        sourceCode
-    )
-)
-
-
-b  |> readr::write_csv("VOCABULARIES/LABfi_ALL/LABfi_ALL.usagi.csv", na = "")
-
-dup <- a  |> dplyr::count(sourceCode, .sort = TRUE) |> dplyr::filter(n > 1)  |> dplyr::pull(sourceCode)
-
-a |> dplyr::filter(nchar(sourceCode)>50) |> dplyr::count(sourceCode, .sort = TRUE)
