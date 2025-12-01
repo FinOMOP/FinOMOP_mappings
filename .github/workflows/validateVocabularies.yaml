@@ -73,10 +73,11 @@ jobs:
           git config --local user.name "github-actions[bot]"
           # Get the current branch name
           branch_name="${GITHUB_HEAD_REF:-${GITHUB_REF#refs/heads/}}"
-          # Fetch and merge changes
+          # Stash any local changes, pull latest, then reapply
+          git stash push -m "temp stash before pull" || true
           git fetch origin ${branch_name}
-          git checkout ${branch_name}
-          git pull origin ${branch_name}
+          git pull origin ${branch_name} || true
+          git stash pop || true
           # Make changes and push
           git add VOCABULARIES/*
           git commit -m "Update validation status [skip ci]" || echo "No changes to commit"
