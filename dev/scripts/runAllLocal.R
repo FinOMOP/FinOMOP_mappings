@@ -24,7 +24,7 @@ if (require("zip")) {
 # Setting environment
 #
 createDashboard <- TRUE
-createVocabularies <- FALSE
+createVocabularies <- TRUE
 pathToOMOPVocabularyCSVsFolder <- "../OMOP_vocabularies/data/input_omop_vocabulary" # SET TO LOCAL PATH
 pathToOMOPVocabularyCSVsFolderOutput <- tempdir()
 pathToVocabularyFolder <- "./VOCABULARIES"
@@ -48,14 +48,17 @@ browseURL(file.path(pathToDashboardFolder, "index.html"))
 
 a  <- readr::read_csv("VOCABULARIES/LABfi_ALL/LABfi_ALL.usagi.csv", col_types = readr::cols(.default = "c"))
 
-a  |> dplyr::count(nchar(sourceCode)>50)
-
-b <- a |> dplyr::mutate(
-    sourceCode = ifelse(nchar(sourceCode) > 50,
-                        paste0(substr(sourceCode, 1, 23), '..', substr(sourceCode, nchar(sourceCode)-22, nchar(sourceCode))),
-                        sourceCode)
+b <- a  |> dplyr::mutate(
+    sourceCode = dplyr::if_else(
+        sourceCode %in% dup, 
+        paste0(substr(sourceCode, 1, nchar(sourceCode) - 10), `ADD_INFO:sourceConceptId`),
+        sourceCode
+    )
 )
+
 
 b  |> readr::write_csv("VOCABULARIES/LABfi_ALL/LABfi_ALL.usagi.csv", na = "")
 
-b  |> dplyr::count(sourceCode, .sort = TRUE)
+dup <- a  |> dplyr::count(sourceCode, .sort = TRUE) |> dplyr::filter(n > 1)  |> dplyr::pull(sourceCode)
+
+a |> dplyr::filter(nchar(sourceCode)>50) |> dplyr::count(sourceCode, .sort = TRUE)
