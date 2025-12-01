@@ -43,3 +43,19 @@ source("dev/scripts/runAllBase.R")
 # Open the dashboard in the browser
 #
 browseURL(file.path(pathToDashboardFolder, "index.html"))
+
+
+
+a  <- readr::read_csv("VOCABULARIES/LABfi_ALL/LABfi_ALL.usagi.csv", col_types = readr::cols(.default = "c"))
+
+a  |> dplyr::count(nchar(sourceCode)>50)
+
+b <- a |> dplyr::mutate(
+    sourceCode = ifelse(nchar(sourceCode) > 50,
+                        paste0(substr(sourceCode, 1, 23), '..', substr(sourceCode, nchar(sourceCode)-22, nchar(sourceCode))),
+                        sourceCode)
+)
+
+b  |> readr::write_csv("VOCABULARIES/LABfi_ALL/LABfi_ALL.usagi.csv", na = "")
+
+b  |> dplyr::count(sourceCode, .sort = TRUE)
