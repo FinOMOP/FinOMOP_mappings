@@ -1,4 +1,6 @@
 # Append the HLA allele codes in usagi format to the FGVisitType Usagi vocabulary
+# This file (HLA_alleles.csv) is obtained after running the prepare_hladata_for_omop_cdm.R script in https://github.com/FINNGEN/PhenotypeData
+# https://github.com/FINNGEN/PhenotypeData/blob/prepareHLAforOMOPCDM/SCRIPTS/prepareHLAdataToCDM/prepare_hladata_for_omop_cdm.R
 
 # load FGVisitType vocabulary and append the HLA allele codes ----------------------------
 
