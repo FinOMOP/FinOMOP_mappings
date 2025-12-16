@@ -1,3 +1,7 @@
+# NCSPfi 1.1.8
+
+- Fixed mapping of AA1AA from concept_id 4125350 (CT of head) to 4155446 (Plain X-ray of head)
+
 # NCSPfi 1.1.7
 
 - Fixed typos i
