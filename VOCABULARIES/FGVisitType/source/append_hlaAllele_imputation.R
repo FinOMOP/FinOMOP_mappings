@@ -11,8 +11,49 @@ hla_file <- "../../VOCABULARIES/FGVisitType/source/HLA_Alleles.csv"
 fg <- readr::read_csv(fg_file, show_col_types = FALSE)
 hla <- readr::read_csv(hla_file, show_col_types = FALSE)
 
+hla <- hla |> dplyr::mutate(sourceName = paste0("HLA-", sourceCode, " allele (imputed)"))
 
-fg_updated <- dplyr::bind_rows(fg, hla)
+# Add HLA alleles not detected in Finngen to the vocab
+hlaAll <- readr::read_csv("../../VOCABULARIES/FGVisitType/source/all_hla_alleles.list", show_col_types = FALSE, col_names = F)$X1
 
+# alleles already in Usagi
+present_alleles <- hla$sourceCode
+
+missing_alleles <- setdiff(hlaAll, present_alleles)
+
+
+template_row <- hla |> dplyr::slice_tail(n = 1)
+last_id <- max(hla$`ADD_INFO:sourceConceptId`, na.rm = TRUE)
+
+new_ids <- seq(
+  from = last_id + 1,
+  length.out = length(missing_alleles)
+)
+
+#prepare usagi formatted rows for the missing alleles
+new_rows <- purrr::map2_df(
+  missing_alleles,
+  new_ids,
+  function(allele, cid) {
+    template_row |>
+      dplyr::mutate(
+        sourceCode = allele,
+        sourceName = paste0("HLA-", allele, " allele (imputed)"),
+        sourceFrequency = 0,
+        `ADD_INFO:sourceConceptId` = cid
+      )
+  }
+)
+
+# append to hla
+hla_extended <- dplyr::bind_rows(hla, new_rows)
+
+
+
+# Append the HLA allele vocab to FGVisitType vocabulary
+
+fg_updated <- dplyr::bind_rows(fg, hla_extended)
 readr::write_csv(fg_updated, fg_file, na = "")
+
+
 
