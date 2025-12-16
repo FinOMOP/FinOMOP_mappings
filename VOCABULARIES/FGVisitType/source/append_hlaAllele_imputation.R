@@ -11,7 +11,12 @@ hla_file <- "../../VOCABULARIES/FGVisitType/source/HLA_Alleles.csv"
 fg <- readr::read_csv(fg_file, show_col_types = FALSE)
 hla <- readr::read_csv(hla_file, show_col_types = FALSE)
 
-hla <- hla |> dplyr::mutate(sourceName = paste0("HLA-", sourceCode, " allele (imputed)"))
+hla <- hla |> dplyr::mutate(sourceName = paste0("HLA-", sourceCode, " allele (imputed)"),
+                            equivalence = "UNREVIEWED",
+                            statusSetBy = "Dawit",
+                            conceptId = 0,
+                            createdBy = "Dawit",
+                            matchScore = 0)
 
 # Add HLA alleles not detected in Finngen to the vocab
 hlaAll <- readr::read_csv("../../VOCABULARIES/FGVisitType/source/all_hla_alleles.list", show_col_types = FALSE, col_names = F)$X1
@@ -40,6 +45,11 @@ new_rows <- purrr::map2_df(
         sourceCode = allele,
         sourceName = paste0("HLA-", allele, " allele (imputed)"),
         sourceFrequency = 0,
+        equivalence = "UNREVIEWED",
+        statusSetBy = "Dawit",
+        conceptId = 0,
+        createdBy = "Dawit",
+        matchScore = 0,
         `ADD_INFO:sourceConceptId` = cid
       )
   }
@@ -54,6 +64,8 @@ hla_extended <- dplyr::bind_rows(hla, new_rows)
 
 fg_updated <- dplyr::bind_rows(fg, hla_extended)
 readr::write_csv(fg_updated, fg_file, na = "")
+
+
 
 
 
