@@ -58,11 +58,16 @@ new_rows <- purrr::map2_df(
 # append to hla
 hla_extended <- dplyr::bind_rows(hla, new_rows)
 
+# it was originally set approved, but the mapping status should be UNCHECKED
+hla_extended <- hla_extended |> dplyr::mutate(mappingStatus = "UNCHECKED")
+
 
 
 # Append the HLA allele vocab to FGVisitType vocabulary
 
 fg_updated <- dplyr::bind_rows(fg, hla_extended)
+
+
 readr::write_csv(fg_updated, fg_file, na = "")
 
 
