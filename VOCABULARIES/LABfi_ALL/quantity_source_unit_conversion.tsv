@@ -1,0 +1,151 @@
+omop_quantity	source_unit_valid	to_source_unit_valid	conversion	only_to_omop_concepts
+-			1	
+Arbitrary Concentration	au/ml	au/ml	1	
+Arbitrary Concentration	eliau/ml	eliau/ml	1	
+Arbitrary Concentration	eliau/ml	u/ml	1	
+Arbitrary Concentration	iu/l	iu/l	1	
+Arbitrary Concentration	iu/l	iu/ml	1000	
+Arbitrary Concentration	iu/l	miu/ml	1	
+Arbitrary Concentration	iu/l	mu/l	1000	
+Arbitrary Concentration	iu/l	u/l	1	
+Arbitrary Concentration	iu/ml	iu/l	1000	
+Arbitrary Concentration	iu/ml	iu/ml	1	
+Arbitrary Concentration	iu/ml	mu/l	1000	
+Arbitrary Concentration	iu/ml	u/ml	1	
+Arbitrary Concentration	kiu/l	iu/ml	1	
+Arbitrary Concentration	kiu/l	u/ml	1	
+Arbitrary Concentration	miu/l	mu/l	1	
+Arbitrary Concentration	miu/ml	miu/ml	1	
+Arbitrary Concentration	mu/l	iu/l	0.001	
+Arbitrary Concentration	mu/l	mu/l	1	
+Arbitrary Concentration	u/l	iu/l	1	
+Arbitrary Concentration	u/l	iu/ml	1000	
+Arbitrary Concentration	u/l	miu/ml	1	
+Arbitrary Concentration	u/l	mu/l	1000	
+Arbitrary Concentration	u/l	u/l	1	
+Arbitrary Concentration	u/l	u/ml	0.001	
+Arbitrary Concentration	u/ml	eliau/ml	1	
+Arbitrary Concentration	u/ml	iu/ml	1	
+Arbitrary Concentration	u/ml	u/ml	1	
+Catalytic Concentration	iu/l	u/l	1	
+Catalytic Concentration	u/l	u/l	1	
+Catalytic Fraction	%	%	1	
+Catalytic Ratio	%	%	1	
+Decimal number fraction	%	%	1	
+Decimal mass fraction	%	%	1	
+DistWidth	%	%	1	
+DistWidth	ratio	ratio	1	
+Entitic mass	pg	pg	1	
+Entitic mass	pg/cell	pg	1	
+Entitic mean volume	fl	fl	1	
+Entitic Mass/volume	g/l	g/l	0.001	
+Finding			1	
+Length fraction	%	%	1	
+Length	mm	mm	1	
+Log molar concentration	ph	ph	1	
+Mass	g	g	1	
+Mass	mg	mg	1	
+Mass	kg	kg	1	
+Mass Concentration	g/l	g/l	1	
+Mass Concentration	g/l	mg/l	1000	
+Mass Concentration	mg/l	g/l	0.001	
+Mass Concentration	mg/l	mg/l	1	
+Mass Concentration	mg/l	ug/l	1000	
+Mass Concentration	mg/ml	mg/l	1000	
+Mass Concentration	ng/l	ng/l	1	
+Mass Concentration	ng/ml	ng/l	1000	
+Mass Concentration	ng/ml	ng/ml	1	
+Mass Concentration	ng/ml	ug/l	1	
+Mass Concentration	ug/l	g/l	0.000001	
+Mass Concentration	ug/l	mg/l	0.001	
+Mass Concentration	ug/l	ng/l	1000	
+Mass Concentration	ug/l	ug/l	1	
+Mass Content	ug/g	ug/g	1	
+Mass Rate	g/24h	g/24h	1	
+Mass Rate	mg/24h	g/24h	0.001	
+Mass Rate	mg/24h	mg/24h	1	
+Mass Rate	ug/min	ug/min	1	
+Mass Ratio	%	%	1	
+Mass Ratio	ratio	ratio	1	
+Mass fraction	%	%	1	
+Mass fraction	%	mmol/mol	10.93*X-23.50	3004410
+Mass fraction	mmol/mol	mmol/mol	1	
+Mass or Substance Rate	mmol/24h	mmol/24h	1	
+Multiple of the median	mom	mom	1	
+Number Areic (per area)	u/field	u/field	1	
+Number Concentration	%	%	1	
+Number Concentration	e12/l	e12/l	1	
+Number Concentration	e12/l	e6/l	1000000	
+Number Concentration	e6/l	e6/l	1	
+Number Concentration	e6/l	e9/l	0.001	
+Number Concentration	e9/l	e12/l	0.001	
+Number Concentration	e9/l	e6/l	1000	
+Number Concentration	e9/l	e9/l	1	
+Number Fraction	%	%	1	
+Number Fraction	%	%/lymf	1	
+Number Fraction	%/lymf	%/lymf	1	
+Osmolality	mosm/kgh2o	mosm/kgh2o	1	
+Partial pressure	%	%	1	
+Partial pressure	kpa	kpa	1	
+Presence or Threshold	estimate	estimate	1	
+Presence or Threshold	estimate		1	
+Presence or Threshold		estimate	1	
+Presence or Threshold			1	
+Presence or Identity			1	
+Ratio	%	%	1	
+Ratio	ratio	ratio	1	
+Ratio	ratio	%	100	
+Ratio	%	ratio	0.01	
+Ratio	g/mol	g/mol	1	
+Ratio	g/mol	mg/mmol	1	
+Ratio	mg/mmol	g/mol	1	
+Ratio	mg/mmol	mg/mmol	1	
+Relative Arbitrary Concentration	%	%	1	
+Specific gravity	kg/l	kg/l	1	
+Relative Mass Concentration	%	%	1	
+Relative Ratio	%	%	1	
+Relative Ratio	mg/g	mg/g	1	
+Relative catalytic concentration	%	%	1	
+Relative time	%	%	1	
+Relative time	inr	inr	1	
+Relative time	ratio	ratio	1	
+Substance Concentration	%	%	1	
+Substance Concentration	mmol/l	mmol/l	1	
+Substance Concentration	mmol/l	nmol/l	1000000	
+Substance Concentration	mmol/l	pmol/l	1000000000	
+Substance Concentration	mmol/l	umol/l	1000	
+Substance Concentration	mol/l	mmol/l	1000	
+Substance Concentration	nmol/l	mmol/l	0.001	
+Substance Concentration	nmol/l	nmol/l	1	
+Substance Concentration	nmol/l	pmol/l	1000	
+Substance Concentration	pmol/l	nmol/l	0.001	
+Substance Concentration	pmol/l	pmol/l	1	
+Substance Concentration	promille	promille	1	
+Substance Concentration	umol/l	mmol/l	0.001	
+Substance Concentration	umol/l	nmol/l	1000	
+Substance Concentration	umol/l	umol/l	1	
+Substance Fraction	%	%	1	
+Substance Rate	mmol/24h	mmol/24h	1	
+Substance Rate	nmol/24h	nmol/24h	1	
+Substance Rate	umol/24h	umol/24h	1	
+Substance Ratio	%	%	1	
+Substance Ratio	ratio	ratio	1	
+Temperature	°c	°c	1	
+Time (e.g. seconds)	min	min	1	
+Time (e.g. seconds)	s	min	0.01666667	
+Time (e.g. seconds)	s	s	1	
+Titer	titre	titre	1	
+Velocity (distance/time)	mm/h	mm/h	1	
+Viscosity	mpas	mpas	1	
+Volume	l	ml	1000	
+Volume	ml	ml	1	
+Volume Fraction	ratio	ratio	1	
+Volume Fraction	%	ratio	0.01	
+Volume Fraction	ratio	%	100	
+Volume Fraction	%	%	1	
+Volume Fraction	%	ml/dl	1	
+Volume Fraction	ml/dl	ml/dl	1	
+Volume Fraction	vol%	%	1	
+Volume Rate/Area	ml/min/173m2	ml/min/173m2	1	
+Volume Rate/Area	ml/min/173m2	ml/s/173m2	0.01666667	
+Volume Rate/Area	ml/s/173m2	ml/s/173m2	1	
