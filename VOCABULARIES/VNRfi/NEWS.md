@@ -1,3 +1,8 @@
+# VNRfi 1.1.1
+
+- Added 239 drugs, out of which 89 have been mapped
+- Introduced dummy VNRs with value range from 20 million
+
 # VNRfi 1.1.0
 
 - Updated 14,606 mappings from Boiler covering 14,462 VNRs
