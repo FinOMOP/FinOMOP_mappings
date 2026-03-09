@@ -1,3 +1,10 @@
+# FGVisitType 1.8.3
+
+- Added seven drug registry source codes covering vaccination, rheuma, hospital administered and other drugs
+- Vaccination is mapped to Outpatient visit
+- hospital administered is mapped to Inpatient hospital
+- Rest are mapped to Pharmacy visit.
+
 # FGVisitType 1.8.2
 
 - Added five drug registry source codes where all map to pharmacy visit
