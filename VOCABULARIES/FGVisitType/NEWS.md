@@ -1,3 +1,8 @@
+# FGVisitType 1.8.4
+
+- Added Spirometry visit and measurement codes with mappings
+- Source biobanks within Spirometry now have parent concept BIOBANK
+
 # FGVisitType 1.8.3
 
 - Added seven drug registry source codes covering vaccination, rheuma, hospital administered and other drugs
