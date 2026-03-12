@@ -1,3 +1,7 @@
+# VNRfi 1.1.2
+
+- Dummy vaccination VNRs between 20000000 and 20000096 with no mapping were mapped to ATC concept id
+
 # VNRfi 1.1.1
 
 - Added 239 drugs, out of which 89 have been mapped
