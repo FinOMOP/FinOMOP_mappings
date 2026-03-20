@@ -43,6 +43,7 @@ The aim of this agent is to find what codes in the source tables do not exists i
   - ADD_INFO:sourceValidStartDate: Date in BeginningDate formated as YYYY-MM-DD or empty if it isempty in the source table.
   - ADD_INFO:sourceValidEndDate: Date in ExpiringDate formated as YYYY-MM-DD or empty if it is empty in the source table.
   - ADD_INFO:sourceParents: ParentId
+5. Update the NEWS.md file for the target vocabulary in VOCABULARY/<target_vocabulary>/NEWS.md. Increase the <patch> number in the <major>.<minor>.<patch> version tag. Summaryse in one line the changens introduced, including, number of additions and date.
 
 
 
