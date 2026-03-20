@@ -1,4 +1,7 @@
-# LABfi_ALL 1.0.1
+# LABfi_ALL v2.0.0
+- Major update for Finngen kanta V3
+
+# LABfi_ALL v1.0.1
 
 - Updated mappings of 1 sourceCodes
 - Obsolete mappings can be found in `ADD_INFO:obsolete_conceptId` column of Usagi file
