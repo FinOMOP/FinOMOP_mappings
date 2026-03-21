@@ -8,7 +8,7 @@
 #
 on:
   push:
-    branches: [main]
+    branches: [main, development]
   workflow_dispatch:
 
 name: publishDashboardAndVocabularies
@@ -73,12 +73,13 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
+          destination_dir: ${{ github.ref_name }}
 
       - name: Create Release in FinOMOP_vocabularies
         uses: softprops/action-gh-release@v1
         with:
-          tag_name: ${{ github.run_number }}-${{ github.sha }}
-          name: Automated Release ${{ github.run_number }}
+          tag_name: ${{ github.run_number }}
+          name: ${{ github.ref_name }} - ${{ github.run_number }} - ${{ github.sha }}
           body: "Automated release from FinOMOP_mappings workflow."
           files: ./output_data/FinOMOP_vocabularies.zip
           draft: true
