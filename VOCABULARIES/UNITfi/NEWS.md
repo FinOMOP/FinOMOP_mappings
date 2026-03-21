@@ -1,3 +1,6 @@
+# UNITfi v2.0.1
+- Minor fixes for FinnGen DF14
+
 # UNITfi v2.0.0
 
 - Merged UNITfi_ALL vocabulary into UNITfi vocabulary. Added `ADD_INFO:UniqueForLab` column to indicate the unit comes from the UNITfi_ALL vocabulary, which is used to filter the units for the use with the LABfi vocabulary.
