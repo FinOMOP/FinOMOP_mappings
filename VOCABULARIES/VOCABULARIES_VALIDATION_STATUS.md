@@ -174,7 +174,7 @@ ROMOPMappingTools version: 2.1.3
 |ICD10fi              |SUCCESS |Missing date columns                                     |                                                |
 |ICD10fi              |SUCCESS |SourceValidStartDate is after SourceValidEndDate         |                                                |
 |ICD10fi              |SUCCESS |Missing parent columns                                   |                                                |
-|ICD10fi              |ERROR   |Invalid parent concept code                              |Found 6 codes with invalid parent concept codes |
+|ICD10fi              |ERROR   |Invalid parent concept code                              |Found 7 codes with invalid parent concept codes |
 |LABfi                |SUCCESS |Missing default columns                                  |                                                |
 |LABfi                |SUCCESS |SourceCode is empty                                      |                                                |
 |LABfi                |SUCCESS |SourceCode and conceptId are not unique                  |                                                |
