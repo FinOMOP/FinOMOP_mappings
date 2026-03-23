@@ -1,3 +1,7 @@
+# SPAT v1.1.1
+
+- Added 5 new SPAT codes (SPAT1416–SPAT1420) from koodistopalvelu update (source date: 2025-04-29, updated: 2026-03-23)
+
 # SPAT v1.1.0
 - 150 SPAT codes mapped, partly using existing SPAT->NCSP mapping
 
