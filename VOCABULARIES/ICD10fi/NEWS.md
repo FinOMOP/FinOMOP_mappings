@@ -1,3 +1,7 @@
+# ICD10fi 1.1.5
+
+- Added 2011 new ICD10fi codes from THL koodistopalvelu (source: ICD10fi_noICD10_21102025.txt, date: 2025-10-21)
+
 # ICD10fi 1.1.4
 
 - Added 407 INVALID FinnGen combination codes
