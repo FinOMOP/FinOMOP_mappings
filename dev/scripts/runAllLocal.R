@@ -24,7 +24,7 @@ if (require("zip")) {
 # Setting environment
 #
 createDashboard <- FALSE
-createVocabularies <- FALSE
+createVocabularies <- TRUE
 pathToOMOPVocabularyCSVsFolder <- "../OMOP_vocabularies/data/input_omop_vocabulary" # SET TO LOCAL PATH
 pathToOMOPVocabularyCSVsFolderOutput <- tempdir()
 pathToVocabularyFolder <- "./VOCABULARIES"
