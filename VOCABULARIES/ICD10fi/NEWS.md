@@ -1,3 +1,7 @@
+# ICD10fi v1.1.5
+
+- Added 11916 new codes from koodistopalvelu update (ICD10_21102025.txt) on 2026-03-23
+
 # ICD10fi 1.1.4
 
 - Added 407 INVALID FinnGen combination codes
