@@ -24,7 +24,7 @@ The aim of this agent is to find what codes in the source tables do not exists i
 3. Find the rows from the source vocabulary with a CodeId that DO NOT exists in the target vocabulary table.
 4. Take these codes found in previous step and append them to the target vocabulary table following this rules per each target column :
   - sourceCode: CodeId
-  - sourceName: A:Long_name
+  - sourceName: A:Long_name, If A:Long_name is empty, then take LongName, which is in Finnish and traslate it into English
   - sourceFrequency: 0
   - matchScore: 0
   - mappingStatus: UNCHECKED
