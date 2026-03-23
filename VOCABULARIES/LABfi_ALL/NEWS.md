@@ -1,3 +1,6 @@
+# LABfi_ALL 2.0.0
+- Major changes for FinnGen DF14
+
 # LABfi_ALL 1.0.2
 
 - SourceCodes with more than 50 characters are now truncated as: 
