@@ -2,7 +2,7 @@
 
 This is an automatically generated log file by ROMOPMappingTools to detect changes by the github diffs, DO NOT EDIT.
 
-ROMOPMappingTools version: 2.1.0
+ROMOPMappingTools version: 2.1.3
 
 ### Full log
 
@@ -12,9 +12,7 @@ ROMOPMappingTools version: 2.1.0
 |HPN                  |SUCCESS |Updated Usagi file    |No updates needed                                                   |
 |ICD8fi               |WARNING |Updated conceptIds    |80 conceptIds could not be updated automatically, remapping needed  |
 |ICD9fi               |WARNING |Updated conceptIds    |160 conceptIds could not be updated automatically, remapping needed |
-|ICD10fi              |INFO    |Updated conceptIds    |Updated 7 conceptIds that don't need review                         |
 |ICD10fi              |WARNING |Updated conceptIds    |21 conceptIds could not be updated automatically, remapping needed  |
-|ICD10fi              |INFO    |Updated concept names |Updated 28 concept names                                            |
 |LABfi                |SUCCESS |Updated Usagi file    |No updates needed                                                   |
 |LABfi_TMP            |SUCCESS |Updated Usagi file    |No updates needed                                                   |
 |LABfi_TKU            |SUCCESS |Updated Usagi file    |No updates needed                                                   |
@@ -28,7 +26,9 @@ ROMOPMappingTools version: 2.1.0
 |REIMB                |SUCCESS |Updated Usagi file    |No updates needed                                                   |
 |SPAT                 |WARNING |Updated conceptIds    |2 conceptIds could not be updated automatically, remapping needed   |
 |UNITfi               |SUCCESS |Updated Usagi file    |No updates needed                                                   |
+|VNRfi                |INFO    |Updated conceptIds    |Updated 105 conceptIds that don't need review                       |
 |VNRfi                |WARNING |Updated conceptIds    |1 conceptIds could not be updated automatically, remapping needed   |
+|VNRfi                |INFO    |Updated concept names |Updated 70 concept names                                            |
 |ICPC                 |WARNING |Updated conceptIds    |1 conceptIds could not be updated automatically, remapping needed   |
 |HPO                  |SUCCESS |Updated Usagi file    |No updates needed                                                   |
 |ProfessionalCode     |WARNING |Updated conceptIds    |20 conceptIds could not be updated automatically, remapping needed  |
