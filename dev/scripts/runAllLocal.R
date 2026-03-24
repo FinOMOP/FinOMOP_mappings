@@ -24,7 +24,7 @@ if (require("zip")) {
 # Setting environment
 #
 createDashboard <- TRUE
-createVocabularies <- FALSE
+createVocabularies <- TRUE
 pathToOMOPVocabularyCSVsFolder <- "../OMOP_vocabularies/data/input_omop_vocabulary" # SET TO LOCAL PATH
 pathToOMOPVocabularyCSVsFolderOutput <- tempdir()
 pathToVocabularyFolder <- "./VOCABULARIES"
@@ -43,3 +43,4 @@ source("dev/scripts/runAllBase.R")
 # Open the dashboard in the browser
 #
 browseURL(file.path(pathToDashboardFolder, "index.html"))
+

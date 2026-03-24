@@ -1,3 +1,18 @@
+# NCSPfi 1.1.10
+
+- Added 362 new codes from NCSPfi 2026 March update (2026-03-23)
+- Translated 305 Finnish sourceName values to English (2026-03-23)
+
+# NCSPfi 1.1.9
+
+- Fixed mapping of AA1AA from concept_id 4125350 (CT of head) to 4155446 (Plain X-ray of head)
+
+# NCSPfi 1.1.8
+
+- Adding STCM HUS kuvantamiset, 93 codes mapped in PHEMS project
+- Adding STCM HUS all operations on heart, 262 codes mapped in PHEMS project
+- Fixing some errorneous mappings (commented by PHEMS to the NCSPfi.usagi.csv file)
+  
 # NCSPfi 1.1.7
 
 - Fixed typos i
