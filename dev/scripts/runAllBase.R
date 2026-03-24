@@ -96,7 +96,7 @@ if (createVocabularies == TRUE & any(validationLogTibble$type != "ERROR")) {
         pathToOMOPVocabularyCSVsFolder = pathToOMOPVocabularyCSVsFolder
     )
 
-    DatabaseConnector::disconnect(connection)
+    #DatabaseConnector::disconnect(connection)
 
     # Create a zip file of the OMOP vocabulary CSVs
     zip::zipr(
