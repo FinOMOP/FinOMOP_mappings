@@ -22,7 +22,7 @@ ROMOPMappingTools version: 2.1.3
 |MICROBEfi            |      26|       0|     0|
 |MICROBEfi_TKU        |      26|       0|     0|
 |NCSPfi               |      26|       0|     0|
-|SNOMED2fi            |      24|       1|     1|
+|SNOMED2fi            |      25|       1|     0|
 |ProcedureModifier    |      26|       0|     0|
 |REIMB                |      26|       0|     0|
 |SPAT                 |      26|       0|     0|
@@ -385,7 +385,7 @@ ROMOPMappingTools version: 2.1.3
 |NCSPfi               |SUCCESS |Invalid parent concept code                              |                                               |
 |SNOMED2fi            |SUCCESS |Missing default columns                                  |                                               |
 |SNOMED2fi            |SUCCESS |SourceCode is empty                                      |                                               |
-|SNOMED2fi            |ERROR   |SourceCode and conceptId are not unique                  |Number of failed rules:  6                     |
+|SNOMED2fi            |SUCCESS |SourceCode and conceptId are not unique                  |                                               |
 |SNOMED2fi            |SUCCESS |SourceCode is more than 50 characters                    |                                               |
 |SNOMED2fi            |SUCCESS |SourceName is empty                                      |                                               |
 |SNOMED2fi            |SUCCESS |SourceName is more than 255 characters                   |                                               |
