@@ -1,3 +1,12 @@
+# v5.0.0
+- Reason for the update: Updated Athena vocabulary August 2026
+## Manual Changes:
+- FGVisitType: Updated source concept classes for Spirometry, Kidney Registry, Vision Registry, Smoking, and Body measurement variables
+## Automatic Changes:
+No automatic usagi.csv changes.
+## ⚠️ Mappings lost due to the update ⚠️:
+- **ICD8fi (16), ICD9fi (13), ICD10fi (5), MICROBEfi (2), NCSPfi (34), SNOMED2fi (114), SPAT (1), HPO (1), ProfessionalCode (17)**
+
 # v4.0.0
 - Updated Athena vocabulary February 2026
 - Updated mappings for FGVisitType, ICD10fi, LABfi_ALL, NCSPfi, SPAT, UNITfi and VNRfi vocabularies
