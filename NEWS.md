@@ -1,3 +1,33 @@
+# v5.0.0
+- Reason for the update: Updated Athena vocabulary August 2026
+## Manual Changes:
+- FGVisitType: Updated sourceConceptClass for Spirometry, Kidney Registry, Vision Registry, Smoking, and Body measurement variables
+## Automatic Changes:
+- FHL: Updated 5 concept IDs and 10 concept names
+- HPN: Updated 1 concept ID for review and 6 concept names
+- HPO: 1 concept ID needs remapping
+- ICD8fi: Updated 36 concept IDs, 3 concept IDs for review, 27 domains and 131 concept names; 96 need remapping
+- ICD9fi: Updated 31 concept IDs, 13 concept IDs for review, 15 domains and 144 concept names; 173 need remapping
+- ICD10fi: Updated 26 concept IDs, 15 domains and 125 concept names; 26 need remapping
+- ICPC: Updated 2 concept IDs, 8 domains and 5 concept names; 1 needs remapping
+- LABfi: Updated 2 domains and 3 concept names
+- LABfi_ALL: Updated 3 domains and 61 concept names
+- LABfi_HUS: Updated 7 concept names; 1 concept ID needs remapping
+- LABfi_TKU: Updated 2 concept names
+- LABfi_TMP: Updated 5 concept names
+- MICROBEfi: Updated 13 concept IDs and 8 concept names; 2 need remapping
+- MICROBEfi_TKU: Updated 4 concept IDs and 4 concept names
+- NCSPfi: Updated 42 concept IDs, 31 concept IDs for review, 30 domains and 79 concept names; 168 need remapping
+- ProcedureModifier: Updated 1 concept name
+- ProfessionalCode: Updated 1 concept ID and 3 domains; 37 need remapping
+- REIMB: Updated 3 concept IDs, 8 domains and 6 concept names
+- SNOMED2fi: Updated 550 concept IDs, 1 concept ID for review, 153 domains and 240 concept names; 185 need remapping
+- SPAT: Updated 1 domain; 3 concept IDs need remapping
+- UNITfi: Updated 2 concept names
+- VNRfi: 1 concept ID needs remapping
+## ⚠️ Mappings lost due to the update ⚠️:
+- **HPN (1), ICD8fi (16), ICD9fi (13), ICD10fi (5), MICROBEfi (2), NCSPfi (34), SNOMED2fi (114), SPAT (1), HPO (1), ProfessionalCode (17)**
+
 # v4.0.0
 - Updated Athena vocabulary February 2026
 - Updated mappings for FGVisitType, ICD10fi, LABfi_ALL, NCSPfi, SPAT, UNITfi and VNRfi vocabularies
