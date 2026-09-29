@@ -1,3 +1,19 @@
+# v5.0.0
+- Updated Athena vocabulary Augoust 2026
+- Updated mappings for FGVisitType, ICD10fi, LABfi_ALL, NCSPfi, SPAT, UNITfi and VNRfi vocabularies
+- FGVisitType: Added Spirometry visit and measurement codes with mappings; Source biobanks within Spirometry now have parent concept BIOBANK
+- FGVisitType: Added seven drug registry source codes covering vaccination, rheuma, hospital administered and other drugs
+- ICD10fi: Added 7 new codes from THL ICD-10 koodistopalvelu update
+- LABfi_ALL: Major release for FinnGen DF14; source codes longer than 50 characters are now truncated
+- NCSPfi: Added 362 new codes from NCSPfi 2026 March update; translated 305 Finnish sourceName values to English
+- NCSPfi: Added 93 HUS imaging and 262 HUS heart operation codes mapped in PHEMS project
+- NCSPfi: Fixed mapping of AA1AA from CT of head to Plain X-ray of head
+- SPAT: Added 5 new SPAT codes (SPAT1416–SPAT1420) from koodistopalvelu update
+- UNITfi: Minor fixes for FinnGen DF14
+- VNRfi: Added 239 new drugs, out of which 89 have been mapped; introduced dummy VNRs from 20 million range
+- VNRfi: Dummy vaccination VNRs between 20000000 and 20000096 were mapped to ATC concept id
+- Mappings lost due to the update: FHL (3), ICD8fi (80), ICD9fi (160), ICD10fi (21), LABfi_HUS (1), NCSPfi (134), SNOMED2fi (71), SPAT (2), VNRfi (1), ICPC (1), ProfessionalCode (20)
+
 # v4.0.0
 - Updated Athena vocabulary February 2026
 - Updated mappings for FGVisitType, ICD10fi, LABfi_ALL, NCSPfi, SPAT, UNITfi and VNRfi vocabularies
