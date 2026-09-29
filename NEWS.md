@@ -1,3 +1,11 @@
+# v5.0.0
+- Updated Athena vocabulary Augoust 2026
+- Updated mappings for FGVisitType, FHL, HPN, HPO, ICD10fi, ICD8fi, ICD9fi, ICPC, LABfi, LABfi_ALL, LABfi_HUS, LABfi_TKU, LABfi_TMP, MICROBEfi, MICROBEfi_TKU, NCSPfi, ProcedureModifier, ProfessionalCode, REIMB, SNOMED2fi, SPAT, UNITfi and VNRfi vocabularies
+- Updated mappings to the latest OMOP August 2026 vocabulary release
+- FGVisitType: Updated sourceConceptClass for Spirometry, Kidney Registry, Vision Registry, Smoking, and Body measurement variables
+- ICD10fi: Fixed mapping errors after the August 2026 vocabulary update
+- SNOMED2fi: Fixed mappings for multiple concepts
+
 # v4.0.0
 - Updated Athena vocabulary February 2026
 - Updated mappings for FGVisitType, ICD10fi, LABfi_ALL, NCSPfi, SPAT, UNITfi and VNRfi vocabularies
