@@ -23,7 +23,7 @@
 - ProfessionalCode: Updated 1 concept ID, 3 domains and 37 concept IDs requiring remapping
 - LABfi_ALL: Updated 3 domains and 61 concept names
 - FGVisitType: Updated sourceConceptClass for Spirometry, Kidney Registry, Vision Registry, Smoking, and Body measurement variables
-- ⚠️**Mappings lost due to the update: ICD8fi (16), ICD9fi (13), ICD10fi (5), MICROBEfi (2), NCSPfi (34), SNOMED2fi (114), SPAT (1), HPO (1), ProfessionalCode (17)**⚠️
+- ⚠️ **Mappings lost due to the update: ICD8fi (16), ICD9fi (13), ICD10fi (5), MICROBEfi (2), NCSPfi (34), SNOMED2fi (114), SPAT (1), HPO (1), ProfessionalCode (17)** ⚠️
 
 # v4.0.0
 - Updated Athena vocabulary February 2026
