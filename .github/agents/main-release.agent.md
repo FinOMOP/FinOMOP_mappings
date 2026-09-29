@@ -16,6 +16,6 @@ description: Updates the main NEWS.md looking at each vocabualy NEWS.md
    - Bumping the major version
    - Indicate the project update reason given in the issue that triggered this agent
    - For each vocabulary that has an update, a summary of the updates
-   - Add a point in the release named "Mappings lost due to the update:" this shows the number of changed conceptIds per vocabulary if they have changed in this release. (Eg "Mappings lost due to the update: ICD10fi (21), ICD9fi (2), ...")
+   - Add a point in the release named in bold and emogi ⚠️ "Mappings lost due to the update:" this shows the number of changed conceptIds per vocabulary if they have changed in this release. (Eg "⚠️ **Mappings lost due to the update: ICD10fi (21), ICD9fi (2), ... ** ⚠️")
    - Follow the format in the previous releases in the NEWS.md file 
 
