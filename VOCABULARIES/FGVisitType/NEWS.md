@@ -1,3 +1,7 @@
+# FGVisitType 1.8.5
+
+- Updated sourceConceptClass for Spirometry, Kidney Registry, Vision Registry, Smoking, and Body measurement variables
+
 # FGVisitType 1.8.4
 
 - Added Spirometry visit and measurement codes with mappings
