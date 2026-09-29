@@ -61,6 +61,28 @@ You can see how well a vocabulary covers you data in the [Status Dashboard](http
 ## For maintainers 
 See extended documentation in [DOCUMENTATION/README.md](./DOCUMENTATION/README.md)
 
+## ⚠️ Important Licensing Information
+
+This repository contains multiple types of intellectual property, and it is crucial to understand how each is licensed.
+
+### 1. License for Our Mappings
+
+The CSV mapping files located in this repository, which represent the original work of the **FinOMOP Mappings project**, are licensed under the **Creative Commons Attribution 4.0 International License (CC BY 4.0)**.
+
+A full copy of this license is available in the `LICENSE` file in this repository.
+
+Under this license, you are free to share and adapt our mapping files for any purpose, provided you give appropriate credit to this project.
+
+### 2. Licenses for the Underlying Vocabularies
+
+**The CC BY 4.0 license applies ONLY to our mapping files and NOT to the underlying medical vocabularies.**
+
+This project connects codes from various source vocabularies (e.g., Finnish ICD-10, ICD-8, ICPC2, lab codes) to target concepts in the OMOP Common Data Model Standard Vocabularies (which include SNOMED CT, LOINC, RxNorm, and others).
+
+These source and target vocabularies have their own, often restrictive, licenses. **You are solely responsible for acquiring the necessary licenses and complying with the terms of use for any of the underlying vocabularies you use via these mappings.**
+
+This project does not grant you any rights to use the underlying vocabularies. We strongly advise you to investigate the licensing requirements for each vocabulary before using the codes in your own work.
+
 
 
 
