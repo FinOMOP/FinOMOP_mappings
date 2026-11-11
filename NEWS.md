@@ -1,3 +1,6 @@
+# v3.1.0
+- Update ROMOPMappingTools to include concept Finnish names from usagi to CONCEPT_SYNONYM
+  
 # v3.0.0
 - Updated Athena vocabulary August 2025
 - Updated mappings for ICD8fi, ICD9fi, ICD10fi, NCSPfi, ICPC, LABfi, LABfi_ALL, MICROBEfi, MICROBEfi_TKU, SNOMED2fi and VNRfi vocabularies
