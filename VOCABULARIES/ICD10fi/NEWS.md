@@ -1,5 +1,6 @@
 # ICD10fi 1.1.5
 
+- Approved mappings for H35.30 and H35.31
 - Added 7 new codes from THL ICD-10 koodistopalvelu update (ICD10fi_noICD10_nomarks_21102025.txt) on 2026-03-23
 
 # ICD10fi 1.1.4
